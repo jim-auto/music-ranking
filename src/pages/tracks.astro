@@ -4,6 +4,7 @@ import rankings from '../data/rankings.json';
 import artistData from '../data/artists.json';
 
 const genres = artistData.genres;
+const base = import.meta.env.BASE_URL;
 
 // 全カテゴリから曲を集めてユニーク化、再生回数順
 const tracksMap = new Map();
@@ -36,7 +37,7 @@ function formatNumber(n: number): string {
 ---
 
 <Layout title="曲ランキング - Music Ranking">
-  <a href="/" class="back">&larr; トップに戻る</a>
+  <a href={base} class="back">&larr; トップに戻る</a>
 
   <div class="header">
     <h1>🎶 曲ランキング</h1>

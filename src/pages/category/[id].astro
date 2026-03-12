@@ -12,6 +12,7 @@ export function getStaticPaths() {
 
 const { category } = Astro.props;
 const genres = artistData.genres;
+const base = import.meta.env.BASE_URL;
 
 // このカテゴリに存在するジャンルだけ抽出
 const categoryGenreIds = [...new Set(category.artists.map((a) => a.genre))];
@@ -32,7 +33,7 @@ function changeLabel(change: number | null): string {
 ---
 
 <Layout title={`${category.emoji} ${category.name} - Music Ranking`}>
-  <a href="/" class="back">&larr; トップに戻る</a>
+  <a href={base} class="back">&larr; トップに戻る</a>
 
   <div class="header">
     <h1>{category.emoji} {category.name}</h1>

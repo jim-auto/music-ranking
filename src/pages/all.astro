@@ -4,6 +4,7 @@ import rankings from '../data/rankings.json';
 import artistData from '../data/artists.json';
 
 const genres = artistData.genres;
+const base = import.meta.env.BASE_URL;
 
 // 全カテゴリからユニークなアーティストを集めてlistenersでソート
 const allArtistsMap = new Map();
@@ -26,7 +27,7 @@ function formatNumber(n: number): string {
 ---
 
 <Layout title="全体ランキング - Music Ranking">
-  <a href="/" class="back">&larr; トップに戻る</a>
+  <a href={base} class="back">&larr; トップに戻る</a>
 
   <div class="header">
     <h1>🏆 全体ランキング</h1>
