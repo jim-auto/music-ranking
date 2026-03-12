@@ -1,0 +1,223 @@
+---
+import Layout from '../layouts/Layout.astro';
+import rankings from '../data/rankings.json';
+import artistData from '../data/artists.json';
+
+const genres = artistData.genres;
+
+// 全カテゴリから曲を集めてユニーク化、再生回数順
+const tracksMap = new Map();
+for (const cat of rankings.categories) {
+  for (const artist of cat.artists) {
+    if (!artist.topTracks) continue;
+    for (const track of artist.topTracks) {
+      const key = `${artist.name}::${track.name}`;
+      if (!tracksMap.has(key)) {
+        tracksMap.set(key, {
+          trackName: track.name,
+          artistName: artist.name,
+          playcount: track.playcount,
+          listeners: track.listeners,
+          genre: artist.genre,
+          spotify_id: artist.spotify_id,
+        });
+      }
+    }
+  }
+}
+const allTracks = [...tracksMap.values()].sort((a, b) => b.playcount - a.playcount);
+allTracks.forEach((t, i) => { t.rank = i + 1; });
+
+function formatNumber(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000) return (n / 1_000).toFixed(0) + 'K';
+  return n.toString();
+}
+---
+
+<Layout title="曲ランキング - Music Ranking">
+  <a href="/" class="back">&larr; トップに戻る</a>
+
+  <div class="header">
+    <h1>🎶 曲ランキング</h1>
+    <p class="count">全 {allTracks.length} 曲</p>
+  </div>
+
+  <div class="genre-filters">
+    <button class="genre-btn active" data-genre="all">すべて</button>
+    {genres.map((g) => (
+      <button class="genre-btn" data-genre={g.id} style={`--genre-color: ${g.color}`}>
+        {g.name}
+      </button>
+    ))}
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-rank">#</th>
+          <th class="col-track">曲名</th>
+          <th class="col-artist">アーティスト</th>
+          <th class="col-genre">ジャンル</th>
+          <th class="col-plays">再生回数</th>
+        </tr>
+      </thead>
+      <tbody>
+        {allTracks.map((track, i) => (
+          <tr data-genre={track.genre}>
+            <td class:list={['col-rank', { gold: i === 0, silver: i === 1, bronze: i === 2 }]}>
+              {track.rank}
+            </td>
+            <td class="col-track">
+              <span class="track-name">{track.trackName}</span>
+            </td>
+            <td class="col-artist">
+              {track.spotify_id ? (
+                <a href={`https://open.spotify.com/artist/${track.spotify_id}`} target="_blank" class="artist-link">
+                  {track.artistName}
+                </a>
+              ) : (
+                <span>{track.artistName}</span>
+              )}
+            </td>
+            <td class="col-genre">
+              <span class="genre-tag" style={`--tag-color: ${genres.find(g => g.id === track.genre)?.color || '#888'}`}>
+                {genres.find(g => g.id === track.genre)?.name || ''}
+              </span>
+            </td>
+            <td class="col-plays">{formatNumber(track.playcount)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Layout>
+
+<script>
+  document.querySelectorAll('.genre-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const genre = btn.getAttribute('data-genre') || 'all';
+      const rows = document.querySelectorAll('tbody tr');
+      let rank = 1;
+      rows.forEach(row => {
+        const show = genre === 'all' || row.getAttribute('data-genre') === genre;
+        (row as HTMLElement).style.display = show ? '' : 'none';
+        if (show) {
+          const cell = row.querySelector('.col-rank');
+          if (cell) {
+            cell.textContent = String(rank);
+            cell.classList.remove('gold', 'silver', 'bronze');
+            if (rank === 1) cell.classList.add('gold');
+            else if (rank === 2) cell.classList.add('silver');
+            else if (rank === 3) cell.classList.add('bronze');
+          }
+          rank++;
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .back {
+    display: inline-block;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
+  .back:hover { text-decoration: underline; }
+
+  .header { margin-bottom: 1rem; }
+  .header h1 { font-size: 2rem; font-weight: 900; margin-bottom: 0.3rem; }
+  .count { color: var(--text-sub); font-size: 0.9rem; }
+
+  .genre-filters {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .genre-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1.5px solid #444;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-sub);
+    font-family: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .genre-btn:hover {
+    border-color: var(--genre-color, var(--accent));
+    color: var(--genre-color, var(--accent));
+  }
+  .genre-btn.active {
+    background: var(--genre-color, var(--accent));
+    border-color: var(--genre-color, var(--accent));
+    color: #fff;
+  }
+
+  .table-wrap { overflow-x: auto; }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 2px solid #333;
+    color: var(--text-sub);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  tbody tr {
+    border-bottom: 1px solid #1e1e30;
+    transition: background 0.15s;
+  }
+  tbody tr:hover { background: var(--bg-card); }
+  td { padding: 0.6rem 0.8rem; font-size: 0.9rem; }
+
+  .col-rank {
+    font-weight: 900;
+    font-size: 1rem;
+    width: 3rem;
+    text-align: center;
+    color: var(--text-sub);
+  }
+  .gold { color: #ffd700 !important; }
+  .silver { color: #c0c0c0 !important; }
+  .bronze { color: #cd7f32 !important; }
+
+  .track-name { font-weight: 700; }
+
+  .artist-link {
+    color: var(--accent);
+    transition: opacity 0.2s;
+  }
+  .artist-link:hover { text-decoration: underline; }
+
+  .genre-tag {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    background: color-mix(in srgb, var(--tag-color) 20%, transparent);
+    color: var(--tag-color);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .col-plays {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-sub);
+  }
+
+  @media (max-width: 600px) {
+    .col-genre { display: none; }
+    td, th { padding: 0.4rem; font-size: 0.85rem; }
+  }
+</style>

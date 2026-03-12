@@ -1,4 +1,4 @@
-// Last.fm APIからアーティストの再生回数・リスナー数を取得してJSONに保存
+// Last.fm APIからアーティストの再生回数・リスナー数・トップトラックを取得してJSONに保存
 // 前回のランキングと比較して順位変動を記録
 import fs from 'fs';
 import path from 'path';
@@ -9,10 +9,11 @@ const API_KEY = process.env.LASTFM_API_KEY || '15d791e681ae2f28c8d1264e8b4165c7'
 const BASE_URL = 'https://ws.audioscrobbler.com/2.0/';
 
 // 重複リクエスト回避用キャッシュ
-const cache = new Map();
+const infoCache = new Map();
+const tracksCache = new Map();
 
 async function getArtistInfo(artistName) {
-  if (cache.has(artistName)) return cache.get(artistName);
+  if (infoCache.has(artistName)) return infoCache.get(artistName);
 
   const params = new URLSearchParams({
     method: 'artist.getinfo',
@@ -33,16 +34,44 @@ async function getArtistInfo(artistName) {
         tags: data.artist.tags?.tag?.map(t => t.name) || [],
         image: data.artist.image?.find(img => img.size === 'extralarge')?.['#text'] || '',
       };
-      cache.set(artistName, result);
+      infoCache.set(artistName, result);
       return result;
     }
     console.warn(`  ⚠ Not found: ${artistName}`);
     const fallback = { name: artistName, listeners: 0, playcount: 0, tags: [], image: '' };
-    cache.set(artistName, fallback);
+    infoCache.set(artistName, fallback);
     return fallback;
   } catch (err) {
     console.error(`  ✗ Error fetching ${artistName}:`, err.message);
     return { name: artistName, listeners: 0, playcount: 0, tags: [], image: '' };
+  }
+}
+
+async function getTopTracks(artistName, limit = 5) {
+  if (tracksCache.has(artistName)) return tracksCache.get(artistName);
+
+  const params = new URLSearchParams({
+    method: 'artist.gettoptracks',
+    artist: artistName,
+    api_key: API_KEY,
+    format: 'json',
+    limit: String(limit),
+  });
+
+  try {
+    const res = await fetch(`${BASE_URL}?${params}`);
+    const data = await res.json();
+
+    const tracks = (data.toptracks?.track || []).map(t => ({
+      name: t.name,
+      playcount: parseInt(t.playcount || '0', 10),
+      listeners: parseInt(t.listeners || '0', 10),
+    }));
+    tracksCache.set(artistName, tracks);
+    return tracks;
+  } catch (err) {
+    console.error(`  ✗ Error fetching tracks for ${artistName}:`, err.message);
+    return [];
   }
 }
 
@@ -77,10 +106,12 @@ async function main() {
     for (const artist of category.artists) {
       console.log(`  🔍 ${artist.name}...`);
       const info = await getArtistInfo(artist.name);
+      const tracks = await getTopTracks(artist.name);
       artistResults.push({
         ...info,
         spotify_id: artist.spotify_id,
         genre: artist.genre,
+        topTracks: tracks,
       });
       await new Promise(r => setTimeout(r, 80));
     }
@@ -93,9 +124,9 @@ async function main() {
       a.rank = i + 1;
       const prevRank = prevRankings[category.id]?.[a.name];
       if (prevRank != null) {
-        a.change = prevRank - a.rank; // positive = up, negative = down
+        a.change = prevRank - a.rank;
       } else {
-        a.change = null; // new entry
+        a.change = null;
       }
     });
 

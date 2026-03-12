@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-12T07:32:16.232Z",
+  "fetchedAt": "2026-03-12T10:17:13.144Z",
   "categories": [
     {
       "id": "10s-girl",
@@ -20,8 +20,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "044UPFfua0sBbRSpoGpiql",
           "genre": "anime",
+          "topTracks": [
+            {
+              "name": "MONEY",
+              "playcount": 20885211,
+              "listeners": 732300
+            },
+            {
+              "name": "Rockstar",
+              "playcount": 13142501,
+              "listeners": 609339
+            },
+            {
+              "name": "Born Again (feat. Doja Cat & RAYE)",
+              "playcount": 9526371,
+              "listeners": 540845
+            },
+            {
+              "name": "New Woman (feat. ROSALÍA)",
+              "playcount": 12092716,
+              "listeners": 522999
+            },
+            {
+              "name": "LALISA",
+              "playcount": 13658580,
+              "listeners": 483367
+            }
+          ],
           "rank": 1,
-          "change": null
+          "change": 0
         },
         {
           "name": "NewJeans",
@@ -37,8 +64,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6HvZYsbFfjnjFrWF950C9d",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Super Shy",
+              "playcount": 29120811,
+              "listeners": 1167218
+            },
+            {
+              "name": "Ditto",
+              "playcount": 35017290,
+              "listeners": 1015933
+            },
+            {
+              "name": "OMG",
+              "playcount": 29426539,
+              "listeners": 993528
+            },
+            {
+              "name": "New Jeans",
+              "playcount": 23461897,
+              "listeners": 978564
+            },
+            {
+              "name": "ETA",
+              "playcount": 23943819,
+              "listeners": 866021
+            }
+          ],
           "rank": 2,
-          "change": -1
+          "change": 0
         },
         {
           "name": "LE SSERAFIM",
@@ -54,8 +108,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4SpbR6yFEvexJuq5VY2gfv",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "CRAZY",
+              "playcount": 19389930,
+              "listeners": 875484
+            },
+            {
+              "name": "ANTIFRAGILE",
+              "playcount": 24396545,
+              "listeners": 875141
+            },
+            {
+              "name": "Perfect Night",
+              "playcount": 17886228,
+              "listeners": 725183
+            },
+            {
+              "name": "Eve, Psyche & The Bluebeard’s wife",
+              "playcount": 13191523,
+              "listeners": 619790
+            },
+            {
+              "name": "Smart",
+              "playcount": 12215420,
+              "listeners": 591967
+            }
+          ],
           "rank": 3,
-          "change": -1
+          "change": 0
         },
         {
           "name": "Stray Kids",
@@ -71,8 +152,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2dIgFjalVMIZwNqAAAtljk",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "God’s Menu",
+              "playcount": 13000355,
+              "listeners": 555529
+            },
+            {
+              "name": "MANIAC",
+              "playcount": 11414227,
+              "listeners": 460063
+            },
+            {
+              "name": "Back Door",
+              "playcount": 6376145,
+              "listeners": 363297
+            },
+            {
+              "name": "Chk Chk Boom",
+              "playcount": 11548115,
+              "listeners": 360670
+            },
+            {
+              "name": "Thunderous",
+              "playcount": 8711597,
+              "listeners": 355808
+            }
+          ],
           "rank": 4,
-          "change": -1
+          "change": 0
         },
         {
           "name": "aespa",
@@ -88,8 +196,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Drama",
+              "playcount": 17907472,
+              "listeners": 621951
+            },
+            {
+              "name": "Supernova",
+              "playcount": 19614198,
+              "listeners": 619101
+            },
+            {
+              "name": "Whiplash",
+              "playcount": 16333171,
+              "listeners": 579876
+            },
+            {
+              "name": "Savage",
+              "playcount": 12385891,
+              "listeners": 540486
+            },
+            {
+              "name": "Next Level",
+              "playcount": 12128373,
+              "listeners": 530999
+            }
+          ],
           "rank": 5,
-          "change": -1
+          "change": 0
         },
         {
           "name": "ILLIT",
@@ -105,8 +240,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4sTQVOfp9FEh9AWMSGRPxd",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Magnetic",
+              "playcount": 22486228,
+              "listeners": 952881
+            },
+            {
+              "name": "Tick-Tack",
+              "playcount": 6908173,
+              "listeners": 442220
+            },
+            {
+              "name": "Lucky Girl Syndrome",
+              "playcount": 6545298,
+              "listeners": 390926
+            },
+            {
+              "name": "NOT CUTE ANYMORE",
+              "playcount": 6060853,
+              "listeners": 387454
+            },
+            {
+              "name": "Cherish (My Love)",
+              "playcount": 6763021,
+              "listeners": 364350
+            }
+          ],
           "rank": 6,
-          "change": null
+          "change": 0
         },
         {
           "name": "ENHYPEN",
@@ -122,8 +284,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1t20wYnTiAT0Bs7H1hJilS",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "FEVER",
+              "playcount": 13824098,
+              "listeners": 583700
+            },
+            {
+              "name": "Drunk-Dazed",
+              "playcount": 13709936,
+              "listeners": 576991
+            },
+            {
+              "name": "Bite Me",
+              "playcount": 16685893,
+              "listeners": 552101
+            },
+            {
+              "name": "Polaroid Love",
+              "playcount": 8668615,
+              "listeners": 436954
+            },
+            {
+              "name": "Given-Taken",
+              "playcount": 9331479,
+              "listeners": 432218
+            }
+          ],
           "rank": 7,
-          "change": -2
+          "change": 0
         },
         {
           "name": "IVE",
@@ -139,8 +328,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6RHTUrRF63xao58xR3uzr3",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "After LIKE",
+              "playcount": 18253946,
+              "listeners": 651585
+            },
+            {
+              "name": "LOVE DIVE",
+              "playcount": 18740085,
+              "listeners": 598584
+            },
+            {
+              "name": "I AM",
+              "playcount": 13639450,
+              "listeners": 523335
+            },
+            {
+              "name": "ELEVEN",
+              "playcount": 12362712,
+              "listeners": 488231
+            },
+            {
+              "name": "Kitsch",
+              "playcount": 7428339,
+              "listeners": 347399
+            }
+          ],
           "rank": 8,
-          "change": -2
+          "change": 0
         },
         {
           "name": "YOASOBI",
@@ -156,8 +372,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "夜に駆ける",
+              "playcount": 8480669,
+              "listeners": 521955
+            },
+            {
+              "name": "アイドル",
+              "playcount": 7968995,
+              "listeners": 396050
+            },
+            {
+              "name": "怪物",
+              "playcount": 4991020,
+              "listeners": 390146
+            },
+            {
+              "name": "群青",
+              "playcount": 2822656,
+              "listeners": 217040
+            },
+            {
+              "name": "たぶん",
+              "playcount": 2499623,
+              "listeners": 216112
+            }
+          ],
           "rank": 9,
-          "change": -2
+          "change": 0
         },
         {
           "name": "NMIXX",
@@ -173,8 +416,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "28ot3wh4oNmoFOdVajibBl",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "DICE",
+              "playcount": 8138220,
+              "listeners": 398398
+            },
+            {
+              "name": "Love Me Like This",
+              "playcount": 5667388,
+              "listeners": 348138
+            },
+            {
+              "name": "O.O",
+              "playcount": 7817149,
+              "listeners": 345554
+            },
+            {
+              "name": "DASH",
+              "playcount": 5190196,
+              "listeners": 267139
+            },
+            {
+              "name": "Roller Coaster",
+              "playcount": 4161838,
+              "listeners": 226464
+            }
+          ],
           "rank": 10,
-          "change": -2
+          "change": 0
         },
         {
           "name": "RADWIMPS",
@@ -190,8 +460,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3Ni5PpzrQZN6LoXfvFpPRX",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Suzume",
+              "playcount": 2033788,
+              "listeners": 189102
+            },
+            {
+              "name": "Dream Lantern",
+              "playcount": 2022359,
+              "listeners": 185314
+            },
+            {
+              "name": "Zenzenzense - movie ver.",
+              "playcount": 1786168,
+              "listeners": 178862
+            },
+            {
+              "name": "Sparkle - movie ver.",
+              "playcount": 1700932,
+              "listeners": 175446
+            },
+            {
+              "name": "Nandemonaiya - movie ver.",
+              "playcount": 1345635,
+              "listeners": 135712
+            }
+          ],
           "rank": 11,
-          "change": null
+          "change": 0
         },
         {
           "name": "Ado",
@@ -207,8 +504,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Usseewa",
+              "playcount": 2992862,
+              "listeners": 258229
+            },
+            {
+              "name": "うっせぇわ",
+              "playcount": 2702309,
+              "listeners": 173592
+            },
+            {
+              "name": "Aishite Aishite Aishite",
+              "playcount": 2420004,
+              "listeners": 172238
+            },
+            {
+              "name": "New Genesis",
+              "playcount": 2182449,
+              "listeners": 168689
+            },
+            {
+              "name": "Odo",
+              "playcount": 2175157,
+              "listeners": 163450
+            }
+          ],
           "rank": 12,
-          "change": -3
+          "change": 0
         },
         {
           "name": "Creepy Nuts",
@@ -224,8 +548,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
           "genre": "hiphop",
+          "topTracks": [
+            {
+              "name": "Bling-Bang-Bang-Born",
+              "playcount": 6122350,
+              "listeners": 377248
+            },
+            {
+              "name": "オトノケ - Otonoke",
+              "playcount": 4532898,
+              "listeners": 322377
+            },
+            {
+              "name": "オトノケ - Otonoke - Opening Theme to DAN DA DAN",
+              "playcount": 943331,
+              "listeners": 133089
+            },
+            {
+              "name": "堕天",
+              "playcount": 1459886,
+              "listeners": 117884
+            },
+            {
+              "name": "よふかしのうた",
+              "playcount": 829221,
+              "listeners": 72785
+            }
+          ],
           "rank": 13,
-          "change": -3
+          "change": 0
         },
         {
           "name": "BABYMONSTER",
@@ -235,8 +586,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1SIocsqdEefUTE6XONzadB",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "She Comes Alive",
+              "playcount": 45809,
+              "listeners": 12659
+            },
+            {
+              "name": "Ultra Violence and Beethoven",
+              "playcount": 21137,
+              "listeners": 7404
+            },
+            {
+              "name": "The Fear of Charlie Sunrise",
+              "playcount": 23826,
+              "listeners": 6623
+            },
+            {
+              "name": "City of Lovers",
+              "playcount": 24269,
+              "listeners": 6457
+            },
+            {
+              "name": "Curses",
+              "playcount": 14599,
+              "listeners": 5908
+            }
+          ],
           "rank": 14,
-          "change": -3
+          "change": 0
         },
         {
           "name": "DECO*27",
@@ -252,8 +630,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7lMgpN1tEBxYGENAv3bN8K",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Ghost Rule",
+              "playcount": 1735474,
+              "listeners": 178306
+            },
+            {
+              "name": "ラビットホール",
+              "playcount": 3155749,
+              "listeners": 170255
+            },
+            {
+              "name": "モニタリング",
+              "playcount": 2469369,
+              "listeners": 109773
+            },
+            {
+              "name": "The Vampire",
+              "playcount": 1297370,
+              "listeners": 108835
+            },
+            {
+              "name": "サラマンダー",
+              "playcount": 1141706,
+              "listeners": 104045
+            }
+          ],
           "rank": 15,
-          "change": -3
+          "change": 0
         },
         {
           "name": "Mrs. GREEN APPLE",
@@ -269,8 +674,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "インフェルノ",
+              "playcount": 3833196,
+              "listeners": 323552
+            },
+            {
+              "name": "青と夏",
+              "playcount": 514343,
+              "listeners": 62442
+            },
+            {
+              "name": "ライラック",
+              "playcount": 464276,
+              "listeners": 60412
+            },
+            {
+              "name": "ダンスホール",
+              "playcount": 393899,
+              "listeners": 47893
+            },
+            {
+              "name": "ケセラセラ",
+              "playcount": 249415,
+              "listeners": 34230
+            }
+          ],
           "rank": 16,
-          "change": null
+          "change": 0
         },
         {
           "name": "tripleS",
@@ -280,8 +712,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5z2mJnMIGnJKUdMmDfzmFc",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Don't Think I Can Forgive You",
+              "playcount": 14792,
+              "listeners": 4932
+            },
+            {
+              "name": "Girls Never Die",
+              "playcount": 2024,
+              "listeners": 786
+            },
+            {
+              "name": "Generation",
+              "playcount": 2121,
+              "listeners": 714
+            },
+            {
+              "name": "Rising",
+              "playcount": 3167,
+              "listeners": 674
+            },
+            {
+              "name": "깨어 (Are You Alive)",
+              "playcount": 816,
+              "listeners": 415
+            }
+          ],
           "rank": 17,
-          "change": -4
+          "change": 0
         },
         {
           "name": "RIIZE",
@@ -297,8 +756,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4JBGcrP80iYCi7jKoOHWQs",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Get A Guitar",
+              "playcount": 3701635,
+              "listeners": 228234
+            },
+            {
+              "name": "Love 119",
+              "playcount": 3036752,
+              "listeners": 162641
+            },
+            {
+              "name": "Memories",
+              "playcount": 2733574,
+              "listeners": 160343
+            },
+            {
+              "name": "Boom Boom Bass",
+              "playcount": 2109174,
+              "listeners": 150711
+            },
+            {
+              "name": "Impossible",
+              "playcount": 2941928,
+              "listeners": 148561
+            }
+          ],
           "rank": 18,
-          "change": -4
+          "change": 0
         },
         {
           "name": "imase",
@@ -314,8 +800,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2cJqOg2CDVdmUVrmlyEOST",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Night Dancer",
+              "playcount": 3719968,
+              "listeners": 354720
+            },
+            {
+              "name": "Nagisa",
+              "playcount": 261032,
+              "listeners": 47373
+            },
+            {
+              "name": "メトロシティ",
+              "playcount": 304486,
+              "listeners": 41123
+            },
+            {
+              "name": "Have a nice day",
+              "playcount": 189744,
+              "listeners": 38012
+            },
+            {
+              "name": "逃避行",
+              "playcount": 100590,
+              "listeners": 19227
+            }
+          ],
           "rank": 19,
-          "change": null
+          "change": 0
         },
         {
           "name": "BOYNEXTDOOR",
@@ -331,8 +844,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0Hk5SFOTKjtwU3cvTgePsh",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Earth, Wind & Fire",
+              "playcount": 3255633,
+              "listeners": 177119
+            },
+            {
+              "name": "One and Only",
+              "playcount": 2871836,
+              "listeners": 141226
+            },
+            {
+              "name": "But Sometimes",
+              "playcount": 2735682,
+              "listeners": 139857
+            },
+            {
+              "name": "But I Like You",
+              "playcount": 2736638,
+              "listeners": 128702
+            },
+            {
+              "name": "Serenade",
+              "playcount": 2824783,
+              "listeners": 127249
+            }
+          ],
           "rank": 20,
-          "change": -5
+          "change": 0
         },
         {
           "name": "ZEROBASEONE",
@@ -348,8 +888,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7zIb6UOsjPtwNsGftfGerN",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "In Bloom",
+              "playcount": 7378337,
+              "listeners": 221945
+            },
+            {
+              "name": "CRUSH",
+              "playcount": 2798177,
+              "listeners": 108493
+            },
+            {
+              "name": "Doctor! Doctor!",
+              "playcount": 2581574,
+              "listeners": 99259
+            },
+            {
+              "name": "Feel the POP",
+              "playcount": 2275678,
+              "listeners": 99086
+            },
+            {
+              "name": "SWEAT",
+              "playcount": 2443219,
+              "listeners": 83724
+            }
+          ],
           "rank": 21,
-          "change": null
+          "change": 0
         },
         {
           "name": "Kanaria",
@@ -365,8 +932,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Rendezvous",
+              "playcount": 1005220,
+              "listeners": 126819
+            },
+            {
+              "name": "KING",
+              "playcount": 1481998,
+              "listeners": 125051
+            },
+            {
+              "name": "QUEEN",
+              "playcount": 1231958,
+              "listeners": 123587
+            },
+            {
+              "name": "Yoidoreshirazu",
+              "playcount": 729585,
+              "listeners": 91956
+            },
+            {
+              "name": "Envy Baby",
+              "playcount": 850479,
+              "listeners": 75977
+            }
+          ],
           "rank": 22,
-          "change": -6
+          "change": 0
         },
         {
           "name": "Chinozo",
@@ -380,8 +974,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0Y4inQKMeWxnTgOQvgaEPa",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Good-bye Declaration",
+              "playcount": 838198,
+              "listeners": 73198
+            },
+            {
+              "name": "エリート",
+              "playcount": 59532,
+              "listeners": 7504
+            },
+            {
+              "name": "Shamer",
+              "playcount": 57429,
+              "listeners": 7183
+            },
+            {
+              "name": "Flyer!",
+              "playcount": 42027,
+              "listeners": 5981
+            },
+            {
+              "name": "ミィハー",
+              "playcount": 50768,
+              "listeners": 5970
+            }
+          ],
           "rank": 23,
-          "change": -6
+          "change": 0
         },
         {
           "name": "tuki.",
@@ -397,8 +1018,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "晩餐歌",
+              "playcount": 263392,
+              "listeners": 29100
+            },
+            {
+              "name": "晩餐歌 - Bansanka",
+              "playcount": 152138,
+              "listeners": 19885
+            },
+            {
+              "name": "地獄恋文",
+              "playcount": 142897,
+              "listeners": 18999
+            },
+            {
+              "name": "ひゅるりらぱっぱ - HYURURIRAPAPPA",
+              "playcount": 135550,
+              "listeners": 14737
+            },
+            {
+              "name": "ひゅるりらぱっぱ",
+              "playcount": 141163,
+              "listeners": 14087
+            }
+          ],
           "rank": 24,
-          "change": -6
+          "change": 0
         },
         {
           "name": "BE:FIRST",
@@ -414,8 +1062,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6uJJPVGgBz8HLIrVNHYbSP",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "Hush-Hush",
+              "playcount": 440687,
+              "listeners": 35689
+            },
+            {
+              "name": "Boom Boom Back",
+              "playcount": 78826,
+              "listeners": 8563
+            },
+            {
+              "name": "Bye-Good-Bye",
+              "playcount": 52023,
+              "listeners": 7631
+            },
+            {
+              "name": "Sailing",
+              "playcount": 46606,
+              "listeners": 6986
+            },
+            {
+              "name": "夢中",
+              "playcount": 50890,
+              "listeners": 6277
+            }
+          ],
           "rank": 25,
-          "change": -6
+          "change": 0
         },
         {
           "name": "INI",
@@ -431,8 +1106,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1V1YzPMJaJkiYHiofAMUAz",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "What You Say",
+              "playcount": 44891,
+              "listeners": 11335
+            },
+            {
+              "name": "Grown Man Sport",
+              "playcount": 46293,
+              "listeners": 9977
+            },
+            {
+              "name": "Step Up",
+              "playcount": 45821,
+              "listeners": 9533
+            },
+            {
+              "name": "Center of Attention",
+              "playcount": 36975,
+              "listeners": 8549
+            },
+            {
+              "name": "No More Words",
+              "playcount": 36419,
+              "listeners": 8397
+            }
+          ],
           "rank": 26,
-          "change": -6
+          "change": 0
         },
         {
           "name": "JO1",
@@ -448,8 +1150,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1UtAfjHHyTYiIl4IAaQQWU",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "BE CLASSIC",
+              "playcount": 52037,
+              "listeners": 7013
+            },
+            {
+              "name": "SuperCali",
+              "playcount": 83524,
+              "listeners": 6608
+            },
+            {
+              "name": "Love seeker",
+              "playcount": 63845,
+              "listeners": 6580
+            },
+            {
+              "name": "Born To Be Wild",
+              "playcount": 88137,
+              "listeners": 5495
+            },
+            {
+              "name": "無限大",
+              "playcount": 56675,
+              "listeners": 5415
+            }
+          ],
           "rank": 27,
-          "change": null
+          "change": 0
         },
         {
           "name": "ME:I",
@@ -465,8 +1194,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "65M7TXhx1VyJxhEBFDVaSB",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "Click",
+              "playcount": 306783,
+              "listeners": 19007
+            },
+            {
+              "name": "Sugar Bomb",
+              "playcount": 132340,
+              "listeners": 11519
+            },
+            {
+              "name": "MUSE",
+              "playcount": 96171,
+              "listeners": 8204
+            },
+            {
+              "name": "Hi-Five",
+              "playcount": 88899,
+              "listeners": 7588
+            },
+            {
+              "name": "THIS IS ME:I",
+              "playcount": 41641,
+              "listeners": 4587
+            }
+          ],
           "rank": 28,
-          "change": -7
+          "change": 0
         },
         {
           "name": "TXT",
@@ -482,8 +1238,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0ghlgldX5Dd6720Q3qFyQB",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Cat & Dog",
+              "playcount": 56466,
+              "listeners": 1434
+            },
+            {
+              "name": "CROWN",
+              "playcount": 13959,
+              "listeners": 1234
+            },
+            {
+              "name": "GOOD BOY GONE BAD",
+              "playcount": 7147,
+              "listeners": 1031
+            },
+            {
+              "name": "Anti-Romantic",
+              "playcount": 7705,
+              "listeners": 963
+            },
+            {
+              "name": "Blue Orangeade",
+              "playcount": 32559,
+              "listeners": 955
+            }
+          ],
           "rank": 29,
-          "change": -7
+          "change": 0
         },
         {
           "name": "新しい学校のリーダーズ",
@@ -499,8 +1282,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5J6D24dVXLEV3TFQKQR0zz",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "オトナブルー",
+              "playcount": 25398,
+              "listeners": 3311
+            },
+            {
+              "name": "OTONABLUE",
+              "playcount": 11522,
+              "listeners": 1735
+            },
+            {
+              "name": "恋ゲバ",
+              "playcount": 17722,
+              "listeners": 1329
+            },
+            {
+              "name": "Tokyo Calling",
+              "playcount": 7116,
+              "listeners": 1288
+            },
+            {
+              "name": "Suki Lie",
+              "playcount": 5920,
+              "listeners": 1156
+            }
+          ],
           "rank": 30,
-          "change": -7
+          "change": 0
         }
       ]
     },
@@ -523,6 +1333,33 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3Nrfpe0tUJi4K4DXYAek5G",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Dynamite",
+              "playcount": 171619158,
+              "listeners": 1042562
+            },
+            {
+              "name": "Boy With Luv (feat. Halsey)",
+              "playcount": 76838441,
+              "listeners": 900489
+            },
+            {
+              "name": "Butter",
+              "playcount": 144932733,
+              "listeners": 809048
+            },
+            {
+              "name": "FAKE LOVE",
+              "playcount": 126504908,
+              "listeners": 807934
+            },
+            {
+              "name": "DNA",
+              "playcount": 42733914,
+              "listeners": 774965
+            }
+          ],
           "rank": 1,
           "change": 0
         },
@@ -540,6 +1377,33 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "How You Like That",
+              "playcount": 27438861,
+              "listeners": 872432
+            },
+            {
+              "name": "Kill This Love",
+              "playcount": 14939670,
+              "listeners": 835486
+            },
+            {
+              "name": "DDU-DU DDU-DU",
+              "playcount": 12965891,
+              "listeners": 775660
+            },
+            {
+              "name": "Pink Venom",
+              "playcount": 25842958,
+              "listeners": 764276
+            },
+            {
+              "name": "Shut Down",
+              "playcount": 21115806,
+              "listeners": 711672
+            }
+          ],
           "rank": 2,
           "change": 0
         },
@@ -557,6 +1421,33 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "FANCY",
+              "playcount": 18845202,
+              "listeners": 884878
+            },
+            {
+              "name": "The Feels",
+              "playcount": 16842114,
+              "listeners": 798462
+            },
+            {
+              "name": "I CAN'T STOP ME",
+              "playcount": 11990113,
+              "listeners": 697240
+            },
+            {
+              "name": "Feel Special",
+              "playcount": 13492082,
+              "listeners": 693181
+            },
+            {
+              "name": "What is Love?",
+              "playcount": 6552743,
+              "listeners": 623676
+            }
+          ],
           "rank": 3,
           "change": 0
         },
@@ -574,6 +1465,33 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Psycho",
+              "playcount": 14397592,
+              "listeners": 737711
+            },
+            {
+              "name": "러시안 룰렛 Russian Roulette",
+              "playcount": 10837562,
+              "listeners": 701941
+            },
+            {
+              "name": "Bad Boy",
+              "playcount": 11323867,
+              "listeners": 670289
+            },
+            {
+              "name": "Peek-A-Boo",
+              "playcount": 6775972,
+              "listeners": 532561
+            },
+            {
+              "name": "Red Flavor",
+              "playcount": 4952485,
+              "listeners": 439727
+            }
+          ],
           "rank": 4,
           "change": 0
         },
@@ -591,8 +1509,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2dIgFjalVMIZwNqAAAtljk",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "God’s Menu",
+              "playcount": 13000355,
+              "listeners": 555529
+            },
+            {
+              "name": "MANIAC",
+              "playcount": 11414227,
+              "listeners": 460063
+            },
+            {
+              "name": "Back Door",
+              "playcount": 6376145,
+              "listeners": 363297
+            },
+            {
+              "name": "Chk Chk Boom",
+              "playcount": 11548115,
+              "listeners": 360670
+            },
+            {
+              "name": "Thunderous",
+              "playcount": 8711597,
+              "listeners": 355808
+            }
+          ],
           "rank": 5,
-          "change": null
+          "change": 0
         },
         {
           "name": "EXO",
@@ -608,8 +1553,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3cjEqqelV9zb4BYE3qDQ4O",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Love Shot",
+              "playcount": 7593367,
+              "listeners": 544116
+            },
+            {
+              "name": "Monster",
+              "playcount": 6312144,
+              "listeners": 438962
+            },
+            {
+              "name": "CALL ME BABY",
+              "playcount": 5723962,
+              "listeners": 414940
+            },
+            {
+              "name": "The Eve",
+              "playcount": 4134560,
+              "listeners": 351999
+            },
+            {
+              "name": "Tempo",
+              "playcount": 5953234,
+              "listeners": 350851
+            }
+          ],
           "rank": 6,
-          "change": -1
+          "change": 0
         },
         {
           "name": "ITZY",
@@ -625,8 +1597,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "WANNABE",
+              "playcount": 10868617,
+              "listeners": 574544
+            },
+            {
+              "name": "LOCO",
+              "playcount": 8766582,
+              "listeners": 453383
+            },
+            {
+              "name": "Not Shy",
+              "playcount": 7121876,
+              "listeners": 430316
+            },
+            {
+              "name": "In the morning",
+              "playcount": 6819425,
+              "listeners": 389007
+            },
+            {
+              "name": "DALLA DALLA",
+              "playcount": 3888091,
+              "listeners": 356195
+            }
+          ],
           "rank": 7,
-          "change": -1
+          "change": 0
         },
         {
           "name": "(G)I-DLE",
@@ -642,8 +1641,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2AfmfGFbe0A0WsTYm0SDTx",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Queencard",
+              "playcount": 10184258,
+              "listeners": 484368
+            },
+            {
+              "name": "TOMBOY",
+              "playcount": 8510638,
+              "listeners": 447240
+            },
+            {
+              "name": "Nxde",
+              "playcount": 7027798,
+              "listeners": 410074
+            },
+            {
+              "name": "Oh My God",
+              "playcount": 5359466,
+              "listeners": 369794
+            },
+            {
+              "name": "MY BAG",
+              "playcount": 4816254,
+              "listeners": 307241
+            }
+          ],
           "rank": 8,
-          "change": -1
+          "change": 0
         },
         {
           "name": "SEVENTEEN",
@@ -659,8 +1685,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7nqOGRxlXj7N2JYbgNEjYH",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "HOT",
+              "playcount": 8324035,
+              "listeners": 341856
+            },
+            {
+              "name": "VERY NICE",
+              "playcount": 5192081,
+              "listeners": 335931
+            },
+            {
+              "name": "Super",
+              "playcount": 9894990,
+              "listeners": 320014
+            },
+            {
+              "name": "Don't Wanna Cry",
+              "playcount": 4297515,
+              "listeners": 296435
+            },
+            {
+              "name": "Rock with you",
+              "playcount": 7231420,
+              "listeners": 282791
+            }
+          ],
           "rank": 9,
-          "change": -1
+          "change": 0
         },
         {
           "name": "YOASOBI",
@@ -676,8 +1729,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "夜に駆ける",
+              "playcount": 8480669,
+              "listeners": 521955
+            },
+            {
+              "name": "アイドル",
+              "playcount": 7968995,
+              "listeners": 396050
+            },
+            {
+              "name": "怪物",
+              "playcount": 4991020,
+              "listeners": 390146
+            },
+            {
+              "name": "群青",
+              "playcount": 2822656,
+              "listeners": 217040
+            },
+            {
+              "name": "たぶん",
+              "playcount": 2499623,
+              "listeners": 216112
+            }
+          ],
           "rank": 10,
-          "change": null
+          "change": 0
         },
         {
           "name": "SHINee",
@@ -693,8 +1773,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2hcsKca8leqsfJoJ1XBiJI",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Replay",
+              "playcount": 4465633,
+              "listeners": 357208
+            },
+            {
+              "name": "Ring Ding Dong",
+              "playcount": 3980801,
+              "listeners": 297118
+            },
+            {
+              "name": "LUCIFER",
+              "playcount": 4724999,
+              "listeners": 268827
+            },
+            {
+              "name": "View",
+              "playcount": 3287903,
+              "listeners": 259343
+            },
+            {
+              "name": "Sherlock (Clue + Note)",
+              "playcount": 2911047,
+              "listeners": 236138
+            }
+          ],
           "rank": 11,
-          "change": null
+          "change": 0
         },
         {
           "name": "NCT 127",
@@ -710,8 +1817,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7f4ignuCJhLXfZ9giKT7rH",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "Cherry Bomb",
+              "playcount": 4650095,
+              "listeners": 376918
+            },
+            {
+              "name": "Kick It",
+              "playcount": 4890037,
+              "listeners": 326423
+            },
+            {
+              "name": "Favorite (Vampire)",
+              "playcount": 4877961,
+              "listeners": 245135
+            },
+            {
+              "name": "Fact Check",
+              "playcount": 5500833,
+              "listeners": 242991
+            },
+            {
+              "name": "Sticker",
+              "playcount": 4217069,
+              "listeners": 241162
+            }
+          ],
           "rank": 12,
-          "change": -3
+          "change": 0
         },
         {
           "name": "ATEEZ",
@@ -727,8 +1861,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "BOUNCY (K-HOT CHILLI PEPPERS)",
+              "playcount": 8517894,
+              "listeners": 314601
+            },
+            {
+              "name": "WONDERLAND",
+              "playcount": 4637584,
+              "listeners": 267445
+            },
+            {
+              "name": "Deja Vu",
+              "playcount": 4840891,
+              "listeners": 251676
+            },
+            {
+              "name": "Guerrilla",
+              "playcount": 5820242,
+              "listeners": 243070
+            },
+            {
+              "name": "WORK",
+              "playcount": 4559506,
+              "listeners": 226163
+            }
+          ],
           "rank": 13,
-          "change": -3
+          "change": 0
         },
         {
           "name": "MAMAMOO",
@@ -744,8 +1905,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "HIP",
+              "playcount": 6400841,
+              "listeners": 473573
+            },
+            {
+              "name": "Egotistic",
+              "playcount": 3190912,
+              "listeners": 272250
+            },
+            {
+              "name": "gogobebe",
+              "playcount": 2640230,
+              "listeners": 246598
+            },
+            {
+              "name": "Starry Night",
+              "playcount": 1950172,
+              "listeners": 186809
+            },
+            {
+              "name": "AYA",
+              "playcount": 1298299,
+              "listeners": 147418
+            }
+          ],
           "rank": 14,
-          "change": null
+          "change": 0
         },
         {
           "name": "Ado",
@@ -761,8 +1949,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Usseewa",
+              "playcount": 2992862,
+              "listeners": 258229
+            },
+            {
+              "name": "うっせぇわ",
+              "playcount": 2702309,
+              "listeners": 173592
+            },
+            {
+              "name": "Aishite Aishite Aishite",
+              "playcount": 2420004,
+              "listeners": 172238
+            },
+            {
+              "name": "New Genesis",
+              "playcount": 2182449,
+              "listeners": 168689
+            },
+            {
+              "name": "Odo",
+              "playcount": 2175157,
+              "listeners": 163450
+            }
+          ],
           "rank": 15,
-          "change": null
+          "change": 0
         },
         {
           "name": "NCT DREAM",
@@ -778,8 +1993,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1gBUSTR3TyDdTVFIaQnEPa",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "BOOM",
+              "playcount": 4252543,
+              "listeners": 282657
+            },
+            {
+              "name": "Hot Sauce",
+              "playcount": 3930114,
+              "listeners": 273779
+            },
+            {
+              "name": "Candy",
+              "playcount": 4255960,
+              "listeners": 213753
+            },
+            {
+              "name": "Hello Future",
+              "playcount": 3375240,
+              "listeners": 187181
+            },
+            {
+              "name": "We Go Up",
+              "playcount": 2333218,
+              "listeners": 177623
+            }
+          ],
           "rank": 16,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Vaundy",
@@ -795,8 +2037,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "踊り子",
+              "playcount": 3617939,
+              "listeners": 280850
+            },
+            {
+              "name": "CHAINSAW BLOOD",
+              "playcount": 1646560,
+              "listeners": 122981
+            },
+            {
+              "name": "odoriko",
+              "playcount": 1050793,
+              "listeners": 85086
+            },
+            {
+              "name": "裸の勇者",
+              "playcount": 1227883,
+              "listeners": 83661
+            },
+            {
+              "name": "Tokyo Flash",
+              "playcount": 552422,
+              "listeners": 80999
+            }
+          ],
           "rank": 17,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Aimer",
@@ -812,8 +2081,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0bAsR2unSRpn6BOpYh7bVa",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "残響散歌",
+              "playcount": 3006801,
+              "listeners": 232524
+            },
+            {
+              "name": "Brave Shine",
+              "playcount": 1557125,
+              "listeners": 117937
+            },
+            {
+              "name": "カタオモイ",
+              "playcount": 1099489,
+              "listeners": 93940
+            },
+            {
+              "name": "SPARK-AGAIN",
+              "playcount": 737388,
+              "listeners": 73846
+            },
+            {
+              "name": "Ref:rain",
+              "playcount": 726816,
+              "listeners": 53082
+            }
+          ],
           "rank": 18,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Mrs. GREEN APPLE",
@@ -829,8 +2125,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "インフェルノ",
+              "playcount": 3833196,
+              "listeners": 323552
+            },
+            {
+              "name": "青と夏",
+              "playcount": 514343,
+              "listeners": 62442
+            },
+            {
+              "name": "ライラック",
+              "playcount": 464276,
+              "listeners": 60412
+            },
+            {
+              "name": "ダンスホール",
+              "playcount": 393899,
+              "listeners": 47893
+            },
+            {
+              "name": "ケセラセラ",
+              "playcount": 249415,
+              "listeners": 34230
+            }
+          ],
           "rank": 19,
-          "change": -5
+          "change": 0
         },
         {
           "name": "imase",
@@ -846,8 +2169,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2cJqOg2CDVdmUVrmlyEOST",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Night Dancer",
+              "playcount": 3719968,
+              "listeners": 354720
+            },
+            {
+              "name": "Nagisa",
+              "playcount": 261032,
+              "listeners": 47373
+            },
+            {
+              "name": "メトロシティ",
+              "playcount": 304486,
+              "listeners": 41123
+            },
+            {
+              "name": "Have a nice day",
+              "playcount": 189744,
+              "listeners": 38012
+            },
+            {
+              "name": "逃避行",
+              "playcount": 100590,
+              "listeners": 19227
+            }
+          ],
           "rank": 20,
-          "change": -5
+          "change": 0
         },
         {
           "name": "BUMP OF CHICKEN",
@@ -863,8 +2213,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5k0p3Y7UBZOq5eFGRhBMrk",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "SOUVENIR",
+              "playcount": 937688,
+              "listeners": 81475
+            },
+            {
+              "name": "Hello,world!",
+              "playcount": 700553,
+              "listeners": 65763
+            },
+            {
+              "name": "天体観測",
+              "playcount": 565119,
+              "listeners": 50749
+            },
+            {
+              "name": "アカシア",
+              "playcount": 394663,
+              "listeners": 39387
+            },
+            {
+              "name": "カルマ",
+              "playcount": 551259,
+              "listeners": 37476
+            }
+          ],
           "rank": 21,
-          "change": null
+          "change": 0
         },
         {
           "name": "milet",
@@ -880,8 +2257,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "45ft4DyTCEJhG3VuDJkSAH",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Anytime Anywhere",
+              "playcount": 764869,
+              "listeners": 55104
+            },
+            {
+              "name": "Drown",
+              "playcount": 481714,
+              "listeners": 42578
+            },
+            {
+              "name": "おもかげ (produced by Vaundy)",
+              "playcount": 472794,
+              "listeners": 42118
+            },
+            {
+              "name": "コイコガレ",
+              "playcount": 156556,
+              "listeners": 24863
+            },
+            {
+              "name": "us",
+              "playcount": 189089,
+              "listeners": 21048
+            }
+          ],
           "rank": 22,
-          "change": null
+          "change": 0
         },
         {
           "name": "back number",
@@ -897,8 +2301,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2MsxpPqe4W9wMg2SeL4bEq",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "高嶺の花子さん",
+              "playcount": 429456,
+              "listeners": 42789
+            },
+            {
+              "name": "水平線",
+              "playcount": 323660,
+              "listeners": 39465
+            },
+            {
+              "name": "ハッピーエンド",
+              "playcount": 330868,
+              "listeners": 30149
+            },
+            {
+              "name": "花束",
+              "playcount": 263945,
+              "listeners": 27106
+            },
+            {
+              "name": "クリスマスソング",
+              "playcount": 184093,
+              "listeners": 20192
+            }
+          ],
           "rank": 23,
-          "change": null
+          "change": 0
         },
         {
           "name": "Official髭男dism",
@@ -914,8 +2345,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Pretender",
+              "playcount": 138216,
+              "listeners": 10963
+            },
+            {
+              "name": "Cry Baby",
+              "playcount": 91998,
+              "listeners": 9195
+            },
+            {
+              "name": "ノーダウト",
+              "playcount": 65838,
+              "listeners": 7168
+            },
+            {
+              "name": "I LOVE...",
+              "playcount": 72086,
+              "listeners": 6971
+            },
+            {
+              "name": "115万キロのフィルム",
+              "playcount": 69040,
+              "listeners": 6943
+            }
+          ],
           "rank": 24,
-          "change": -8
+          "change": 0
         },
         {
           "name": "あいみょん",
@@ -931,8 +2389,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3MpMmhBz5CRmUCt7pOaGqM",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "マリーゴールド",
+              "playcount": 108513,
+              "listeners": 8178
+            },
+            {
+              "name": "愛を伝えたいだとか",
+              "playcount": 84533,
+              "listeners": 8146
+            },
+            {
+              "name": "君はロックを聴かない",
+              "playcount": 79035,
+              "listeners": 7893
+            },
+            {
+              "name": "今夜このまま",
+              "playcount": 59463,
+              "listeners": 5200
+            },
+            {
+              "name": "ハルノヒ",
+              "playcount": 47641,
+              "listeners": 4946
+            }
+          ],
           "rank": 25,
-          "change": null
+          "change": 0
         },
         {
           "name": "藤井 風",
@@ -948,8 +2433,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6bDWAcdtVR3WHz2xqg3wL1",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "きらり",
+              "playcount": 126170,
+              "listeners": 9673
+            },
+            {
+              "name": "死ぬのがいいわ",
+              "playcount": 66748,
+              "listeners": 5701
+            },
+            {
+              "name": "何なんw",
+              "playcount": 57902,
+              "listeners": 5277
+            },
+            {
+              "name": "まつり",
+              "playcount": 63073,
+              "listeners": 5087
+            },
+            {
+              "name": "花",
+              "playcount": 61063,
+              "listeners": 4615
+            }
+          ],
           "rank": 26,
-          "change": -9
+          "change": 0
         },
         {
           "name": "Snow Man",
@@ -959,8 +2471,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6LMspKSjfSYLiMKyBjXEaK",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "Niezmiennie",
+              "playcount": 104888,
+              "listeners": 9418
+            },
+            {
+              "name": "Hyena",
+              "playcount": 22186,
+              "listeners": 6407
+            },
+            {
+              "name": "Snakes & Ladders",
+              "playcount": 19391,
+              "listeners": 5118
+            },
+            {
+              "name": "We Are The Plague",
+              "playcount": 22963,
+              "listeners": 4617
+            },
+            {
+              "name": "White Wall",
+              "playcount": 18095,
+              "listeners": 4598
+            }
+          ],
           "rank": 27,
-          "change": -9
+          "change": 0
         },
         {
           "name": "King & Prince",
@@ -976,8 +2515,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5jGMzSGoKShbFPJdORXfCM",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "シンデレラガール",
+              "playcount": 36342,
+              "listeners": 3121
+            },
+            {
+              "name": "Theater",
+              "playcount": 17723,
+              "listeners": 2861
+            },
+            {
+              "name": "ツキヨミ",
+              "playcount": 24252,
+              "listeners": 2237
+            },
+            {
+              "name": "moooove!!",
+              "playcount": 14160,
+              "listeners": 1891
+            },
+            {
+              "name": "HEART",
+              "playcount": 11608,
+              "listeners": 1686
+            }
+          ],
           "rank": 28,
-          "change": -9
+          "change": 0
         },
         {
           "name": "SixTONES",
@@ -993,8 +2559,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0NfIU0VXZGX9v1s3pTj2qT",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "BOYZ",
+              "playcount": 42364,
+              "listeners": 3385
+            },
+            {
+              "name": "NAVIGATOR",
+              "playcount": 35987,
+              "listeners": 2385
+            },
+            {
+              "name": "こっから",
+              "playcount": 19168,
+              "listeners": 1687
+            },
+            {
+              "name": "Imitation Rain",
+              "playcount": 21265,
+              "listeners": 1458
+            },
+            {
+              "name": "バリア",
+              "playcount": 12967,
+              "listeners": 1168
+            }
+          ],
           "rank": 29,
-          "change": -9
+          "change": 0
         },
         {
           "name": "なにわ男子",
@@ -1010,8 +2603,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4XEsbn8TaYEzJtGOjafOUb",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "Ubu Love",
+              "playcount": 8801,
+              "listeners": 1486
+            },
+            {
+              "name": "The Answer",
+              "playcount": 14611,
+              "listeners": 1209
+            },
+            {
+              "name": "I Wish",
+              "playcount": 9611,
+              "listeners": 1097
+            },
+            {
+              "name": "初心LOVE（うぶらぶ）",
+              "playcount": 12573,
+              "listeners": 991
+            },
+            {
+              "name": "Special Kiss",
+              "playcount": 6418,
+              "listeners": 749
+            }
+          ],
           "rank": 30,
-          "change": -9
+          "change": 0
         }
       ]
     },
@@ -1034,8 +2654,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "044UPFfua0sBbRSpoGpiql",
           "genre": "anime",
+          "topTracks": [
+            {
+              "name": "MONEY",
+              "playcount": 20885211,
+              "listeners": 732300
+            },
+            {
+              "name": "Rockstar",
+              "playcount": 13142501,
+              "listeners": 609339
+            },
+            {
+              "name": "Born Again (feat. Doja Cat & RAYE)",
+              "playcount": 9526371,
+              "listeners": 540845
+            },
+            {
+              "name": "New Woman (feat. ROSALÍA)",
+              "playcount": 12092716,
+              "listeners": 522999
+            },
+            {
+              "name": "LALISA",
+              "playcount": 13658580,
+              "listeners": 483367
+            }
+          ],
           "rank": 1,
-          "change": null
+          "change": 0
         },
         {
           "name": "Stray Kids",
@@ -1051,8 +2698,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2dIgFjalVMIZwNqAAAtljk",
           "genre": "kpop",
+          "topTracks": [
+            {
+              "name": "God’s Menu",
+              "playcount": 13000355,
+              "listeners": 555529
+            },
+            {
+              "name": "MANIAC",
+              "playcount": 11414227,
+              "listeners": 460063
+            },
+            {
+              "name": "Back Door",
+              "playcount": 6376145,
+              "listeners": 363297
+            },
+            {
+              "name": "Chk Chk Boom",
+              "playcount": 11548115,
+              "listeners": 360670
+            },
+            {
+              "name": "Thunderous",
+              "playcount": 8711597,
+              "listeners": 355808
+            }
+          ],
           "rank": 2,
-          "change": -1
+          "change": 0
         },
         {
           "name": "YOASOBI",
@@ -1068,8 +2742,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "夜に駆ける",
+              "playcount": 8480669,
+              "listeners": 521955
+            },
+            {
+              "name": "アイドル",
+              "playcount": 7968995,
+              "listeners": 396050
+            },
+            {
+              "name": "怪物",
+              "playcount": 4991020,
+              "listeners": 390146
+            },
+            {
+              "name": "群青",
+              "playcount": 2822656,
+              "listeners": 217040
+            },
+            {
+              "name": "たぶん",
+              "playcount": 2499623,
+              "listeners": 216112
+            }
+          ],
           "rank": 3,
-          "change": -1
+          "change": 0
         },
         {
           "name": "RADWIMPS",
@@ -1085,8 +2786,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3Ni5PpzrQZN6LoXfvFpPRX",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Suzume",
+              "playcount": 2033788,
+              "listeners": 189102
+            },
+            {
+              "name": "Dream Lantern",
+              "playcount": 2022359,
+              "listeners": 185314
+            },
+            {
+              "name": "Zenzenzense - movie ver.",
+              "playcount": 1786168,
+              "listeners": 178862
+            },
+            {
+              "name": "Sparkle - movie ver.",
+              "playcount": 1700932,
+              "listeners": 175446
+            },
+            {
+              "name": "Nandemonaiya - movie ver.",
+              "playcount": 1345635,
+              "listeners": 135712
+            }
+          ],
           "rank": 4,
-          "change": null
+          "change": 0
         },
         {
           "name": "Ado",
@@ -1102,8 +2830,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Usseewa",
+              "playcount": 2992862,
+              "listeners": 258229
+            },
+            {
+              "name": "うっせぇわ",
+              "playcount": 2702309,
+              "listeners": 173592
+            },
+            {
+              "name": "Aishite Aishite Aishite",
+              "playcount": 2420004,
+              "listeners": 172238
+            },
+            {
+              "name": "New Genesis",
+              "playcount": 2182449,
+              "listeners": 168689
+            },
+            {
+              "name": "Odo",
+              "playcount": 2175157,
+              "listeners": 163450
+            }
+          ],
           "rank": 5,
-          "change": -2
+          "change": 0
         },
         {
           "name": "ONE OK ROCK",
@@ -1119,8 +2874,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7k73EtZwoMJT0vYtUBNkjm",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "The Beginning",
+              "playcount": 2034485,
+              "listeners": 142828
+            },
+            {
+              "name": "Wherever you are",
+              "playcount": 1448191,
+              "listeners": 124173
+            },
+            {
+              "name": "Stand Out Fit In",
+              "playcount": 1291770,
+              "listeners": 113854
+            },
+            {
+              "name": "We are",
+              "playcount": 1103580,
+              "listeners": 107832
+            },
+            {
+              "name": "Take What You Want (feat. 5 Seconds of Summer)",
+              "playcount": 938909,
+              "listeners": 95314
+            }
+          ],
           "rank": 6,
-          "change": null
+          "change": 0
         },
         {
           "name": "Creepy Nuts",
@@ -1136,8 +2918,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
           "genre": "hiphop",
+          "topTracks": [
+            {
+              "name": "Bling-Bang-Bang-Born",
+              "playcount": 6122350,
+              "listeners": 377248
+            },
+            {
+              "name": "オトノケ - Otonoke",
+              "playcount": 4532898,
+              "listeners": 322377
+            },
+            {
+              "name": "オトノケ - Otonoke - Opening Theme to DAN DA DAN",
+              "playcount": 943331,
+              "listeners": 133089
+            },
+            {
+              "name": "堕天",
+              "playcount": 1459886,
+              "listeners": 117884
+            },
+            {
+              "name": "よふかしのうた",
+              "playcount": 829221,
+              "listeners": 72785
+            }
+          ],
           "rank": 7,
-          "change": -3
+          "change": 0
         },
         {
           "name": "King Gnu",
@@ -1153,8 +2962,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1TM1RGYbTnzMUPNFq9SXJJ",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "SPECIALZ",
+              "playcount": 4926759,
+              "listeners": 297151
+            },
+            {
+              "name": "一途",
+              "playcount": 1748092,
+              "listeners": 143756
+            },
+            {
+              "name": "Prayer X",
+              "playcount": 1241029,
+              "listeners": 107112
+            },
+            {
+              "name": "白日",
+              "playcount": 1061258,
+              "listeners": 98196
+            },
+            {
+              "name": "逆夢",
+              "playcount": 871036,
+              "listeners": 80321
+            }
+          ],
           "rank": 8,
-          "change": null
+          "change": 0
         },
         {
           "name": "Aimer",
@@ -1170,8 +3006,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0bAsR2unSRpn6BOpYh7bVa",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "残響散歌",
+              "playcount": 3006801,
+              "listeners": 232524
+            },
+            {
+              "name": "Brave Shine",
+              "playcount": 1557125,
+              "listeners": 117937
+            },
+            {
+              "name": "カタオモイ",
+              "playcount": 1099489,
+              "listeners": 93940
+            },
+            {
+              "name": "SPARK-AGAIN",
+              "playcount": 737388,
+              "listeners": 73846
+            },
+            {
+              "name": "Ref:rain",
+              "playcount": 726816,
+              "listeners": 53082
+            }
+          ],
           "rank": 9,
-          "change": null
+          "change": 0
         },
         {
           "name": "DECO*27",
@@ -1187,8 +3050,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7lMgpN1tEBxYGENAv3bN8K",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Ghost Rule",
+              "playcount": 1735474,
+              "listeners": 178306
+            },
+            {
+              "name": "ラビットホール",
+              "playcount": 3155749,
+              "listeners": 170255
+            },
+            {
+              "name": "モニタリング",
+              "playcount": 2469369,
+              "listeners": 109773
+            },
+            {
+              "name": "The Vampire",
+              "playcount": 1297370,
+              "listeners": 108835
+            },
+            {
+              "name": "サラマンダー",
+              "playcount": 1141706,
+              "listeners": 104045
+            }
+          ],
           "rank": 10,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Mrs. GREEN APPLE",
@@ -1204,8 +3094,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "インフェルノ",
+              "playcount": 3833196,
+              "listeners": 323552
+            },
+            {
+              "name": "青と夏",
+              "playcount": 514343,
+              "listeners": 62442
+            },
+            {
+              "name": "ライラック",
+              "playcount": 464276,
+              "listeners": 60412
+            },
+            {
+              "name": "ダンスホール",
+              "playcount": 393899,
+              "listeners": 47893
+            },
+            {
+              "name": "ケセラセラ",
+              "playcount": 249415,
+              "listeners": 34230
+            }
+          ],
           "rank": 11,
-          "change": null
+          "change": 0
         },
         {
           "name": "Kanaria",
@@ -1221,8 +3138,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Rendezvous",
+              "playcount": 1005220,
+              "listeners": 126819
+            },
+            {
+              "name": "KING",
+              "playcount": 1481998,
+              "listeners": 125051
+            },
+            {
+              "name": "QUEEN",
+              "playcount": 1231958,
+              "listeners": 123587
+            },
+            {
+              "name": "Yoidoreshirazu",
+              "playcount": 729585,
+              "listeners": 91956
+            },
+            {
+              "name": "Envy Baby",
+              "playcount": 850479,
+              "listeners": 75977
+            }
+          ],
           "rank": 12,
-          "change": -6
+          "change": 0
         },
         {
           "name": "稲葉曇",
@@ -1238,8 +3182,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3UaKImVcA25PXTI1sHnHRs",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Lost Umbrella",
+              "playcount": 1224062,
+              "listeners": 173324
+            },
+            {
+              "name": "ラグトレイン",
+              "playcount": 1169058,
+              "listeners": 112893
+            },
+            {
+              "name": "レイニーブーツ",
+              "playcount": 299640,
+              "listeners": 34318
+            },
+            {
+              "name": "リレイアウター",
+              "playcount": 214588,
+              "listeners": 33002
+            },
+            {
+              "name": "ハルノ寂寞",
+              "playcount": 189672,
+              "listeners": 24684
+            }
+          ],
           "rank": 13,
-          "change": -6
+          "change": 0
         },
         {
           "name": "syudou",
@@ -1255,8 +3226,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7pjJCMFNarVCVCGgliVRll",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "ビターチョコデコレーション",
+              "playcount": 790990,
+              "listeners": 77397
+            },
+            {
+              "name": "In the Back Room",
+              "playcount": 847183,
+              "listeners": 69612
+            },
+            {
+              "name": "Cute Na Kanojo",
+              "playcount": 499526,
+              "listeners": 36762
+            },
+            {
+              "name": "Jack Pot Sad Girl",
+              "playcount": 201348,
+              "listeners": 28828
+            },
+            {
+              "name": "Bitter Choco Decoration",
+              "playcount": 219353,
+              "listeners": 27249
+            }
+          ],
           "rank": 14,
-          "change": -6
+          "change": 0
         },
         {
           "name": "Ayase",
@@ -1272,8 +3270,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5Lkqrb1PEJeT6xsSABbsFb",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "SHOCK!",
+              "playcount": 345746,
+              "listeners": 31546
+            },
+            {
+              "name": "幽霊東京",
+              "playcount": 283228,
+              "listeners": 25518
+            },
+            {
+              "name": "夜撫でるメノウ",
+              "playcount": 203560,
+              "listeners": 24663
+            },
+            {
+              "name": "ghost city tokyo",
+              "playcount": 164179,
+              "listeners": 19870
+            },
+            {
+              "name": "シネマ",
+              "playcount": 180513,
+              "listeners": 15061
+            }
+          ],
           "rank": 15,
-          "change": -6
+          "change": 0
         },
         {
           "name": "Chinozo",
@@ -1287,8 +3312,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0Y4inQKMeWxnTgOQvgaEPa",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Good-bye Declaration",
+              "playcount": 838198,
+              "listeners": 73198
+            },
+            {
+              "name": "エリート",
+              "playcount": 59532,
+              "listeners": 7504
+            },
+            {
+              "name": "Shamer",
+              "playcount": 57429,
+              "listeners": 7183
+            },
+            {
+              "name": "Flyer!",
+              "playcount": 42027,
+              "listeners": 5981
+            },
+            {
+              "name": "ミィハー",
+              "playcount": 50768,
+              "listeners": 5970
+            }
+          ],
           "rank": 16,
-          "change": -6
+          "change": 0
         },
         {
           "name": "tuki.",
@@ -1304,8 +3356,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "晩餐歌",
+              "playcount": 263392,
+              "listeners": 29100
+            },
+            {
+              "name": "晩餐歌 - Bansanka",
+              "playcount": 152138,
+              "listeners": 19885
+            },
+            {
+              "name": "地獄恋文",
+              "playcount": 142897,
+              "listeners": 18999
+            },
+            {
+              "name": "ひゅるりらぱっぱ - HYURURIRAPAPPA",
+              "playcount": 135550,
+              "listeners": 14737
+            },
+            {
+              "name": "ひゅるりらぱっぱ",
+              "playcount": 141163,
+              "listeners": 14087
+            }
+          ],
           "rank": 17,
-          "change": -6
+          "change": 0
         },
         {
           "name": "BE:FIRST",
@@ -1321,8 +3400,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6uJJPVGgBz8HLIrVNHYbSP",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "Hush-Hush",
+              "playcount": 440687,
+              "listeners": 35689
+            },
+            {
+              "name": "Boom Boom Back",
+              "playcount": 78826,
+              "listeners": 8563
+            },
+            {
+              "name": "Bye-Good-Bye",
+              "playcount": 52023,
+              "listeners": 7631
+            },
+            {
+              "name": "Sailing",
+              "playcount": 46606,
+              "listeners": 6986
+            },
+            {
+              "name": "夢中",
+              "playcount": 50890,
+              "listeners": 6277
+            }
+          ],
           "rank": 18,
-          "change": null
+          "change": 0
         },
         {
           "name": "Omoi",
@@ -1338,8 +3444,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0DrtaIEjxrSL5LbJ5MiZwj",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Teo",
+              "playcount": 468067,
+              "listeners": 40704
+            },
+            {
+              "name": "Snow Drive (01.23)",
+              "playcount": 146297,
+              "listeners": 15512
+            },
+            {
+              "name": "Teo (2021)",
+              "playcount": 84847,
+              "listeners": 10339
+            },
+            {
+              "name": "Greenlights Serenade",
+              "playcount": 50530,
+              "listeners": 6761
+            },
+            {
+              "name": "グリーンライツ・セレナーデ",
+              "playcount": 29899,
+              "listeners": 4539
+            }
+          ],
           "rank": 19,
-          "change": -7
+          "change": 0
         },
         {
           "name": "柊キライ",
@@ -1355,8 +3488,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2uPYaROOeBKOc6REk2rUqw",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "ラブカ?",
+              "playcount": 99871,
+              "listeners": 18123
+            },
+            {
+              "name": "ラブカ？",
+              "playcount": 88754,
+              "listeners": 17615
+            },
+            {
+              "name": "ヴィータ",
+              "playcount": 57297,
+              "listeners": 12279
+            },
+            {
+              "name": "Love ka?",
+              "playcount": 83112,
+              "listeners": 11659
+            },
+            {
+              "name": "エウレカ",
+              "playcount": 41436,
+              "listeners": 9233
+            }
+          ],
           "rank": 20,
-          "change": -7
+          "change": 0
         },
         {
           "name": "米津玄師",
@@ -1372,8 +3532,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1snhtMLeb2DYoMOcVbb8iB",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Lemon",
+              "playcount": 314901,
+              "listeners": 19115
+            },
+            {
+              "name": "KICK BACK",
+              "playcount": 253297,
+              "listeners": 16278
+            },
+            {
+              "name": "LOSER",
+              "playcount": 150439,
+              "listeners": 11190
+            },
+            {
+              "name": "アイネクライネ",
+              "playcount": 128612,
+              "listeners": 10553
+            },
+            {
+              "name": "感電",
+              "playcount": 112699,
+              "listeners": 10176
+            }
+          ],
           "rank": 21,
-          "change": -7
+          "change": 0
         },
         {
           "name": "いよわ",
@@ -1389,8 +3576,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6O5eGqgiM9FiEDL8XJmnEF",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "Kyu-kurarin",
+              "playcount": 82501,
+              "listeners": 10588
+            },
+            {
+              "name": "たびのまえ、たびのあと (feat. 初音ミク)",
+              "playcount": 44307,
+              "listeners": 10549
+            },
+            {
+              "name": "きゅうくらりん",
+              "playcount": 65820,
+              "listeners": 3891
+            },
+            {
+              "name": "IMAWANOKIWA",
+              "playcount": 27087,
+              "listeners": 2670
+            },
+            {
+              "name": "きゅうくらりん - STUDY WITH MIKU ver. -",
+              "playcount": 14645,
+              "listeners": 2356
+            }
+          ],
           "rank": 22,
-          "change": -7
+          "change": 0
         },
         {
           "name": "優里",
@@ -1406,8 +3620,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1x8rB8MXz58dBrqFh2cMpF",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "ドライフラワー",
+              "playcount": 132642,
+              "listeners": 15854
+            },
+            {
+              "name": "インフィニティ",
+              "playcount": 48193,
+              "listeners": 8423
+            },
+            {
+              "name": "ベテルギウス",
+              "playcount": 68462,
+              "listeners": 7094
+            },
+            {
+              "name": "シャッター",
+              "playcount": 46254,
+              "listeners": 6497
+            },
+            {
+              "name": "kakurenbo",
+              "playcount": 27910,
+              "listeners": 4502
+            }
+          ],
           "rank": 23,
-          "change": null
+          "change": 0
         },
         {
           "name": "Official髭男dism",
@@ -1423,8 +3664,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Pretender",
+              "playcount": 138216,
+              "listeners": 10963
+            },
+            {
+              "name": "Cry Baby",
+              "playcount": 91998,
+              "listeners": 9195
+            },
+            {
+              "name": "ノーダウト",
+              "playcount": 65838,
+              "listeners": 7168
+            },
+            {
+              "name": "I LOVE...",
+              "playcount": 72086,
+              "listeners": 6971
+            },
+            {
+              "name": "115万キロのフィルム",
+              "playcount": 69040,
+              "listeners": 6943
+            }
+          ],
           "rank": 24,
-          "change": null
+          "change": 0
         },
         {
           "name": "ピノキオピー",
@@ -1440,8 +3708,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "4QGSRW0Exm9dwHQ2dJbPjC",
           "genre": "vocaloid",
+          "topTracks": [
+            {
+              "name": "神っぽいな",
+              "playcount": 22133,
+              "listeners": 2419
+            },
+            {
+              "name": "転生林檎",
+              "playcount": 12515,
+              "listeners": 1358
+            },
+            {
+              "name": "ノンブレス・オブリージュ",
+              "playcount": 12618,
+              "listeners": 1271
+            },
+            {
+              "name": "God-ish",
+              "playcount": 9015,
+              "listeners": 1242
+            },
+            {
+              "name": "魔法少女とチョコレゐト",
+              "playcount": 9876,
+              "listeners": 1239
+            }
+          ],
           "rank": 25,
-          "change": -9
+          "change": 0
         }
       ]
     },
@@ -1464,8 +3759,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "044UPFfua0sBbRSpoGpiql",
           "genre": "anime",
+          "topTracks": [
+            {
+              "name": "MONEY",
+              "playcount": 20885211,
+              "listeners": 732300
+            },
+            {
+              "name": "Rockstar",
+              "playcount": 13142501,
+              "listeners": 609339
+            },
+            {
+              "name": "Born Again (feat. Doja Cat & RAYE)",
+              "playcount": 9526371,
+              "listeners": 540845
+            },
+            {
+              "name": "New Woman (feat. ROSALÍA)",
+              "playcount": 12092716,
+              "listeners": 522999
+            },
+            {
+              "name": "LALISA",
+              "playcount": 13658580,
+              "listeners": 483367
+            }
+          ],
           "rank": 1,
-          "change": null
+          "change": 0
         },
         {
           "name": "ASIAN KUNG-FU GENERATION",
@@ -1481,8 +3803,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0z0JMbPl5YYV2GpePPxJqc",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "遥か彼方",
+              "playcount": 2124391,
+              "listeners": 249129
+            },
+            {
+              "name": "Re:Re:",
+              "playcount": 2088515,
+              "listeners": 209534
+            },
+            {
+              "name": "リライト",
+              "playcount": 1527891,
+              "listeners": 146419
+            },
+            {
+              "name": "アフターダーク",
+              "playcount": 1325238,
+              "listeners": 130326
+            },
+            {
+              "name": "Haruka Kanata",
+              "playcount": 1083437,
+              "listeners": 117275
+            }
+          ],
           "rank": 2,
-          "change": null
+          "change": 0
         },
         {
           "name": "RADWIMPS",
@@ -1498,8 +3847,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3Ni5PpzrQZN6LoXfvFpPRX",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Suzume",
+              "playcount": 2033788,
+              "listeners": 189102
+            },
+            {
+              "name": "Dream Lantern",
+              "playcount": 2022359,
+              "listeners": 185314
+            },
+            {
+              "name": "Zenzenzense - movie ver.",
+              "playcount": 1786168,
+              "listeners": 178862
+            },
+            {
+              "name": "Sparkle - movie ver.",
+              "playcount": 1700932,
+              "listeners": 175446
+            },
+            {
+              "name": "Nandemonaiya - movie ver.",
+              "playcount": 1345635,
+              "listeners": 135712
+            }
+          ],
           "rank": 3,
-          "change": null
+          "change": 0
         },
         {
           "name": "Ado",
@@ -1515,8 +3891,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Usseewa",
+              "playcount": 2992862,
+              "listeners": 258229
+            },
+            {
+              "name": "うっせぇわ",
+              "playcount": 2702309,
+              "listeners": 173592
+            },
+            {
+              "name": "Aishite Aishite Aishite",
+              "playcount": 2420004,
+              "listeners": 172238
+            },
+            {
+              "name": "New Genesis",
+              "playcount": 2182449,
+              "listeners": 168689
+            },
+            {
+              "name": "Odo",
+              "playcount": 2175157,
+              "listeners": 163450
+            }
+          ],
           "rank": 4,
-          "change": null
+          "change": 0
         },
         {
           "name": "ONE OK ROCK",
@@ -1532,8 +3935,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7k73EtZwoMJT0vYtUBNkjm",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "The Beginning",
+              "playcount": 2034485,
+              "listeners": 142828
+            },
+            {
+              "name": "Wherever you are",
+              "playcount": 1448191,
+              "listeners": 124173
+            },
+            {
+              "name": "Stand Out Fit In",
+              "playcount": 1291770,
+              "listeners": 113854
+            },
+            {
+              "name": "We are",
+              "playcount": 1103580,
+              "listeners": 107832
+            },
+            {
+              "name": "Take What You Want (feat. 5 Seconds of Summer)",
+              "playcount": 938909,
+              "listeners": 95314
+            }
+          ],
           "rank": 5,
-          "change": -4
+          "change": 0
         },
         {
           "name": "Creepy Nuts",
@@ -1549,8 +3979,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
           "genre": "hiphop",
+          "topTracks": [
+            {
+              "name": "Bling-Bang-Bang-Born",
+              "playcount": 6122350,
+              "listeners": 377248
+            },
+            {
+              "name": "オトノケ - Otonoke",
+              "playcount": 4532898,
+              "listeners": 322377
+            },
+            {
+              "name": "オトノケ - Otonoke - Opening Theme to DAN DA DAN",
+              "playcount": 943331,
+              "listeners": 133089
+            },
+            {
+              "name": "堕天",
+              "playcount": 1459886,
+              "listeners": 117884
+            },
+            {
+              "name": "よふかしのうた",
+              "playcount": 829221,
+              "listeners": 72785
+            }
+          ],
           "rank": 6,
-          "change": -4
+          "change": 0
         },
         {
           "name": "Vaundy",
@@ -1566,8 +4023,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "踊り子",
+              "playcount": 3617939,
+              "listeners": 280850
+            },
+            {
+              "name": "CHAINSAW BLOOD",
+              "playcount": 1646560,
+              "listeners": 122981
+            },
+            {
+              "name": "odoriko",
+              "playcount": 1050793,
+              "listeners": 85086
+            },
+            {
+              "name": "裸の勇者",
+              "playcount": 1227883,
+              "listeners": 83661
+            },
+            {
+              "name": "Tokyo Flash",
+              "playcount": 552422,
+              "listeners": 80999
+            }
+          ],
           "rank": 7,
-          "change": -4
+          "change": 0
         },
         {
           "name": "King Gnu",
@@ -1583,8 +4067,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1TM1RGYbTnzMUPNFq9SXJJ",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "SPECIALZ",
+              "playcount": 4926759,
+              "listeners": 297151
+            },
+            {
+              "name": "一途",
+              "playcount": 1748092,
+              "listeners": 143756
+            },
+            {
+              "name": "Prayer X",
+              "playcount": 1241029,
+              "listeners": 107112
+            },
+            {
+              "name": "白日",
+              "playcount": 1061258,
+              "listeners": 98196
+            },
+            {
+              "name": "逆夢",
+              "playcount": 871036,
+              "listeners": 80321
+            }
+          ],
           "rank": 8,
-          "change": -4
+          "change": 0
         },
         {
           "name": "Aimer",
@@ -1600,8 +4111,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "0bAsR2unSRpn6BOpYh7bVa",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "残響散歌",
+              "playcount": 3006801,
+              "listeners": 232524
+            },
+            {
+              "name": "Brave Shine",
+              "playcount": 1557125,
+              "listeners": 117937
+            },
+            {
+              "name": "カタオモイ",
+              "playcount": 1099489,
+              "listeners": 93940
+            },
+            {
+              "name": "SPARK-AGAIN",
+              "playcount": 737388,
+              "listeners": 73846
+            },
+            {
+              "name": "Ref:rain",
+              "playcount": 726816,
+              "listeners": 53082
+            }
+          ],
           "rank": 9,
-          "change": null
+          "change": 0
         },
         {
           "name": "Mrs. GREEN APPLE",
@@ -1617,8 +4155,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "インフェルノ",
+              "playcount": 3833196,
+              "listeners": 323552
+            },
+            {
+              "name": "青と夏",
+              "playcount": 514343,
+              "listeners": 62442
+            },
+            {
+              "name": "ライラック",
+              "playcount": 464276,
+              "listeners": 60412
+            },
+            {
+              "name": "ダンスホール",
+              "playcount": 393899,
+              "listeners": 47893
+            },
+            {
+              "name": "ケセラセラ",
+              "playcount": 249415,
+              "listeners": 34230
+            }
+          ],
           "rank": 10,
-          "change": -5
+          "change": 0
         },
         {
           "name": "BUMP OF CHICKEN",
@@ -1634,8 +4199,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5k0p3Y7UBZOq5eFGRhBMrk",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "SOUVENIR",
+              "playcount": 937688,
+              "listeners": 81475
+            },
+            {
+              "name": "Hello,world!",
+              "playcount": 700553,
+              "listeners": 65763
+            },
+            {
+              "name": "天体観測",
+              "playcount": 565119,
+              "listeners": 50749
+            },
+            {
+              "name": "アカシア",
+              "playcount": 394663,
+              "listeners": 39387
+            },
+            {
+              "name": "カルマ",
+              "playcount": 551259,
+              "listeners": 37476
+            }
+          ],
           "rank": 11,
-          "change": -5
+          "change": 0
         },
         {
           "name": "back number",
@@ -1651,8 +4243,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2MsxpPqe4W9wMg2SeL4bEq",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "高嶺の花子さん",
+              "playcount": 429456,
+              "listeners": 42789
+            },
+            {
+              "name": "水平線",
+              "playcount": 323660,
+              "listeners": 39465
+            },
+            {
+              "name": "ハッピーエンド",
+              "playcount": 330868,
+              "listeners": 30149
+            },
+            {
+              "name": "花束",
+              "playcount": 263945,
+              "listeners": 27106
+            },
+            {
+              "name": "クリスマスソング",
+              "playcount": 184093,
+              "listeners": 20192
+            }
+          ],
           "rank": 12,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Saucy Dog",
@@ -1668,8 +4287,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3KNKeaQXsbEjvVKTZGIvaJ",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Cinderella Boy",
+              "playcount": 98720,
+              "listeners": 18411
+            },
+            {
+              "name": "Itsuka",
+              "playcount": 135408,
+              "listeners": 18252
+            },
+            {
+              "name": "シンデレラボーイ",
+              "playcount": 74083,
+              "listeners": 6099
+            },
+            {
+              "name": "Yui",
+              "playcount": 40816,
+              "listeners": 5388
+            },
+            {
+              "name": "Yasashisa Ni Afureta Sekaide",
+              "playcount": 21829,
+              "listeners": 4811
+            }
+          ],
           "rank": 13,
-          "change": -5
+          "change": 0
         },
         {
           "name": "米津玄師",
@@ -1685,8 +4331,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1snhtMLeb2DYoMOcVbb8iB",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "Lemon",
+              "playcount": 314901,
+              "listeners": 19115
+            },
+            {
+              "name": "KICK BACK",
+              "playcount": 253297,
+              "listeners": 16278
+            },
+            {
+              "name": "LOSER",
+              "playcount": 150439,
+              "listeners": 11190
+            },
+            {
+              "name": "アイネクライネ",
+              "playcount": 128612,
+              "listeners": 10553
+            },
+            {
+              "name": "感電",
+              "playcount": 112699,
+              "listeners": 10176
+            }
+          ],
           "rank": 14,
-          "change": -5
+          "change": 0
         },
         {
           "name": "優里",
@@ -1702,8 +4375,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1x8rB8MXz58dBrqFh2cMpF",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "ドライフラワー",
+              "playcount": 132642,
+              "listeners": 15854
+            },
+            {
+              "name": "インフィニティ",
+              "playcount": 48193,
+              "listeners": 8423
+            },
+            {
+              "name": "ベテルギウス",
+              "playcount": 68462,
+              "listeners": 7094
+            },
+            {
+              "name": "シャッター",
+              "playcount": 46254,
+              "listeners": 6497
+            },
+            {
+              "name": "kakurenbo",
+              "playcount": 27910,
+              "listeners": 4502
+            }
+          ],
           "rank": 15,
-          "change": -5
+          "change": 0
         },
         {
           "name": "Official髭男dism",
@@ -1719,8 +4419,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "Pretender",
+              "playcount": 138216,
+              "listeners": 10963
+            },
+            {
+              "name": "Cry Baby",
+              "playcount": 91998,
+              "listeners": 9195
+            },
+            {
+              "name": "ノーダウト",
+              "playcount": 65838,
+              "listeners": 7168
+            },
+            {
+              "name": "I LOVE...",
+              "playcount": 72086,
+              "listeners": 6971
+            },
+            {
+              "name": "115万キロのフィルム",
+              "playcount": 69040,
+              "listeners": 6943
+            }
+          ],
           "rank": 16,
-          "change": -5
+          "change": 0
         },
         {
           "name": "BAD HOP",
@@ -1736,8 +4463,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "2ToiMmFDVHMdEFCh1sMTnL",
           "genre": "hiphop",
+          "topTracks": [
+            {
+              "name": "Kawasaki Drift",
+              "playcount": 45891,
+              "listeners": 6073
+            },
+            {
+              "name": "Born This Way",
+              "playcount": 47783,
+              "listeners": 5448
+            },
+            {
+              "name": "Friends (feat. Vingo, JP THE WAVY, Benjazzy, YZERR & LEX)",
+              "playcount": 21539,
+              "listeners": 3635
+            },
+            {
+              "name": "High Land (feat. Tiji Jojo, Vingo & YZERR)",
+              "playcount": 28058,
+              "listeners": 3161
+            },
+            {
+              "name": "Last Party Never End (feat. Tiji Jojo, YZERR, Vingo & Yellow Pato)",
+              "playcount": 31423,
+              "listeners": 3109
+            }
+          ],
           "rank": 17,
-          "change": null
+          "change": 0
         },
         {
           "name": "乃木坂46",
@@ -1753,8 +4507,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "7lkx1UqaJIkS0dwBMiCgqe",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "制服のマネキン",
+              "playcount": 197097,
+              "listeners": 5668
+            },
+            {
+              "name": "ぐるぐるカーテン",
+              "playcount": 92596,
+              "listeners": 5012
+            },
+            {
+              "name": "君の名は希望",
+              "playcount": 162482,
+              "listeners": 4839
+            },
+            {
+              "name": "おいでシャンプー",
+              "playcount": 82915,
+              "listeners": 4173
+            },
+            {
+              "name": "ガールズルール",
+              "playcount": 110021,
+              "listeners": 4056
+            }
+          ],
           "rank": 18,
-          "change": -6
+          "change": 0
         },
         {
           "name": "ZORN",
@@ -1770,8 +4551,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "55AwNhQXnFxWPmGGsmLPuT",
           "genre": "hiphop",
+          "topTracks": [
+            {
+              "name": "The Spell of the Fairy Tree",
+              "playcount": 15416,
+              "listeners": 4932
+            },
+            {
+              "name": "Already Dead",
+              "playcount": 10878,
+              "listeners": 3261
+            },
+            {
+              "name": "Endless Fantasies",
+              "playcount": 8939,
+              "listeners": 2896
+            },
+            {
+              "name": "The Altar",
+              "playcount": 7686,
+              "listeners": 2556
+            },
+            {
+              "name": "Liar",
+              "playcount": 6733,
+              "listeners": 2382
+            }
+          ],
           "rank": 19,
-          "change": null
+          "change": 0
         },
         {
           "name": "あいみょん",
@@ -1787,8 +4595,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3MpMmhBz5CRmUCt7pOaGqM",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "マリーゴールド",
+              "playcount": 108513,
+              "listeners": 8178
+            },
+            {
+              "name": "愛を伝えたいだとか",
+              "playcount": 84533,
+              "listeners": 8146
+            },
+            {
+              "name": "君はロックを聴かない",
+              "playcount": 79035,
+              "listeners": 7893
+            },
+            {
+              "name": "今夜このまま",
+              "playcount": 59463,
+              "listeners": 5200
+            },
+            {
+              "name": "ハルノヒ",
+              "playcount": 47641,
+              "listeners": 4946
+            }
+          ],
           "rank": 20,
-          "change": -7
+          "change": 0
         },
         {
           "name": "藤井 風",
@@ -1804,8 +4639,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "6bDWAcdtVR3WHz2xqg3wL1",
           "genre": "singer",
+          "topTracks": [
+            {
+              "name": "きらり",
+              "playcount": 126170,
+              "listeners": 9673
+            },
+            {
+              "name": "死ぬのがいいわ",
+              "playcount": 66748,
+              "listeners": 5701
+            },
+            {
+              "name": "何なんw",
+              "playcount": 57902,
+              "listeners": 5277
+            },
+            {
+              "name": "まつり",
+              "playcount": 63073,
+              "listeners": 5087
+            },
+            {
+              "name": "花",
+              "playcount": 61063,
+              "listeners": 4615
+            }
+          ],
           "rank": 21,
-          "change": null
+          "change": 0
         },
         {
           "name": "櫻坂46",
@@ -1821,8 +4683,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "3Gm4sNjfiEOsKpBRBqcqc5",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "I want tomorrow to come -Naeleck Remix-",
+              "playcount": 8987,
+              "listeners": 2931
+            },
+            {
+              "name": "BAN",
+              "playcount": 47378,
+              "listeners": 2767
+            },
+            {
+              "name": "Start over!",
+              "playcount": 55999,
+              "listeners": 2639
+            },
+            {
+              "name": "承認欲求 | Shoninyokkyu -Ninajirachi Remix-",
+              "playcount": 9545,
+              "listeners": 2578
+            },
+            {
+              "name": "流れ弾",
+              "playcount": 37634,
+              "listeners": 2188
+            }
+          ],
           "rank": 22,
-          "change": -8
+          "change": 0
         },
         {
           "name": "マカロニえんぴつ",
@@ -1835,8 +4724,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "5EHNBjjKEB2GmmEoTTMYAQ",
           "genre": "band",
+          "topTracks": [
+            {
+              "name": "なんでもないよ、",
+              "playcount": 17922,
+              "listeners": 2773
+            },
+            {
+              "name": "恋人ごっこ",
+              "playcount": 18215,
+              "listeners": 2328
+            },
+            {
+              "name": "ブルーベリー・ナイツ",
+              "playcount": 17050,
+              "listeners": 2262
+            },
+            {
+              "name": "洗濯機と君とラヂオ",
+              "playcount": 13066,
+              "listeners": 1795
+            },
+            {
+              "name": "ヤングアダルト",
+              "playcount": 14226,
+              "listeners": 1713
+            }
+          ],
           "rank": 23,
-          "change": -8
+          "change": 0
         },
         {
           "name": "日向坂46",
@@ -1852,8 +4768,35 @@
           "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
           "spotify_id": "1fT8kOjJRSLwD3TRPrbY6z",
           "genre": "jpop-idol",
+          "topTracks": [
+            {
+              "name": "キュン",
+              "playcount": 22037,
+              "listeners": 1458
+            },
+            {
+              "name": "ドレミソラシド",
+              "playcount": 28618,
+              "listeners": 1177
+            },
+            {
+              "name": "アザトカワイイ",
+              "playcount": 13065,
+              "listeners": 927
+            },
+            {
+              "name": "ソンナコトナイヨ",
+              "playcount": 16901,
+              "listeners": 901
+            },
+            {
+              "name": "JOYFUL LOVE",
+              "playcount": 13585,
+              "listeners": 830
+            }
+          ],
           "rank": 24,
-          "change": -8
+          "change": 0
         }
       ]
     }
