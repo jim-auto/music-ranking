@@ -1,0 +1,343 @@
+---
+import Layout from '../layouts/Layout.astro';
+import rankings from '../data/rankings.json';
+import artistData from '../data/artists.json';
+
+function formatNumber(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000) return (n / 1_000).toFixed(0) + 'K';
+  return n.toString();
+}
+
+const genres = artistData.genres;
+---
+
+<Layout title="Music Ranking - 10代・20代に人気の音楽ランキング">
+  <div class="hero">
+    <h1>Music Ranking</h1>
+    <p class="subtitle">10代・20代に人気の音楽ランキング</p>
+    <p class="update">Last updated: {new Date(rankings.fetchedAt).toLocaleDateString('ja-JP')}</p>
+  </div>
+
+  <!-- 年代×性別タブ -->
+  <div class="demo-tabs">
+    {rankings.categories.map((cat, i) => (
+      <button class:list={['demo-tab', { active: i === 0 }]} data-target={cat.id}>
+        {cat.emoji} {cat.name}
+      </button>
+    ))}
+  </div>
+
+  <!-- ジャンルフィルター -->
+  <div class="genre-filters">
+    <button class="genre-btn active" data-genre="all">すべて</button>
+    {genres.map((g) => (
+      <button class="genre-btn" data-genre={g.id} style={`--genre-color: ${g.color}`}>
+        {g.name}
+      </button>
+    ))}
+  </div>
+
+  <!-- カテゴリごとのランキング -->
+  {rankings.categories.map((cat, catIdx) => (
+    <div class:list={['category-panel', { active: catIdx === 0 }]} data-panel={cat.id}>
+      <div class="ranking-list">
+        {cat.artists.map((artist, i) => (
+          <div class="rank-card" data-genre={artist.genre}>
+            <div class:list={['rank-number', { gold: i === 0, silver: i === 1, bronze: i === 2 }]}>
+              {i + 1}
+            </div>
+            <div class="artist-info">
+              <div class="artist-name">{artist.name}</div>
+              <div class="artist-meta">
+                <span class="genre-tag" style={`--tag-color: ${genres.find(g => g.id === artist.genre)?.color || '#888'}`}>
+                  {genres.find(g => g.id === artist.genre)?.name || artist.genre}
+                </span>
+                <span class="artist-stats">
+                  {formatNumber(artist.listeners)} listeners · {formatNumber(artist.playcount)} plays
+                </span>
+              </div>
+            </div>
+            {artist.spotify_id && (
+              <a
+                href={`https://open.spotify.com/artist/${artist.spotify_id}`}
+                target="_blank"
+                class="spotify-link"
+                title="Spotifyで聴く"
+              >
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="#1DB954">
+                  <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                </svg>
+              </a>
+            )}
+          </div>
+        ))}
+      </div>
+      <a href={`/category/${cat.id}/`} class="see-all-link">全ランキングを見る (Spotify埋め込み付き) &rarr;</a>
+    </div>
+  ))}
+
+  <div class="no-results" style="display:none;">該当するアーティストがいません</div>
+</Layout>
+
+<script>
+  // タブ切り替え
+  document.querySelectorAll('.demo-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.demo-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const target = tab.getAttribute('data-target');
+      document.querySelectorAll('.category-panel').forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-panel') === target);
+      });
+      // ジャンルフィルタをリセット
+      document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.genre-btn[data-genre="all"]')?.classList.add('active');
+      applyGenreFilter('all');
+    });
+  });
+
+  // ジャンルフィルター
+  document.querySelectorAll('.genre-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const genre = btn.getAttribute('data-genre') || 'all';
+      applyGenreFilter(genre);
+    });
+  });
+
+  function applyGenreFilter(genre: string) {
+    const activePanel = document.querySelector('.category-panel.active');
+    if (!activePanel) return;
+
+    const cards = activePanel.querySelectorAll('.rank-card');
+    let visibleCount = 0;
+    let rank = 1;
+
+    cards.forEach(card => {
+      const cardGenre = card.getAttribute('data-genre');
+      const show = genre === 'all' || cardGenre === genre;
+      (card as HTMLElement).style.display = show ? 'flex' : 'none';
+      if (show) {
+        const numEl = card.querySelector('.rank-number');
+        if (numEl) {
+          numEl.textContent = String(rank);
+          numEl.classList.remove('gold', 'silver', 'bronze');
+          if (rank === 1) numEl.classList.add('gold');
+          else if (rank === 2) numEl.classList.add('silver');
+          else if (rank === 3) numEl.classList.add('bronze');
+        }
+        rank++;
+        visibleCount++;
+      }
+    });
+
+    const noResults = document.querySelector('.no-results') as HTMLElement;
+    if (noResults) noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+</script>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 3rem 0 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #e040fb, #7c4dff, #448aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: var(--text-sub);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .update {
+    color: #666;
+    font-size: 0.85rem;
+  }
+
+  /* 年代タブ */
+  .demo-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.5rem 0 1rem;
+    flex-wrap: wrap;
+  }
+
+  .demo-tab {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #333;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .demo-tab:hover {
+    border-color: var(--accent);
+  }
+
+  .demo-tab.active {
+    background: var(--gradient);
+    border-color: transparent;
+    color: #fff;
+  }
+
+  /* ジャンルフィルター */
+  .genre-filters {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .genre-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1.5px solid #444;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-sub);
+    font-family: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .genre-btn:hover {
+    border-color: var(--genre-color, var(--accent));
+    color: var(--genre-color, var(--accent));
+  }
+
+  .genre-btn.active {
+    background: var(--genre-color, var(--accent));
+    border-color: var(--genre-color, var(--accent));
+    color: #fff;
+  }
+
+  /* パネル */
+  .category-panel {
+    display: none;
+  }
+
+  .category-panel.active {
+    display: block;
+  }
+
+  .ranking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .rank-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--bg-card);
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+
+  .rank-card:hover {
+    background: var(--bg-hover);
+  }
+
+  .rank-number {
+    font-size: 1.4rem;
+    font-weight: 900;
+    width: 2.5rem;
+    text-align: center;
+    color: var(--text-sub);
+    flex-shrink: 0;
+  }
+
+  .gold { color: #ffd700 !important; }
+  .silver { color: #c0c0c0 !important; }
+  .bronze { color: #cd7f32 !important; }
+
+  .artist-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .artist-name {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .artist-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .genre-tag {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    background: color-mix(in srgb, var(--tag-color) 20%, transparent);
+    color: var(--tag-color);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .artist-stats {
+    font-size: 0.8rem;
+    color: var(--text-sub);
+  }
+
+  .spotify-link {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    flex-shrink: 0;
+  }
+
+  .spotify-link:hover { opacity: 1; }
+
+  .see-all-link {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    border-radius: 12px;
+    color: var(--accent);
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+
+  .see-all-link:hover {
+    background: var(--bg-card);
+    border-color: var(--accent);
+  }
+
+  .no-results {
+    text-align: center;
+    color: var(--text-sub);
+    padding: 3rem;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2rem; }
+    .demo-tab { padding: 0.5rem 0.8rem; font-size: 0.85rem; }
+    .rank-card { padding: 0.6rem 0.8rem; }
+  }
+</style>

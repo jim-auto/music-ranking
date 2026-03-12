@@ -1,0 +1,1148 @@
+{
+  "fetchedAt": "2026-03-12T06:49:26.630Z",
+  "categories": [
+    {
+      "id": "10s-girl",
+      "name": "10代女子",
+      "emoji": "🎀",
+      "artists": [
+        {
+          "name": "NewJeans",
+          "listeners": 1774936,
+          "playcount": 323968726,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "rnb",
+            "pop",
+            "Korean"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6HvZYsbFfjnjFrWF950C9d",
+          "rank": 1
+        },
+        {
+          "name": "LE SSERAFIM",
+          "listeners": 1623039,
+          "playcount": 297579457,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "pop",
+            "female vocalists"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4SpbR6yFEvexJuq5VY2gfv",
+          "rank": 2
+        },
+        {
+          "name": "Stray Kids",
+          "listeners": 1328340,
+          "playcount": 479189647,
+          "tags": [
+            "k-pop",
+            "pop",
+            "Kpop",
+            "Korean",
+            "Hip-Hop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2dIgFjalVMIZwNqAAAtljk",
+          "rank": 3
+        },
+        {
+          "name": "aespa",
+          "listeners": 1300905,
+          "playcount": 262625400,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "pop",
+            "hyperpop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
+          "rank": 4
+        },
+        {
+          "name": "ENHYPEN",
+          "listeners": 1107692,
+          "playcount": 330562667,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "pop",
+            "boy group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1t20wYnTiAT0Bs7H1hJilS",
+          "rank": 5
+        },
+        {
+          "name": "IVE",
+          "listeners": 1030206,
+          "playcount": 156108753,
+          "tags": [
+            "k-pop",
+            "Korean",
+            "Kpop",
+            "pop",
+            "female vocalists"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6RHTUrRF63xao58xR3uzr3",
+          "rank": 6
+        },
+        {
+          "name": "YOASOBI",
+          "listeners": 871577,
+          "playcount": 52871011,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "japan",
+            "pop",
+            "electropop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
+          "rank": 7
+        },
+        {
+          "name": "NMIXX",
+          "listeners": 727734,
+          "playcount": 83037207,
+          "tags": [
+            "k-pop",
+            "pop",
+            "Kpop",
+            "Korean",
+            "girl group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "28ot3wh4oNmoFOdVajibBl",
+          "rank": 8
+        },
+        {
+          "name": "Ado",
+          "listeners": 676804,
+          "playcount": 77599973,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "female vocalists",
+            "pop",
+            "utaite"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
+          "rank": 9
+        },
+        {
+          "name": "Creepy Nuts",
+          "listeners": 591965,
+          "playcount": 20444040,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "Hip-Hop",
+            "japan",
+            "jersey club"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
+          "rank": 10
+        },
+        {
+          "name": "BABYMONSTER",
+          "listeners": 516152,
+          "playcount": 33368777,
+          "tags": [],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1SIocsqdEefUTE6XONzadB",
+          "rank": 11
+        },
+        {
+          "name": "DECO*27",
+          "listeners": 426788,
+          "playcount": 24463642,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "j-pop",
+            "rock",
+            "J-rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7lMgpN1tEBxYGENAv3bN8K",
+          "rank": 12
+        },
+        {
+          "name": "tripleS",
+          "listeners": 420184,
+          "playcount": 62632117,
+          "tags": [],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5z2mJnMIGnJKUdMmDfzmFc",
+          "rank": 13
+        },
+        {
+          "name": "RIIZE",
+          "listeners": 393041,
+          "playcount": 29653713,
+          "tags": [
+            "k-pop",
+            "riize is 7",
+            "Kpop",
+            "pop",
+            "RIIZE is 6"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4JBGcrP80iYCi7jKoOHWQs",
+          "rank": 14
+        },
+        {
+          "name": "BOYNEXTDOOR",
+          "listeners": 342742,
+          "playcount": 44701023,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "my top songs",
+            "Korean",
+            "BOYNEXTDOOR"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0Hk5SFOTKjtwU3cvTgePsh",
+          "rank": 15
+        },
+        {
+          "name": "Kanaria",
+          "listeners": 296384,
+          "playcount": 9372512,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "jp",
+            "japan",
+            "EDM"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
+          "rank": 16
+        },
+        {
+          "name": "Chinozo",
+          "listeners": 89627,
+          "playcount": 1649287,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "kafu"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0Y4inQKMeWxnTgOQvgaEPa",
+          "rank": 17
+        },
+        {
+          "name": "tuki.",
+          "listeners": 69986,
+          "playcount": 1667608,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "pop",
+            "singer-songwriter",
+            "japan"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
+          "rank": 18
+        },
+        {
+          "name": "BE:FIRST",
+          "listeners": 68742,
+          "playcount": 1262998,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "JPop",
+            "pop",
+            "BMSG"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6uJJPVGgBz8HLIrVNHYbSP",
+          "rank": 19
+        },
+        {
+          "name": "INI",
+          "listeners": 54659,
+          "playcount": 1853166,
+          "tags": [
+            "Hip-Hop",
+            "underground hip-hop",
+            "Jazz Hop",
+            "rap",
+            "hip hop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1V1YzPMJaJkiYHiofAMUAz",
+          "rank": 20
+        },
+        {
+          "name": "ME:I",
+          "listeners": 32797,
+          "playcount": 1007835,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "Girl Groups",
+            "pop",
+            "japan"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "65M7TXhx1VyJxhEBFDVaSB",
+          "rank": 21
+        },
+        {
+          "name": "TXT",
+          "listeners": 14637,
+          "playcount": 591312,
+          "tags": [
+            "80s",
+            "new wave",
+            "UK",
+            "germany",
+            "txt"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0ghlgldX5Dd6720Q3qFyQB",
+          "rank": 22
+        },
+        {
+          "name": "新しい学校のリーダーズ",
+          "listeners": 8511,
+          "playcount": 399449,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "female vocalists",
+            "jazz",
+            "JPop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5J6D24dVXLEV3TFQKQR0zz",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "id": "20s-girl",
+      "name": "20代女子",
+      "emoji": "💄",
+      "artists": [
+        {
+          "name": "BTS",
+          "listeners": 2323822,
+          "playcount": 3009731117,
+          "tags": [
+            "k-pop",
+            "bts",
+            "Korean",
+            "Kpop",
+            "pop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3Nrfpe0tUJi4K4DXYAek5G",
+          "rank": 1
+        },
+        {
+          "name": "BLACKPINK",
+          "listeners": 1960897,
+          "playcount": 307590882,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "pop",
+            "Korean",
+            "blackpink"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
+          "rank": 2
+        },
+        {
+          "name": "TWICE",
+          "listeners": 1875151,
+          "playcount": 490771975,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "pop",
+            "girl group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
+          "rank": 3
+        },
+        {
+          "name": "Red Velvet",
+          "listeners": 1372859,
+          "playcount": 241929082,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "pop",
+            "Korean",
+            "female vocalists"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
+          "rank": 4
+        },
+        {
+          "name": "EXO",
+          "listeners": 1035841,
+          "playcount": 165762756,
+          "tags": [
+            "k-pop",
+            "exo",
+            "Korean",
+            "Kpop",
+            "exo-k"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3cjEqqelV9zb4BYE3qDQ4O",
+          "rank": 5
+        },
+        {
+          "name": "ITZY",
+          "listeners": 984387,
+          "playcount": 135053359,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "pop",
+            "girl group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
+          "rank": 6
+        },
+        {
+          "name": "(G)I-DLE",
+          "listeners": 954473,
+          "playcount": 104161152,
+          "tags": [
+            "k-pop",
+            "Korean",
+            "Kpop",
+            "pop",
+            "girl group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2AfmfGFbe0A0WsTYm0SDTx",
+          "rank": 7
+        },
+        {
+          "name": "SEVENTEEN",
+          "listeners": 929616,
+          "playcount": 285602996,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "pop",
+            "rock",
+            "seventeen"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7nqOGRxlXj7N2JYbgNEjYH",
+          "rank": 8
+        },
+        {
+          "name": "NCT 127",
+          "listeners": 792509,
+          "playcount": 138026929,
+          "tags": [
+            "k-pop",
+            "Kpop",
+            "Korean",
+            "NCT",
+            "NCT 127"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7f4ignuCJhLXfZ9giKT7rH",
+          "rank": 9
+        },
+        {
+          "name": "ATEEZ",
+          "listeners": 791885,
+          "playcount": 211441095,
+          "tags": [
+            "k-pop",
+            "Korean",
+            "Kpop",
+            "pop",
+            "EDM"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
+          "rank": 10
+        },
+        {
+          "name": "NCT DREAM",
+          "listeners": 674829,
+          "playcount": 113327705,
+          "tags": [
+            "k-pop",
+            "Korean",
+            "NCT",
+            "pop",
+            "nct dream"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1gBUSTR3TyDdTVFIaQnEPa",
+          "rank": 11
+        },
+        {
+          "name": "Vaundy",
+          "listeners": 508863,
+          "playcount": 16622624,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "JPop",
+            "japan",
+            "J-Indie"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
+          "rank": 12
+        },
+        {
+          "name": "Aimer",
+          "listeners": 474058,
+          "playcount": 24391554,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "female vocalists",
+            "pop",
+            "JPop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0bAsR2unSRpn6BOpYh7bVa",
+          "rank": 13
+        },
+        {
+          "name": "Mrs. GREEN APPLE",
+          "listeners": 420603,
+          "playcount": 11577120,
+          "tags": [
+            "japanese",
+            "J-rock",
+            "rock",
+            "indie",
+            "alternative"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
+          "rank": 14
+        },
+        {
+          "name": "imase",
+          "listeners": 386931,
+          "playcount": 5508806,
+          "tags": [
+            "j-pop",
+            "pop",
+            "indie pop",
+            "japanese",
+            "singer-songwriter"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2cJqOg2CDVdmUVrmlyEOST",
+          "rank": 15
+        },
+        {
+          "name": "Official髭男dism",
+          "listeners": 26718,
+          "playcount": 1941544,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "rock",
+            "pop",
+            "official hige dandism"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
+          "rank": 16
+        },
+        {
+          "name": "藤井 風",
+          "listeners": 17373,
+          "playcount": 1406402,
+          "tags": [
+            "soul",
+            "j-pop",
+            "japan",
+            "rnb",
+            "JPopM"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6bDWAcdtVR3WHz2xqg3wL1",
+          "rank": 17
+        },
+        {
+          "name": "Snow Man",
+          "listeners": 15268,
+          "playcount": 626955,
+          "tags": [],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6LMspKSjfSYLiMKyBjXEaK",
+          "rank": 18
+        },
+        {
+          "name": "King & Prince",
+          "listeners": 10731,
+          "playcount": 473801,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "JPop",
+            "johnnys",
+            "Johnnys entertainment"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5jGMzSGoKShbFPJdORXfCM",
+          "rank": 19
+        },
+        {
+          "name": "SixTONES",
+          "listeners": 9110,
+          "playcount": 667867,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "Johnnys entertainment",
+            "japan",
+            "STARTO ENTERTAINMENT"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0NfIU0VXZGX9v1s3pTj2qT",
+          "rank": 20
+        },
+        {
+          "name": "なにわ男子",
+          "listeners": 5231,
+          "playcount": 357685,
+          "tags": [
+            "johnnys",
+            "japanese",
+            "j-pop",
+            "JPop",
+            "Johnnys entertainment"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4XEsbn8TaYEzJtGOjafOUb",
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "id": "10s-boy",
+      "name": "10代男子",
+      "emoji": "🎮",
+      "artists": [
+        {
+          "name": "Stray Kids",
+          "listeners": 1328340,
+          "playcount": 479189647,
+          "tags": [
+            "k-pop",
+            "pop",
+            "Kpop",
+            "Korean",
+            "Hip-Hop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2dIgFjalVMIZwNqAAAtljk",
+          "rank": 1
+        },
+        {
+          "name": "YOASOBI",
+          "listeners": 871577,
+          "playcount": 52871011,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "japan",
+            "pop",
+            "electropop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
+          "rank": 2
+        },
+        {
+          "name": "Ado",
+          "listeners": 676804,
+          "playcount": 77599973,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "female vocalists",
+            "pop",
+            "utaite"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6mEQK9m2MBYbX6bJ68kAj8",
+          "rank": 3
+        },
+        {
+          "name": "Creepy Nuts",
+          "listeners": 591965,
+          "playcount": 20444040,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "Hip-Hop",
+            "japan",
+            "jersey club"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
+          "rank": 4
+        },
+        {
+          "name": "DECO*27",
+          "listeners": 426788,
+          "playcount": 24463642,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "j-pop",
+            "rock",
+            "J-rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7lMgpN1tEBxYGENAv3bN8K",
+          "rank": 5
+        },
+        {
+          "name": "Kanaria",
+          "listeners": 296384,
+          "playcount": 9372512,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "jp",
+            "japan",
+            "EDM"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
+          "rank": 6
+        },
+        {
+          "name": "稲葉曇",
+          "listeners": 260242,
+          "playcount": 5799053,
+          "tags": [
+            "j-pop",
+            "vocaloid",
+            "J-rock",
+            "japan",
+            "japanese"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3UaKImVcA25PXTI1sHnHRs",
+          "rank": 7
+        },
+        {
+          "name": "syudou",
+          "listeners": 185620,
+          "playcount": 5236022,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "electronic",
+            "j-pop",
+            "J-rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7pjJCMFNarVCVCGgliVRll",
+          "rank": 8
+        },
+        {
+          "name": "Ayase",
+          "listeners": 96754,
+          "playcount": 1728822,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "j-pop",
+            "electronic",
+            "touhou"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5Lkqrb1PEJeT6xsSABbsFb",
+          "rank": 9
+        },
+        {
+          "name": "Chinozo",
+          "listeners": 89627,
+          "playcount": 1649287,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "kafu"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0Y4inQKMeWxnTgOQvgaEPa",
+          "rank": 10
+        },
+        {
+          "name": "tuki.",
+          "listeners": 69986,
+          "playcount": 1667608,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "pop",
+            "singer-songwriter",
+            "japan"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
+          "rank": 11
+        },
+        {
+          "name": "Omoi",
+          "listeners": 67790,
+          "playcount": 1195073,
+          "tags": [
+            "vocaloid",
+            "rock",
+            "synth rock",
+            "japanese",
+            "jp"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "0DrtaIEjxrSL5LbJ5MiZwj",
+          "rank": 12
+        },
+        {
+          "name": "柊キライ",
+          "listeners": 58892,
+          "playcount": 711077,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "digital rock",
+            "japan",
+            "vflower"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2uPYaROOeBKOc6REk2rUqw",
+          "rank": 13
+        },
+        {
+          "name": "米津玄師",
+          "listeners": 54567,
+          "playcount": 5320164,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "J-rock",
+            "rock",
+            "niconico"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1snhtMLeb2DYoMOcVbb8iB",
+          "rank": 14
+        },
+        {
+          "name": "いよわ",
+          "listeners": 34645,
+          "playcount": 869977,
+          "tags": [
+            "j-pop",
+            "glitch pop",
+            "vocaloid",
+            "japanese",
+            "art pop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "6O5eGqgiM9FiEDL8XJmnEF",
+          "rank": 15
+        },
+        {
+          "name": "ピノキオピー",
+          "listeners": 11249,
+          "playcount": 373037,
+          "tags": [
+            "vocaloid",
+            "japanese",
+            "electronic",
+            "j-pop",
+            "electropop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "4QGSRW0Exm9dwHQ2dJbPjC",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "id": "20s-boy",
+      "name": "20代男子",
+      "emoji": "🎸",
+      "artists": [
+        {
+          "name": "ONE OK ROCK",
+          "listeners": 615055,
+          "playcount": 53344308,
+          "tags": [
+            "J-rock",
+            "japanese",
+            "rock",
+            "jrock",
+            "japanese rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7k73EtZwoMJT0vYtUBNkjm",
+          "rank": 1
+        },
+        {
+          "name": "Creepy Nuts",
+          "listeners": 591965,
+          "playcount": 20444040,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "Hip-Hop",
+            "japan",
+            "jersey club"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
+          "rank": 2
+        },
+        {
+          "name": "Vaundy",
+          "listeners": 508863,
+          "playcount": 16622624,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "JPop",
+            "japan",
+            "J-Indie"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
+          "rank": 3
+        },
+        {
+          "name": "King Gnu",
+          "listeners": 506176,
+          "playcount": 18413231,
+          "tags": [
+            "J-rock",
+            "japanese",
+            "alternative",
+            "indie",
+            "electronic rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1TM1RGYbTnzMUPNFq9SXJJ",
+          "rank": 4
+        },
+        {
+          "name": "Mrs. GREEN APPLE",
+          "listeners": 420603,
+          "playcount": 11577120,
+          "tags": [
+            "japanese",
+            "J-rock",
+            "rock",
+            "indie",
+            "alternative"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3egdbFJgxKnEOLd6I6dn6b",
+          "rank": 5
+        },
+        {
+          "name": "BUMP OF CHICKEN",
+          "listeners": 299768,
+          "playcount": 20998915,
+          "tags": [
+            "J-rock",
+            "japanese",
+            "rock",
+            "j-pop",
+            "jrock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5k0p3Y7UBZOq5eFGRhBMrk",
+          "rank": 6
+        },
+        {
+          "name": "back number",
+          "listeners": 121845,
+          "playcount": 5853999,
+          "tags": [
+            "japanese",
+            "rock",
+            "J-rock",
+            "j-pop",
+            "indie"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "2MsxpPqe4W9wMg2SeL4bEq",
+          "rank": 7
+        },
+        {
+          "name": "Saucy Dog",
+          "listeners": 56943,
+          "playcount": 1559337,
+          "tags": [
+            "rock",
+            "japanese",
+            "indie rock",
+            "indie",
+            "J-rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3KNKeaQXsbEjvVKTZGIvaJ",
+          "rank": 8
+        },
+        {
+          "name": "米津玄師",
+          "listeners": 54567,
+          "playcount": 5320164,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "J-rock",
+            "rock",
+            "niconico"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1snhtMLeb2DYoMOcVbb8iB",
+          "rank": 9
+        },
+        {
+          "name": "優里",
+          "listeners": 31021,
+          "playcount": 648853,
+          "tags": [
+            "touhou",
+            "japanese",
+            "j-pop",
+            "japan",
+            "male vocalists"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1x8rB8MXz58dBrqFh2cMpF",
+          "rank": 10
+        },
+        {
+          "name": "Official髭男dism",
+          "listeners": 26718,
+          "playcount": 1941544,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "rock",
+            "pop",
+            "official hige dandism"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
+          "rank": 11
+        },
+        {
+          "name": "乃木坂46",
+          "listeners": 20927,
+          "playcount": 7560401,
+          "tags": [
+            "j-pop",
+            "idol",
+            "japanese",
+            "female vocalists",
+            "pop"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "7lkx1UqaJIkS0dwBMiCgqe",
+          "rank": 12
+        },
+        {
+          "name": "あいみょん",
+          "listeners": 19033,
+          "playcount": 1378427,
+          "tags": [
+            "j-pop",
+            "japanese",
+            "female vocalists",
+            "rock",
+            "pop rock"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3MpMmhBz5CRmUCt7pOaGqM",
+          "rank": 13
+        },
+        {
+          "name": "櫻坂46",
+          "listeners": 14880,
+          "playcount": 1572879,
+          "tags": [
+            "japanese",
+            "j-pop",
+            "idol",
+            "female vocalists",
+            "sakurazaka46"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "3Gm4sNjfiEOsKpBRBqcqc5",
+          "rank": 14
+        },
+        {
+          "name": "マカロニえんぴつ",
+          "listeners": 6766,
+          "playcount": 343958,
+          "tags": [
+            "japanese",
+            "macaroni enpitsu"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "5EHNBjjKEB2GmmEoTTMYAQ",
+          "rank": 15
+        },
+        {
+          "name": "日向坂46",
+          "listeners": 3381,
+          "playcount": 592824,
+          "tags": [
+            "j-pop",
+            "female vocalists",
+            "japanese",
+            "female vocalist",
+            "girl group"
+          ],
+          "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+          "spotify_id": "1fT8kOjJRSLwD3TRPrbY6z",
+          "rank": 16
+        }
+      ]
+    }
+  ]
+}
