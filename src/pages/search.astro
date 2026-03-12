@@ -1,0 +1,216 @@
+---
+import Layout from '../layouts/Layout.astro';
+import rankings from '../data/rankings.json';
+import artistData from '../data/artists.json';
+
+const genres = artistData.genres;
+
+// 全アーティストのユニークリスト
+const allArtistsMap = new Map();
+for (const cat of rankings.categories) {
+  for (const a of cat.artists) {
+    if (!allArtistsMap.has(a.name) || allArtistsMap.get(a.name).listeners < a.listeners) {
+      allArtistsMap.set(a.name, { ...a, categories: [] });
+    }
+  }
+}
+// どのカテゴリに入ってるか記録
+for (const cat of rankings.categories) {
+  for (const a of cat.artists) {
+    const entry = allArtistsMap.get(a.name);
+    if (entry && !entry.categories.includes(cat.name)) {
+      entry.categories.push(`${cat.emoji} ${cat.name}`);
+    }
+  }
+}
+const allArtists = [...allArtistsMap.values()].sort((a, b) => b.listeners - a.listeners);
+
+function formatNumber(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000) return (n / 1_000).toFixed(0) + 'K';
+  return n.toString();
+}
+---
+
+<Layout title="検索 - Music Ranking">
+  <div class="search-header">
+    <h1>🔍 アーティスト検索</h1>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="アーティスト名を入力..." autofocus />
+    </div>
+    <p class="result-count" id="result-count">{allArtists.length} artists</p>
+  </div>
+
+  <div class="results" id="results">
+    {allArtists.map((artist) => (
+      <div class="result-card" data-name={artist.name.toLowerCase()}>
+        <div class="result-main">
+          <div class="result-name">{artist.name}</div>
+          <div class="result-meta">
+            <span class="genre-tag" style={`--tag-color: ${genres.find(g => g.id === artist.genre)?.color || '#888'}`}>
+              {genres.find(g => g.id === artist.genre)?.name || ''}
+            </span>
+            <span class="result-stats">
+              {formatNumber(artist.listeners)} listeners · {formatNumber(artist.playcount)} plays
+            </span>
+          </div>
+          <div class="result-categories">
+            {artist.categories.map((c: string) => (
+              <span class="cat-badge">{c}</span>
+            ))}
+          </div>
+        </div>
+        <div class="result-actions">
+          {artist.spotify_id && (
+            <a href={`https://open.spotify.com/artist/${artist.spotify_id}`} target="_blank" class="spotify-btn">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="#1DB954">
+                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+              </svg>
+              Spotifyで聴く
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="no-results" id="no-results" style="display:none;">
+    見つかりませんでした
+  </div>
+</Layout>
+
+<script>
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const cards = document.querySelectorAll('.result-card');
+  const countEl = document.getElementById('result-count')!;
+  const noResults = document.getElementById('no-results')!;
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    let count = 0;
+    cards.forEach(card => {
+      const name = card.getAttribute('data-name') || '';
+      const show = !q || name.includes(q);
+      (card as HTMLElement).style.display = show ? 'flex' : 'none';
+      if (show) count++;
+    });
+    countEl.textContent = `${count} artists`;
+    noResults.style.display = count === 0 ? 'block' : 'none';
+  });
+</script>
+
+<style>
+  .search-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .search-header h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .search-box {
+    max-width: 500px;
+    margin: 0 auto 0.8rem;
+  }
+  #search-input {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid #333;
+    border-radius: 999px;
+    background: var(--bg-card);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  #search-input:focus { border-color: var(--accent); }
+  #search-input::placeholder { color: #555; }
+
+  .result-count {
+    color: var(--text-sub);
+    font-size: 0.85rem;
+  }
+
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .result-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+    background: var(--bg-card);
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+  .result-card:hover { background: var(--bg-hover); }
+
+  .result-main { flex: 1; min-width: 0; }
+  .result-name { font-weight: 700; font-size: 1.05rem; margin-bottom: 0.3rem; }
+  .result-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.3rem;
+  }
+  .genre-tag {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    background: color-mix(in srgb, var(--tag-color) 20%, transparent);
+    color: var(--tag-color);
+    font-weight: 700;
+  }
+  .result-stats { font-size: 0.8rem; color: var(--text-sub); }
+
+  .result-categories {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+  .cat-badge {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    background: #252542;
+    border-radius: 4px;
+    color: var(--text-sub);
+  }
+
+  .spotify-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    background: rgba(29, 185, 84, 0.15);
+    border: 1px solid rgba(29, 185, 84, 0.3);
+    border-radius: 999px;
+    color: #1DB954;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+  .spotify-btn:hover {
+    background: rgba(29, 185, 84, 0.25);
+    border-color: #1DB954;
+  }
+
+  .no-results {
+    text-align: center;
+    color: var(--text-sub);
+    padding: 3rem;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    .result-card { flex-direction: column; align-items: flex-start; }
+    .spotify-btn { width: 100%; justify-content: center; }
+  }
+</style>

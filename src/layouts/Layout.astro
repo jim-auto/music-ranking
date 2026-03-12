@@ -19,6 +19,11 @@ const { title } = Astro.props;
   <header>
     <nav>
       <a href="/" class="logo">🎵 Music Ranking</a>
+      <div class="nav-links">
+        <a href="/">ホーム</a>
+        <a href="/all/">全体ランキング</a>
+        <a href="/search/">検索</a>
+      </div>
     </nav>
   </header>
   <main>
@@ -42,6 +47,9 @@ const { title } = Astro.props;
     --text: #eee;
     --text-sub: #999;
     --gradient: linear-gradient(135deg, #e040fb, #7c4dff);
+    --up: #69f0ae;
+    --down: #ff5252;
+    --new: #ffd740;
   }
 
   body {
@@ -52,13 +60,13 @@ const { title } = Astro.props;
   }
 
   header {
-    background: var(--bg-card);
+    background: rgba(26, 26, 46, 0.9);
     border-bottom: 1px solid #333;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     position: sticky;
     top: 0;
     z-index: 100;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
   }
 
   nav {
@@ -66,15 +74,34 @@ const { title } = Astro.props;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    gap: 2rem;
   }
 
   .logo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 900;
     background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .nav-links a {
+    color: var(--text-sub);
+    text-decoration: none;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent);
   }
 
   main {
@@ -95,4 +122,16 @@ const { title } = Astro.props;
   footer a { color: var(--accent); text-decoration: none; }
 
   a { color: inherit; text-decoration: none; }
+
+  /* change indicators */
+  .change-up { color: var(--up); font-size: 0.75rem; font-weight: 700; }
+  .change-down { color: var(--down); font-size: 0.75rem; font-weight: 700; }
+  .change-new { color: var(--new); font-size: 0.7rem; font-weight: 700; }
+  .change-same { color: var(--text-sub); font-size: 0.7rem; }
+
+  @media (max-width: 600px) {
+    header { padding: 0.6rem 1rem; }
+    nav { gap: 1rem; }
+    .nav-links { gap: 0.8rem; font-size: 0.8rem; }
+  }
 </style>
