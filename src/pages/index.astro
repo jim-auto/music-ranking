@@ -63,7 +63,7 @@ const base = import.meta.env.BASE_URL;
                   {genres.find(g => g.id === artist.genre)?.name || artist.genre}
                 </span>
                 <span class="artist-stats">
-                  {formatNumber(artist.listeners)} listeners · {formatNumber(artist.playcount)} plays
+                  {artist.weeklyPlays > 0 ? `+${formatNumber(artist.weeklyPlays)}/week` : `${formatNumber(artist.listeners)} listeners`}
                 </span>
               </div>
             </div>

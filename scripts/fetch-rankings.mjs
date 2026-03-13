@@ -1,5 +1,5 @@
 // Last.fm APIからアーティストの再生回数・リスナー数・トップトラックを取得してJSONに保存
-// 前回のランキングと比較して順位変動を記録
+// 前回のランキングと比較して順位変動・週間増加数を記録
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -104,19 +104,28 @@ async function getTopTracks(artistName, limit = 5) {
   }
 }
 
-function loadPreviousRankings(outputFile) {
+// 前回データを読み込み（ランク + 再生回数）
+function loadPreviousData(outputFile) {
   try {
     const data = JSON.parse(fs.readFileSync(outputFile, 'utf-8'));
-    const map = {};
+    const ranks = {};
+    const playcounts = {};
+    const trackPlaycounts = {};
     for (const cat of data.categories) {
-      map[cat.id] = {};
+      ranks[cat.id] = {};
       for (const a of cat.artists) {
-        map[cat.id][a.name] = a.rank;
+        ranks[cat.id][a.name] = a.rank;
+        playcounts[a.name] = a.playcount;
+        if (a.topTracks) {
+          for (const t of a.topTracks) {
+            trackPlaycounts[`${a.name}::${t.name}`] = t.playcount;
+          }
+        }
       }
     }
-    return map;
+    return { ranks, playcounts, trackPlaycounts };
   } catch {
-    return {};
+    return { ranks: {}, playcounts: {}, trackPlaycounts: {} };
   }
 }
 
@@ -125,7 +134,7 @@ async function main() {
   const outputFile = path.join(__dirname, '..', 'src', 'data', 'rankings.json');
 
   const { categories } = JSON.parse(fs.readFileSync(artistsFile, 'utf-8'));
-  const prevRankings = loadPreviousRankings(outputFile);
+  const prev = loadPreviousData(outputFile);
   const rankings = { fetchedAt: new Date().toISOString(), categories: [] };
 
   for (const category of categories) {
@@ -136,22 +145,38 @@ async function main() {
       console.log(`  🔍 ${artist.name}...`);
       const info = await getArtistInfo(artist.name);
       const tracks = await getTopTracks(artist.name);
+
+      // トラックごとの週間増加数を計算
+      const tracksWithDelta = tracks.map(t => {
+        const prevPC = prev.trackPlaycounts[`${artist.name}::${t.name}`];
+        const weeklyPlays = prevPC != null ? Math.max(0, t.playcount - prevPC) : 0;
+        return { ...t, weeklyPlays };
+      });
+
+      // アーティストの週間増加数
+      const prevPC = prev.playcounts[artist.name];
+      const weeklyPlays = prevPC != null ? Math.max(0, info.playcount - prevPC) : 0;
+
       artistResults.push({
         ...info,
+        weeklyPlays,
         spotify_id: artist.spotify_id,
         genre: artist.genre,
-        topTracks: tracks,
+        topTracks: tracksWithDelta,
       });
       await new Promise(r => setTimeout(r, 80));
     }
 
-    // Sort by listeners (descending)
-    artistResults.sort((a, b) => b.listeners - a.listeners);
+    // Sort by weeklyPlays (descending), fallback to listeners
+    artistResults.sort((a, b) => {
+      if (b.weeklyPlays !== a.weeklyPlays) return b.weeklyPlays - a.weeklyPlays;
+      return b.listeners - a.listeners;
+    });
 
     // Add rank & change
     artistResults.forEach((a, i) => {
       a.rank = i + 1;
-      const prevRank = prevRankings[category.id]?.[a.name];
+      const prevRank = prev.ranks[category.id]?.[a.name];
       if (prevRank != null) {
         a.change = prevRank - a.rank;
       } else {

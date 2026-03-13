@@ -19,6 +19,7 @@ for (const cat of rankings.categories) {
           artistName: artist.name,
           playcount: track.playcount,
           listeners: track.listeners,
+          weeklyPlays: track.weeklyPlays || 0,
           genre: artist.genre,
           spotify_id: artist.spotify_id,
           year: track.year || null,
@@ -27,7 +28,10 @@ for (const cat of rankings.categories) {
     }
   }
 }
-const allTracks = [...tracksMap.values()].sort((a, b) => b.playcount - a.playcount);
+const allTracks = [...tracksMap.values()].sort((a, b) => {
+  if (b.weeklyPlays !== a.weeklyPlays) return b.weeklyPlays - a.weeklyPlays;
+  return b.playcount - a.playcount;
+});
 allTracks.forEach((t, i) => { t.rank = i + 1; });
 
 function formatNumber(n: number): string {
@@ -63,7 +67,8 @@ function formatNumber(n: number): string {
           <th class="col-artist">アーティスト</th>
           <th class="col-genre">ジャンル</th>
           <th class="col-year">年</th>
-          <th class="col-plays">再生回数</th>
+          <th class="col-weekly">週間</th>
+          <th class="col-plays">累計</th>
         </tr>
       </thead>
       <tbody>
@@ -90,6 +95,7 @@ function formatNumber(n: number): string {
               </span>
             </td>
             <td class="col-year">{track.year || '-'}</td>
+            <td class="col-weekly">{track.weeklyPlays > 0 ? `+${formatNumber(track.weeklyPlays)}` : '-'}</td>
             <td class="col-plays">{formatNumber(track.playcount)}</td>
           </tr>
         ))}
@@ -222,6 +228,15 @@ function formatNumber(n: number): string {
     white-space: nowrap;
   }
 
+  .col-weekly {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--up);
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
   .col-plays {
     text-align: right;
     font-variant-numeric: tabular-nums;
@@ -229,7 +244,7 @@ function formatNumber(n: number): string {
   }
 
   @media (max-width: 600px) {
-    .col-genre, .col-year { display: none; }
+    .col-genre, .col-year, .col-plays { display: none; }
     td, th { padding: 0.4rem; font-size: 0.85rem; }
   }
 </style>

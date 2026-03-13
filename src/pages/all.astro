@@ -6,17 +6,22 @@ import artistData from '../data/artists.json';
 const genres = artistData.genres;
 const base = import.meta.env.BASE_URL;
 
-// 全カテゴリからユニークなアーティストを集めてlistenersでソート
+// 全カテゴリからユニークなアーティストを集めて週間再生数でソート
 const allArtistsMap = new Map();
 for (const cat of rankings.categories) {
   for (const a of cat.artists) {
     const key = a.name;
-    if (!allArtistsMap.has(key) || allArtistsMap.get(key).listeners < a.listeners) {
+    if (!allArtistsMap.has(key) || (allArtistsMap.get(key).weeklyPlays || 0) < (a.weeklyPlays || 0)) {
       allArtistsMap.set(key, a);
     }
   }
 }
-const allArtists = [...allArtistsMap.values()].sort((a, b) => b.listeners - a.listeners);
+const allArtists = [...allArtistsMap.values()].sort((a, b) => {
+  const wa = a.weeklyPlays || 0;
+  const wb = b.weeklyPlays || 0;
+  if (wb !== wa) return wb - wa;
+  return b.listeners - a.listeners;
+});
 allArtists.forEach((a, i) => { a.globalRank = i + 1; });
 
 function formatNumber(n: number): string {
@@ -50,8 +55,9 @@ function formatNumber(n: number): string {
           <th class="col-rank">#</th>
           <th class="col-name">アーティスト</th>
           <th class="col-genre">ジャンル</th>
+          <th class="col-weekly">週間</th>
           <th class="col-listeners">Listeners</th>
-          <th class="col-plays">Plays</th>
+          <th class="col-plays">累計</th>
           <th class="col-link"></th>
         </tr>
       </thead>
@@ -69,6 +75,7 @@ function formatNumber(n: number): string {
                 {genres.find(g => g.id === artist.genre)?.name || ''}
               </span>
             </td>
+            <td class="col-weekly">{(artist.weeklyPlays || 0) > 0 ? `+${formatNumber(artist.weeklyPlays)}` : '-'}</td>
             <td class="col-listeners">{formatNumber(artist.listeners)}</td>
             <td class="col-plays">{formatNumber(artist.playcount)}</td>
             <td class="col-link">
@@ -204,6 +211,14 @@ function formatNumber(n: number): string {
     white-space: nowrap;
   }
 
+  .col-weekly {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--up);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
   .col-listeners, .col-plays {
     text-align: right;
     font-variant-numeric: tabular-nums;
@@ -214,7 +229,7 @@ function formatNumber(n: number): string {
   .spotify-link:hover { opacity: 1; }
 
   @media (max-width: 600px) {
-    .col-genre, .col-plays { display: none; }
+    .col-genre, .col-plays, .col-listeners { display: none; }
     td, th { padding: 0.5rem 0.4rem; }
   }
 </style>
