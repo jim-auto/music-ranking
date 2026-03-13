@@ -129,12 +129,47 @@ function loadPreviousData(outputFile) {
   }
 }
 
+// 履歴データの読み込み・保存（過去7日分のplaycount推移）
+function loadHistory(historyFile) {
+  try {
+    return JSON.parse(fs.readFileSync(historyFile, 'utf-8'));
+  } catch {
+    return { artists: {}, tracks: {} };
+  }
+}
+
+function saveHistory(historyFile, history) {
+  // 8日以上前のエントリを削除
+  const cutoff = Date.now() - 8 * 24 * 60 * 60 * 1000;
+  for (const entries of Object.values(history.artists)) {
+    while (entries.length > 0 && new Date(entries[0].date).getTime() < cutoff) {
+      entries.shift();
+    }
+  }
+  for (const entries of Object.values(history.tracks)) {
+    while (entries.length > 0 && new Date(entries[0].date).getTime() < cutoff) {
+      entries.shift();
+    }
+  }
+  fs.writeFileSync(historyFile, JSON.stringify(history), 'utf-8');
+}
+
+function calcWeeklyFromHistory(entries, currentPlaycount) {
+  if (!entries || entries.length === 0) return 0;
+  // 最も古いエントリとの差分
+  const oldest = entries[0].playcount;
+  return Math.max(0, currentPlaycount - oldest);
+}
+
 async function main() {
   const artistsFile = path.join(__dirname, '..', 'src', 'data', 'artists.json');
   const outputFile = path.join(__dirname, '..', 'src', 'data', 'rankings.json');
+  const historyFile = path.join(__dirname, '..', 'src', 'data', 'history.json');
 
   const { categories } = JSON.parse(fs.readFileSync(artistsFile, 'utf-8'));
   const prev = loadPreviousData(outputFile);
+  const history = loadHistory(historyFile);
+  const today = new Date().toISOString().slice(0, 10);
   const rankings = { fetchedAt: new Date().toISOString(), categories: [] };
 
   for (const category of categories) {
@@ -146,19 +181,38 @@ async function main() {
       const info = await getArtistInfo(artist.name);
       const tracks = await getTopTracks(artist.name);
 
-      // トラックごとの週間増加数を計算
+      // 履歴に今日のデータを追加
+      if (!history.artists[artist.name]) history.artists[artist.name] = [];
+      const lastEntry = history.artists[artist.name].at(-1);
+      if (!lastEntry || lastEntry.date !== today) {
+        history.artists[artist.name].push({ date: today, playcount: info.playcount });
+      }
+
+      // トラックごとのデイリー・ウィークリー増加数を計算
       const tracksWithDelta = tracks.map(t => {
-        const prevPC = prev.trackPlaycounts[`${artist.name}::${t.name}`];
-        const weeklyPlays = prevPC != null ? Math.max(0, t.playcount - prevPC) : 0;
-        return { ...t, weeklyPlays };
+        const tKey = `${artist.name}::${t.name}`;
+        const prevPC = prev.trackPlaycounts[tKey];
+        const dailyPlays = prevPC != null ? Math.max(0, t.playcount - prevPC) : 0;
+
+        // 履歴に追加
+        if (!history.tracks[tKey]) history.tracks[tKey] = [];
+        const lastTE = history.tracks[tKey].at(-1);
+        if (!lastTE || lastTE.date !== today) {
+          history.tracks[tKey].push({ date: today, playcount: t.playcount });
+        }
+
+        const weeklyPlays = calcWeeklyFromHistory(history.tracks[tKey], t.playcount);
+        return { ...t, dailyPlays, weeklyPlays };
       });
 
-      // アーティストの週間増加数
+      // アーティストのデイリー・ウィークリー増加数
       const prevPC = prev.playcounts[artist.name];
-      const weeklyPlays = prevPC != null ? Math.max(0, info.playcount - prevPC) : 0;
+      const dailyPlays = prevPC != null ? Math.max(0, info.playcount - prevPC) : 0;
+      const weeklyPlays = calcWeeklyFromHistory(history.artists[artist.name], info.playcount);
 
       artistResults.push({
         ...info,
+        dailyPlays,
         weeklyPlays,
         spotify_id: artist.spotify_id,
         genre: artist.genre,
@@ -167,8 +221,9 @@ async function main() {
       await new Promise(r => setTimeout(r, 80));
     }
 
-    // Sort by weeklyPlays (descending), fallback to listeners
+    // Sort by dailyPlays (descending), fallback to weeklyPlays, then listeners
     artistResults.sort((a, b) => {
+      if (b.dailyPlays !== a.dailyPlays) return b.dailyPlays - a.dailyPlays;
       if (b.weeklyPlays !== a.weeklyPlays) return b.weeklyPlays - a.weeklyPlays;
       return b.listeners - a.listeners;
     });
@@ -192,6 +247,7 @@ async function main() {
     });
   }
 
+  saveHistory(historyFile, history);
   fs.writeFileSync(outputFile, JSON.stringify(rankings, null, 2), 'utf-8');
   console.log(`\n✅ Saved to ${outputFile}`);
 }
