@@ -18,8 +18,24 @@ function changeLabel(change: number | null): string {
 
 const genres = artistData.genres;
 const base = import.meta.env.BASE_URL;
-const artists = rankings.artists || [];
-const top20 = artists.slice(0, 20);
+const allArtists = rankings.artists || [];
+
+// ジャンルごとに最低20件確保するため、全アーティストをジャンル別にカウント
+const genreCounts: Record<string, number> = {};
+const selected: Set<number> = new Set();
+
+// まず全体ランキング上位を追加
+for (let i = 0; i < allArtists.length; i++) {
+  const a = allArtists[i];
+  genreCounts[a.genre] = (genreCounts[a.genre] || 0);
+  // 全ジャンルが20件に達するまで追加
+  if (genreCounts[a.genre] < 20) {
+    selected.add(i);
+    genreCounts[a.genre]++;
+  }
+}
+
+const top20 = allArtists.filter((_, i) => selected.has(i));
 ---
 
 <Layout title="Music Ranking - トレンド音楽ランキング">
@@ -40,7 +56,6 @@ const top20 = artists.slice(0, 20);
   </div>
 
   <!-- ランキング -->
-  <p style="color: #ff0; font-size: 1.2rem; margin-bottom: 1rem;">DEBUG: {top20.length} artists loaded</p>
   <div class="ranking-list">
     {top20.map((artist, i) => (
       <div class="rank-card" data-genre={artist.genre}>
@@ -174,7 +189,6 @@ const top20 = artists.slice(0, 20);
     gap: 0.8rem;
     padding: 0.8rem 1rem;
     background: var(--bg-card);
-    border: 1px solid #333;
     border-radius: 12px;
     transition: background 0.2s;
   }
