@@ -47,6 +47,29 @@ async function getArtistInfo(artistName) {
   }
 }
 
+async function getTrackYear(artistName, trackName) {
+  const params = new URLSearchParams({
+    method: 'track.getinfo',
+    artist: artistName,
+    track: trackName,
+    api_key: API_KEY,
+    format: 'json',
+  });
+
+  try {
+    const res = await fetch(`${BASE_URL}?${params}`);
+    const data = await res.json();
+    const published = data.track?.wiki?.published;
+    if (published) {
+      const match = published.match(/(\d{4})/);
+      if (match) return parseInt(match[1], 10);
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 async function getTopTracks(artistName, limit = 5) {
   if (tracksCache.has(artistName)) return tracksCache.get(artistName);
 
@@ -62,11 +85,17 @@ async function getTopTracks(artistName, limit = 5) {
     const res = await fetch(`${BASE_URL}?${params}`);
     const data = await res.json();
 
-    const tracks = (data.toptracks?.track || []).map(t => ({
-      name: t.name,
-      playcount: parseInt(t.playcount || '0', 10),
-      listeners: parseInt(t.listeners || '0', 10),
-    }));
+    const tracks = [];
+    for (const t of (data.toptracks?.track || [])) {
+      const year = await getTrackYear(artistName, t.name);
+      await new Promise(r => setTimeout(r, 50));
+      tracks.push({
+        name: t.name,
+        playcount: parseInt(t.playcount || '0', 10),
+        listeners: parseInt(t.listeners || '0', 10),
+        year,
+      });
+    }
     tracksCache.set(artistName, tracks);
     return tracks;
   } catch (err) {
