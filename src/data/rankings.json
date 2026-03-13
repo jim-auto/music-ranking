@@ -1,127 +1,914 @@
 {
-  "fetchedAt": "2026-03-13T14:26:14.032Z",
+  "fetchedAt": "2026-03-13T14:51:41.139Z",
   "artists": [
     {
-      "name": "TWICE",
-      "listeners": 1876828,
-      "playcount": 491321304,
+      "name": "LE SSERAFIM",
+      "listeners": 1624878,
+      "playcount": 297990293,
       "tags": [
         "k-pop",
         "Kpop",
         "Korean",
         "pop",
-        "girl group"
+        "female vocalists"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 275935,
-      "weeklyPlays": 275935,
-      "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
+      "dailyPlays": 204888,
+      "weeklyPlays": 204888,
+      "spotify_id": "4SpbR6yFEvexJuq5VY2gfv",
       "genre": "kpop",
       "topTracks": [
         {
-          "name": "FANCY",
-          "playcount": 18862765,
-          "listeners": 885739,
-          "year": 2019,
-          "dailyPlays": 8927,
-          "weeklyPlays": 8927
+          "name": "CRAZY",
+          "playcount": 19419735,
+          "listeners": 876583,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 15033
         },
         {
-          "name": "The Feels",
-          "playcount": 16856741,
-          "listeners": 799222,
-          "year": 2021,
-          "dailyPlays": 7456,
-          "weeklyPlays": 7456
+          "name": "ANTIFRAGILE",
+          "playcount": 24417019,
+          "listeners": 876053,
+          "year": 2022,
+          "dailyPlays": 0,
+          "weeklyPlays": 10067
         },
         {
-          "name": "I CAN'T STOP ME",
-          "playcount": 12005276,
-          "listeners": 698001,
-          "year": 2020,
-          "dailyPlays": 7516,
-          "weeklyPlays": 7516
+          "name": "Perfect Night",
+          "playcount": 17902048,
+          "listeners": 725803,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 7875
         },
         {
-          "name": "Feel Special",
-          "playcount": 13503425,
-          "listeners": 693717,
-          "year": 2019,
-          "dailyPlays": 5927,
-          "weeklyPlays": 5927
+          "name": "Eve, Psyche & The Bluebeard’s wife",
+          "playcount": 13205822,
+          "listeners": 620491,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 7247
         },
         {
-          "name": "What is Love?",
-          "playcount": 6575307,
-          "listeners": 624980,
-          "year": 2019,
-          "dailyPlays": 11357,
-          "weeklyPlays": 11357
+          "name": "Smart",
+          "playcount": 12229709,
+          "listeners": 592723,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 6949
         }
       ],
       "rank": 1,
-      "change": 3
+      "change": 35
     },
     {
-      "name": "NMIXX",
-      "listeners": 728884,
-      "playcount": 83197303,
+      "name": "LiSA",
+      "listeners": 1926071,
+      "playcount": 126359316,
       "tags": [
-        "k-pop",
+        "j-pop",
+        "japanese",
+        "female vocalists",
         "pop",
-        "Kpop",
-        "Korean",
-        "girl group"
+        "Hip-Hop"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 80177,
-      "weeklyPlays": 80177,
-      "spotify_id": "28ot3wh4oNmoFOdVajibBl",
-      "genre": "kpop",
+      "dailyPlays": 65642,
+      "weeklyPlays": 65642,
+      "spotify_id": "044UPFfua0sBbRSpoGpiql",
+      "genre": "anime",
       "topTracks": [
         {
-          "name": "DICE",
-          "playcount": 8143526,
-          "listeners": 398675,
-          "year": 2022,
-          "dailyPlays": 2679,
-          "weeklyPlays": 2679
+          "name": "MONEY",
+          "playcount": 20891465,
+          "listeners": 732638,
+          "year": 2021,
+          "dailyPlays": 0,
+          "weeklyPlays": 3199
         },
         {
-          "name": "Love Me Like This",
-          "playcount": 5672186,
-          "listeners": 348394,
-          "year": 2023,
-          "dailyPlays": 2587,
-          "weeklyPlays": 2587
-        },
-        {
-          "name": "O.O",
-          "playcount": 7821793,
-          "listeners": 345847,
-          "year": 2022,
-          "dailyPlays": 2425,
-          "weeklyPlays": 2425
-        },
-        {
-          "name": "DASH",
-          "playcount": 5196129,
-          "listeners": 267398,
+          "name": "Rockstar",
+          "playcount": 13161372,
+          "listeners": 609973,
           "year": 2024,
-          "dailyPlays": 2887,
-          "weeklyPlays": 2887
+          "dailyPlays": 0,
+          "weeklyPlays": 9517
         },
         {
-          "name": "Roller Coaster",
-          "playcount": 4165688,
-          "listeners": 226632,
-          "year": 2023,
-          "dailyPlays": 1934,
-          "weeklyPlays": 1934
+          "name": "Born Again (feat. Doja Cat & RAYE)",
+          "playcount": 9542940,
+          "listeners": 541384,
+          "year": 2025,
+          "dailyPlays": 0,
+          "weeklyPlays": 8114
+        },
+        {
+          "name": "New Woman (feat. ROSALÍA)",
+          "playcount": 12105845,
+          "listeners": 523435,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 6658
+        },
+        {
+          "name": "LALISA",
+          "playcount": 13662222,
+          "listeners": 483632,
+          "year": 2021,
+          "dailyPlays": 0,
+          "weeklyPlays": 1595
         }
       ],
       "rank": 2,
-      "change": 19
+      "change": 31
+    },
+    {
+      "name": "SHINee",
+      "listeners": 835993,
+      "playcount": 102921228,
+      "tags": [
+        "k-pop",
+        "Korean",
+        "shinee",
+        "Kpop",
+        "pop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 30473,
+      "weeklyPlays": 30473,
+      "spotify_id": "2hcsKca8leqsfJoJ1XBiJI",
+      "genre": "kpop",
+      "topTracks": [
+        {
+          "name": "Replay",
+          "playcount": 4469044,
+          "listeners": 357557,
+          "year": 2017,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Ring Ding Dong",
+          "playcount": 3982554,
+          "listeners": 297276,
+          "year": 2013,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "LUCIFER",
+          "playcount": 4727251,
+          "listeners": 268987,
+          "year": 2010,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "View",
+          "playcount": 3289266,
+          "listeners": 259448,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Sherlock (Clue + Note)",
+          "playcount": 2912941,
+          "listeners": 236286,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 3,
+      "change": 44
+    },
+    {
+      "name": "ヨルシカ",
+      "listeners": 236964,
+      "playcount": 10388779,
+      "tags": [
+        "j-pop",
+        "japanese",
+        "J-rock",
+        "female vocalists",
+        "japan"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 14634,
+      "weeklyPlays": 14634,
+      "spotify_id": "2fMGJnMKSGzPEB2MKjyTTi",
+      "genre": "band",
+      "topTracks": [
+        {
+          "name": "言って。",
+          "playcount": 772917,
+          "listeners": 108282,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "ただ君に晴れ",
+          "playcount": 612011,
+          "listeners": 90885,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "だから僕は音楽を辞めた",
+          "playcount": 535714,
+          "listeners": 75722,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "晴る",
+          "playcount": 586671,
+          "listeners": 65858,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "ヒッチコック",
+          "playcount": 330283,
+          "listeners": 45952,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 4,
+      "change": 68
+    },
+    {
+      "name": "Vaundy",
+      "listeners": 509417,
+      "playcount": 16647091,
+      "tags": [
+        "japanese",
+        "j-pop",
+        "JPop",
+        "japan",
+        "J-Indie"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 11943,
+      "weeklyPlays": 11943,
+      "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
+      "genre": "singer",
+      "topTracks": [
+        {
+          "name": "踊り子",
+          "playcount": 3622336,
+          "listeners": 281160,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 2118
+        },
+        {
+          "name": "CHAINSAW BLOOD",
+          "playcount": 1648285,
+          "listeners": 123102,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 845
+        },
+        {
+          "name": "odoriko",
+          "playcount": 1052739,
+          "listeners": 85177,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 1085
+        },
+        {
+          "name": "裸の勇者",
+          "playcount": 1229055,
+          "listeners": 83733,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 579
+        },
+        {
+          "name": "Tokyo Flash",
+          "playcount": 553848,
+          "listeners": 81150,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 740
+        }
+      ],
+      "rank": 5,
+      "change": 53
+    },
+    {
+      "name": "Kanaria",
+      "listeners": 296699,
+      "playcount": 9386004,
+      "tags": [
+        "vocaloid",
+        "japanese",
+        "jp",
+        "japan",
+        "EDM"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 6601,
+      "weeklyPlays": 6601,
+      "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
+      "genre": "vocaloid",
+      "topTracks": [
+        {
+          "name": "Rendezvous",
+          "playcount": 1006416,
+          "listeners": 126941,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 600
+        },
+        {
+          "name": "KING",
+          "playcount": 1483928,
+          "listeners": 125187,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 929
+        },
+        {
+          "name": "QUEEN",
+          "playcount": 1233688,
+          "listeners": 123769,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 836
+        },
+        {
+          "name": "Yoidoreshirazu",
+          "playcount": 730604,
+          "listeners": 92048,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 467
+        },
+        {
+          "name": "Envy Baby",
+          "playcount": 851685,
+          "listeners": 76077,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 600
+        }
+      ],
+      "rank": 6,
+      "change": 64
+    },
+    {
+      "name": "Linked Horizon",
+      "listeners": 524265,
+      "playcount": 12710700,
+      "tags": [
+        "Power metal",
+        "japanese",
+        "rock",
+        "J-rock",
+        "j-pop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 6439,
+      "weeklyPlays": 6439,
+      "spotify_id": "3qIJe2V9Ji7hHDvTaFNdsT",
+      "genre": "anime",
+      "topTracks": [
+        {
+          "name": "Guren no Yumiya",
+          "playcount": 2571441,
+          "listeners": 266861,
+          "year": 2015,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Shinzo wo Sasageyo!",
+          "playcount": 1591271,
+          "listeners": 165327,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Shinzo wo Sasageyo !",
+          "playcount": 935557,
+          "listeners": 156834,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Shinzo wo Sasageyo! - TV Size",
+          "playcount": 1099502,
+          "listeners": 153130,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Jiyuu no Tsubasa",
+          "playcount": 1266181,
+          "listeners": 144355,
+          "year": 2015,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 7,
+      "change": 49
+    },
+    {
+      "name": "coldrain",
+      "listeners": 227004,
+      "playcount": 10271531,
+      "tags": [
+        "post-hardcore",
+        "J-rock",
+        "japanese",
+        "rock",
+        "alternative rock"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 4292,
+      "weeklyPlays": 4292,
+      "spotify_id": "1GEpSGhpRkaoJoHKgwXIqm",
+      "genre": "band",
+      "topTracks": [
+        {
+          "name": "MAYDAY (feat. Ryo from Crystal Lake)",
+          "playcount": 956501,
+          "listeners": 87750,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "GONE",
+          "playcount": 422181,
+          "listeners": 50921,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "We're not alone",
+          "playcount": 435897,
+          "listeners": 36355,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Bloody Power Fame",
+          "playcount": 393160,
+          "listeners": 31555,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Vengeance",
+          "playcount": 276616,
+          "listeners": 28179,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 8,
+      "change": 65
+    },
+    {
+      "name": "tuki.",
+      "listeners": 70078,
+      "playcount": 1672584,
+      "tags": [
+        "j-pop",
+        "japanese",
+        "pop",
+        "singer-songwriter",
+        "japan"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 2743,
+      "weeklyPlays": 2743,
+      "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
+      "genre": "singer",
+      "topTracks": [
+        {
+          "name": "晩餐歌",
+          "playcount": 263401,
+          "listeners": 29101,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 7
+        },
+        {
+          "name": "晩餐歌 - Bansanka",
+          "playcount": 152908,
+          "listeners": 19952,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 387
+        },
+        {
+          "name": "地獄恋文",
+          "playcount": 142901,
+          "listeners": 19001,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 2
+        },
+        {
+          "name": "ひゅるりらぱっぱ - HYURURIRAPAPPA",
+          "playcount": 136243,
+          "listeners": 14775,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 372
+        },
+        {
+          "name": "ひゅるりらぱっぱ",
+          "playcount": 141175,
+          "listeners": 14090,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 8
+        }
+      ],
+      "rank": 9,
+      "change": 83
+    },
+    {
+      "name": "いよわ",
+      "listeners": 34714,
+      "playcount": 872821,
+      "tags": [
+        "j-pop",
+        "glitch pop",
+        "vocaloid",
+        "japanese",
+        "art pop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 1457,
+      "weeklyPlays": 1457,
+      "spotify_id": "6O5eGqgiM9FiEDL8XJmnEF",
+      "genre": "vocaloid",
+      "topTracks": [
+        {
+          "name": "Kyu-kurarin",
+          "playcount": 82606,
+          "listeners": 10593,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 52
+        },
+        {
+          "name": "たびのまえ、たびのあと (feat. 初音ミク)",
+          "playcount": 44441,
+          "listeners": 10579,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 69
+        },
+        {
+          "name": "きゅうくらりん",
+          "playcount": 65941,
+          "listeners": 3899,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 34
+        },
+        {
+          "name": "IMAWANOKIWA",
+          "playcount": 27181,
+          "listeners": 2673,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 47
+        },
+        {
+          "name": "きゅうくらりん - STUDY WITH MIKU ver. -",
+          "playcount": 14702,
+          "listeners": 2361,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 45
+        }
+      ],
+      "rank": 10,
+      "change": 94
+    },
+    {
+      "name": "BE:FIRST",
+      "listeners": 68818,
+      "playcount": 1265108,
+      "tags": [
+        "japanese",
+        "j-pop",
+        "JPop",
+        "pop",
+        "BMSG"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 1119,
+      "weeklyPlays": 1119,
+      "spotify_id": "6uJJPVGgBz8HLIrVNHYbSP",
+      "genre": "jpop-idol",
+      "topTracks": [
+        {
+          "name": "Hush-Hush",
+          "playcount": 441300,
+          "listeners": 35722,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 321
+        },
+        {
+          "name": "Boom Boom Back",
+          "playcount": 78937,
+          "listeners": 8569,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 63
+        },
+        {
+          "name": "Bye-Good-Bye",
+          "playcount": 52078,
+          "listeners": 7639,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 25
+        },
+        {
+          "name": "Sailing",
+          "playcount": 46675,
+          "listeners": 6989,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 36
+        },
+        {
+          "name": "夢中",
+          "playcount": 51123,
+          "listeners": 6302,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 114
+        }
+      ],
+      "rank": 11,
+      "change": 85
+    },
+    {
+      "name": "Snow Man",
+      "listeners": 15326,
+      "playcount": 629339,
+      "tags": [],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 1042,
+      "weeklyPlays": 1042,
+      "spotify_id": "6LMspKSjfSYLiMKyBjXEaK",
+      "genre": "jpop-idol",
+      "topTracks": [
+        {
+          "name": "Niezmiennie",
+          "playcount": 104897,
+          "listeners": 9418,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 5
+        },
+        {
+          "name": "Hyena",
+          "playcount": 22186,
+          "listeners": 6407,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Snakes & Ladders",
+          "playcount": 19394,
+          "listeners": 5118,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 2
+        },
+        {
+          "name": "We Are The Plague",
+          "playcount": 22964,
+          "listeners": 4617,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "White Wall",
+          "playcount": 18095,
+          "listeners": 4598,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 12,
+      "change": 102
+    },
+    {
+      "name": "King & Prince",
+      "listeners": 10766,
+      "playcount": 475124,
+      "tags": [
+        "japanese",
+        "j-pop",
+        "JPop",
+        "johnnys",
+        "Johnnys entertainment"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 625,
+      "weeklyPlays": 625,
+      "spotify_id": "5jGMzSGoKShbFPJdORXfCM",
+      "genre": "jpop-idol",
+      "topTracks": [
+        {
+          "name": "シンデレラガール",
+          "playcount": 36412,
+          "listeners": 3130,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 34
+        },
+        {
+          "name": "Theater",
+          "playcount": 18022,
+          "listeners": 2883,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 151
+        },
+        {
+          "name": "ツキヨミ",
+          "playcount": 24302,
+          "listeners": 2245,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 27
+        },
+        {
+          "name": "moooove!!",
+          "playcount": 14173,
+          "listeners": 1891,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 6
+        },
+        {
+          "name": "HEART",
+          "playcount": 11672,
+          "listeners": 1688,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 29
+        }
+      ],
+      "rank": 13,
+      "change": 103
+    },
+    {
+      "name": "キタニタツヤ",
+      "listeners": 120420,
+      "playcount": 2466875,
+      "tags": [
+        "J-rock",
+        "j-pop",
+        "rock",
+        "funk",
+        "JPop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 618,
+      "weeklyPlays": 618,
+      "spotify_id": "3KFSIDJy8LHZL92TAD5ISl",
+      "genre": "singer",
+      "topTracks": [
+        {
+          "name": "化け猫 - Leaks From His Laptop",
+          "playcount": 176842,
+          "listeners": 45509,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "キュートアグレッション - Leaks From His Laptop",
+          "playcount": 89014,
+          "listeners": 29560,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "聖者の行進",
+          "playcount": 239051,
+          "listeners": 27161,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "化け猫",
+          "playcount": 135294,
+          "listeners": 26265,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Rapport",
+          "playcount": 187399,
+          "listeners": 18233,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 14,
+      "change": 71
+    },
+    {
+      "name": "緑黄色社会",
+      "listeners": 15917,
+      "playcount": 730689,
+      "tags": [
+        "japanese",
+        "j-pop",
+        "female vocalists",
+        "rock",
+        "pop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 407,
+      "weeklyPlays": 407,
+      "spotify_id": "5Y4rkXJFjqMbJTFBWl2IW0",
+      "genre": "band",
+      "topTracks": [
+        {
+          "name": "Mela!",
+          "playcount": 69317,
+          "listeners": 7484,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "花になって - Be a flower",
+          "playcount": 65016,
+          "listeners": 5566,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Shout Baby",
+          "playcount": 44997,
+          "listeners": 4785,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "キャラクター",
+          "playcount": 24447,
+          "listeners": 3203,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "サマータイムシンデレラ",
+          "playcount": 23207,
+          "listeners": 3046,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 15,
+      "change": 98
     },
     {
       "name": "tripleS",
@@ -129,18 +916,18 @@
       "playcount": 62710786,
       "tags": [],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 40500,
+      "dailyPlays": 0,
       "weeklyPlays": 40500,
       "spotify_id": "5z2mJnMIGnJKUdMmDfzmFc",
       "genre": "kpop",
       "topTracks": [
         {
           "name": "Don't Think I Can Forgive You",
-          "playcount": 14810,
-          "listeners": 4936,
+          "playcount": 14796,
+          "listeners": 4933,
           "year": null,
-          "dailyPlays": 14,
-          "weeklyPlays": 14
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
           "name": "Girls Never Die",
@@ -168,15 +955,15 @@
         },
         {
           "name": "깨어 (Are You Alive)",
-          "playcount": 817,
+          "playcount": 816,
           "listeners": 415,
           "year": 2025,
-          "dailyPlays": 1,
-          "weeklyPlays": 1
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         }
       ],
-      "rank": 3,
-      "change": 32
+      "rank": 16,
+      "change": -13
     },
     {
       "name": "RIIZE",
@@ -190,7 +977,7 @@
         "RIIZE is 6"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 33473,
+      "dailyPlays": 0,
       "weeklyPlays": 33473,
       "spotify_id": "4JBGcrP80iYCi7jKoOHWQs",
       "genre": "kpop",
@@ -200,7 +987,7 @@
           "playcount": 3704389,
           "listeners": 228425,
           "year": 2023,
-          "dailyPlays": 1376,
+          "dailyPlays": 0,
           "weeklyPlays": 1376
         },
         {
@@ -208,7 +995,7 @@
           "playcount": 3039943,
           "listeners": 162853,
           "year": 2024,
-          "dailyPlays": 1646,
+          "dailyPlays": 0,
           "weeklyPlays": 1646
         },
         {
@@ -216,7 +1003,7 @@
           "playcount": 2736218,
           "listeners": 160504,
           "year": 2023,
-          "dailyPlays": 1397,
+          "dailyPlays": 0,
           "weeklyPlays": 1397
         },
         {
@@ -224,7 +1011,7 @@
           "playcount": 2112880,
           "listeners": 150998,
           "year": 2024,
-          "dailyPlays": 1858,
+          "dailyPlays": 0,
           "weeklyPlays": 1858
         },
         {
@@ -232,12 +1019,12 @@
           "playcount": 2947134,
           "listeners": 148835,
           "year": 2024,
-          "dailyPlays": 2691,
+          "dailyPlays": 0,
           "weeklyPlays": 2691
         }
       ],
-      "rank": 4,
-      "change": 32
+      "rank": 17,
+      "change": -13
     },
     {
       "name": "YOASOBI",
@@ -251,7 +1038,7 @@
         "electropop"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 29565,
+      "dailyPlays": 0,
       "weeklyPlays": 29565,
       "spotify_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "genre": "singer",
@@ -261,7 +1048,7 @@
           "playcount": 8488360,
           "listeners": 522414,
           "year": 2021,
-          "dailyPlays": 3799,
+          "dailyPlays": 0,
           "weeklyPlays": 3799
         },
         {
@@ -269,7 +1056,7 @@
           "playcount": 7977587,
           "listeners": 396543,
           "year": 2023,
-          "dailyPlays": 4189,
+          "dailyPlays": 0,
           "weeklyPlays": 4189
         },
         {
@@ -277,7 +1064,7 @@
           "playcount": 4997933,
           "listeners": 390573,
           "year": null,
-          "dailyPlays": 3331,
+          "dailyPlays": 0,
           "weeklyPlays": 3331
         },
         {
@@ -285,7 +1072,7 @@
           "playcount": 2825506,
           "listeners": 217218,
           "year": null,
-          "dailyPlays": 1440,
+          "dailyPlays": 0,
           "weeklyPlays": 1440
         },
         {
@@ -293,12 +1080,12 @@
           "playcount": 2502316,
           "listeners": 216333,
           "year": 2024,
-          "dailyPlays": 1341,
+          "dailyPlays": 0,
           "weeklyPlays": 1341
         }
       ],
-      "rank": 5,
-      "change": 12
+      "rank": 18,
+      "change": -13
     },
     {
       "name": "Creepy Nuts",
@@ -312,7 +1099,7 @@
         "jersey club"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 16845,
+      "dailyPlays": 0,
       "weeklyPlays": 16845,
       "spotify_id": "1IjJJGeGJ7hx6p2YMekPfQ",
       "genre": "hiphop",
@@ -322,7 +1109,7 @@
           "playcount": 6130850,
           "listeners": 377715,
           "year": null,
-          "dailyPlays": 4025,
+          "dailyPlays": 0,
           "weeklyPlays": 4025
         },
         {
@@ -330,7 +1117,7 @@
           "playcount": 4541965,
           "listeners": 322862,
           "year": null,
-          "dailyPlays": 4467,
+          "dailyPlays": 0,
           "weeklyPlays": 4467
         },
         {
@@ -346,7 +1133,7 @@
           "playcount": 1459917,
           "listeners": 117888,
           "year": null,
-          "dailyPlays": 14,
+          "dailyPlays": 0,
           "weeklyPlays": 14
         },
         {
@@ -354,12 +1141,12 @@
           "playcount": 829240,
           "listeners": 72786,
           "year": null,
-          "dailyPlays": 10,
+          "dailyPlays": 0,
           "weeklyPlays": 10
         }
       ],
-      "rank": 6,
-      "change": 22
+      "rank": 19,
+      "change": -13
     },
     {
       "name": "MAMAMOO",
@@ -373,7 +1160,7 @@
         "girl group"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 10530,
+      "dailyPlays": 0,
       "weeklyPlays": 10530,
       "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
       "genre": "kpop",
@@ -383,7 +1170,7 @@
           "playcount": 6405119,
           "listeners": 473910,
           "year": null,
-          "dailyPlays": 2100,
+          "dailyPlays": 0,
           "weeklyPlays": 2100
         },
         {
@@ -391,7 +1178,7 @@
           "playcount": 3192899,
           "listeners": 272450,
           "year": null,
-          "dailyPlays": 1016,
+          "dailyPlays": 0,
           "weeklyPlays": 1016
         },
         {
@@ -399,7 +1186,7 @@
           "playcount": 2641604,
           "listeners": 246784,
           "year": 2024,
-          "dailyPlays": 675,
+          "dailyPlays": 0,
           "weeklyPlays": 675
         },
         {
@@ -407,7 +1194,7 @@
           "playcount": 1951496,
           "listeners": 187001,
           "year": null,
-          "dailyPlays": 649,
+          "dailyPlays": 0,
           "weeklyPlays": 649
         },
         {
@@ -415,12 +1202,12 @@
           "playcount": 1299257,
           "listeners": 147564,
           "year": null,
-          "dailyPlays": 487,
+          "dailyPlays": 0,
           "weeklyPlays": 487
         }
       ],
-      "rank": 7,
-      "change": 15
+      "rank": 20,
+      "change": -13
     },
     {
       "name": "稲葉曇",
@@ -434,7 +1221,7 @@
         "japanese"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 5637,
+      "dailyPlays": 0,
       "weeklyPlays": 5637,
       "spotify_id": "3UaKImVcA25PXTI1sHnHRs",
       "genre": "vocaloid",
@@ -444,7 +1231,7 @@
           "playcount": 1225760,
           "listeners": 173553,
           "year": null,
-          "dailyPlays": 875,
+          "dailyPlays": 0,
           "weeklyPlays": 875
         },
         {
@@ -452,7 +1239,7 @@
           "playcount": 1170905,
           "listeners": 113077,
           "year": null,
-          "dailyPlays": 918,
+          "dailyPlays": 0,
           "weeklyPlays": 918
         },
         {
@@ -460,7 +1247,7 @@
           "playcount": 300011,
           "listeners": 34373,
           "year": null,
-          "dailyPlays": 183,
+          "dailyPlays": 0,
           "weeklyPlays": 183
         },
         {
@@ -468,7 +1255,7 @@
           "playcount": 215237,
           "listeners": 33077,
           "year": null,
-          "dailyPlays": 308,
+          "dailyPlays": 0,
           "weeklyPlays": 308
         },
         {
@@ -476,12 +1263,12 @@
           "playcount": 190079,
           "listeners": 24721,
           "year": null,
-          "dailyPlays": 211,
+          "dailyPlays": 0,
           "weeklyPlays": 211
         }
       ],
-      "rank": 8,
-      "change": 34
+      "rank": 21,
+      "change": -13
     },
     {
       "name": "imase",
@@ -495,7 +1282,7 @@
         "singer-songwriter"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 3719,
+      "dailyPlays": 0,
       "weeklyPlays": 3719,
       "spotify_id": "2cJqOg2CDVdmUVrmlyEOST",
       "genre": "singer",
@@ -505,7 +1292,7 @@
           "playcount": 3724710,
           "listeners": 355087,
           "year": 2023,
-          "dailyPlays": 2375,
+          "dailyPlays": 0,
           "weeklyPlays": 2375
         },
         {
@@ -513,7 +1300,7 @@
           "playcount": 261263,
           "listeners": 47400,
           "year": null,
-          "dailyPlays": 109,
+          "dailyPlays": 0,
           "weeklyPlays": 109
         },
         {
@@ -521,7 +1308,7 @@
           "playcount": 305416,
           "listeners": 41200,
           "year": null,
-          "dailyPlays": 520,
+          "dailyPlays": 0,
           "weeklyPlays": 520
         },
         {
@@ -529,7 +1316,7 @@
           "playcount": 189895,
           "listeners": 38027,
           "year": null,
-          "dailyPlays": 78,
+          "dailyPlays": 0,
           "weeklyPlays": 78
         },
         {
@@ -537,134 +1324,12 @@
           "playcount": 100681,
           "listeners": 19241,
           "year": null,
-          "dailyPlays": 48,
+          "dailyPlays": 0,
           "weeklyPlays": 48
         }
       ],
-      "rank": 9,
-      "change": 28
-    },
-    {
-      "name": "櫻坂46",
-      "listeners": 14919,
-      "playcount": 1576980,
-      "tags": [
-        "japanese",
-        "j-pop",
-        "idol",
-        "female vocalists",
-        "sakurazaka46"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1689,
-      "weeklyPlays": 1689,
-      "spotify_id": "3Gm4sNjfiEOsKpBRBqcqc5",
-      "genre": "jpop-idol",
-      "topTracks": [
-        {
-          "name": "I want tomorrow to come -Naeleck Remix-",
-          "playcount": 9024,
-          "listeners": 2940,
-          "year": null,
-          "dailyPlays": 21,
-          "weeklyPlays": 21
-        },
-        {
-          "name": "BAN",
-          "playcount": 47407,
-          "listeners": 2768,
-          "year": null,
-          "dailyPlays": 12,
-          "weeklyPlays": 12
-        },
-        {
-          "name": "Start over!",
-          "playcount": 56030,
-          "listeners": 2639,
-          "year": 2023,
-          "dailyPlays": 13,
-          "weeklyPlays": 13
-        },
-        {
-          "name": "承認欲求 | Shoninyokkyu -Ninajirachi Remix-",
-          "playcount": 9588,
-          "listeners": 2589,
-          "year": null,
-          "dailyPlays": 23,
-          "weeklyPlays": 23
-        },
-        {
-          "name": "流れ弾",
-          "playcount": 37661,
-          "listeners": 2190,
-          "year": 2024,
-          "dailyPlays": 10,
-          "weeklyPlays": 10
-        }
-      ],
-      "rank": 10,
-      "change": 56
-    },
-    {
-      "name": "Official髭男dism",
-      "listeners": 26736,
-      "playcount": 1944786,
-      "tags": [
-        "j-pop",
-        "japanese",
-        "rock",
-        "pop",
-        "official hige dandism"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1578,
-      "weeklyPlays": 1578,
-      "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
-      "genre": "band",
-      "topTracks": [
-        {
-          "name": "Pretender",
-          "playcount": 138381,
-          "listeners": 10975,
-          "year": null,
-          "dailyPlays": 84,
-          "weeklyPlays": 84
-        },
-        {
-          "name": "Cry Baby",
-          "playcount": 92052,
-          "listeners": 9199,
-          "year": null,
-          "dailyPlays": 34,
-          "weeklyPlays": 34
-        },
-        {
-          "name": "ノーダウト",
-          "playcount": 65919,
-          "listeners": 7175,
-          "year": null,
-          "dailyPlays": 30,
-          "weeklyPlays": 30
-        },
-        {
-          "name": "I LOVE...",
-          "playcount": 72155,
-          "listeners": 6975,
-          "year": null,
-          "dailyPlays": 38,
-          "weeklyPlays": 38
-        },
-        {
-          "name": "115万キロのフィルム",
-          "playcount": 69130,
-          "listeners": 6944,
-          "year": null,
-          "dailyPlays": 40,
-          "weeklyPlays": 40
-        }
-      ],
-      "rank": 11,
-      "change": 48
+      "rank": 22,
+      "change": -13
     },
     {
       "name": "Chinozo",
@@ -676,7 +1341,7 @@
         "kafu"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1220,
+      "dailyPlays": 0,
       "weeklyPlays": 1220,
       "spotify_id": "0Y4inQKMeWxnTgOQvgaEPa",
       "genre": "vocaloid",
@@ -686,7 +1351,7 @@
           "playcount": 839364,
           "listeners": 73294,
           "year": null,
-          "dailyPlays": 561,
+          "dailyPlays": 0,
           "weeklyPlays": 561
         },
         {
@@ -694,7 +1359,7 @@
           "playcount": 59614,
           "listeners": 7510,
           "year": null,
-          "dailyPlays": 38,
+          "dailyPlays": 0,
           "weeklyPlays": 38
         },
         {
@@ -702,7 +1367,7 @@
           "playcount": 57509,
           "listeners": 7194,
           "year": null,
-          "dailyPlays": 39,
+          "dailyPlays": 0,
           "weeklyPlays": 39
         },
         {
@@ -710,7 +1375,7 @@
           "playcount": 42082,
           "listeners": 5985,
           "year": null,
-          "dailyPlays": 30,
+          "dailyPlays": 0,
           "weeklyPlays": 30
         },
         {
@@ -718,12 +1383,12 @@
           "playcount": 50834,
           "listeners": 5978,
           "year": null,
-          "dailyPlays": 40,
+          "dailyPlays": 0,
           "weeklyPlays": 40
         }
       ],
-      "rank": 12,
-      "change": 35
+      "rank": 23,
+      "change": -11
     },
     {
       "name": "藤井 風",
@@ -737,7 +1402,7 @@
         "JPopM"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1143,
+      "dailyPlays": 0,
       "weeklyPlays": 1143,
       "spotify_id": "6bDWAcdtVR3WHz2xqg3wL1",
       "genre": "singer",
@@ -747,7 +1412,7 @@
           "playcount": 126289,
           "listeners": 9688,
           "year": null,
-          "dailyPlays": 71,
+          "dailyPlays": 0,
           "weeklyPlays": 71
         },
         {
@@ -755,7 +1420,7 @@
           "playcount": 66796,
           "listeners": 5708,
           "year": null,
-          "dailyPlays": 31,
+          "dailyPlays": 0,
           "weeklyPlays": 31
         },
         {
@@ -763,7 +1428,7 @@
           "playcount": 57964,
           "listeners": 5282,
           "year": null,
-          "dailyPlays": 29,
+          "dailyPlays": 0,
           "weeklyPlays": 29
         },
         {
@@ -771,7 +1436,7 @@
           "playcount": 63251,
           "listeners": 5090,
           "year": null,
-          "dailyPlays": 83,
+          "dailyPlays": 0,
           "weeklyPlays": 83
         },
         {
@@ -779,12 +1444,12 @@
           "playcount": 61152,
           "listeners": 4622,
           "year": null,
-          "dailyPlays": 50,
+          "dailyPlays": 0,
           "weeklyPlays": 50
         }
       ],
-      "rank": 13,
-      "change": 51
+      "rank": 24,
+      "change": -11
     },
     {
       "name": "Omoi",
@@ -798,7 +1463,7 @@
         "jp"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1036,
+      "dailyPlays": 0,
       "weeklyPlays": 1036,
       "spotify_id": "0DrtaIEjxrSL5LbJ5MiZwj",
       "genre": "vocaloid",
@@ -808,7 +1473,7 @@
           "playcount": 468573,
           "listeners": 40742,
           "year": null,
-          "dailyPlays": 253,
+          "dailyPlays": 0,
           "weeklyPlays": 253
         },
         {
@@ -816,7 +1481,7 @@
           "playcount": 146423,
           "listeners": 15528,
           "year": null,
-          "dailyPlays": 69,
+          "dailyPlays": 0,
           "weeklyPlays": 69
         },
         {
@@ -824,7 +1489,7 @@
           "playcount": 84940,
           "listeners": 10349,
           "year": null,
-          "dailyPlays": 47,
+          "dailyPlays": 0,
           "weeklyPlays": 47
         },
         {
@@ -832,7 +1497,7 @@
           "playcount": 50612,
           "listeners": 6770,
           "year": null,
-          "dailyPlays": 35,
+          "dailyPlays": 0,
           "weeklyPlays": 35
         },
         {
@@ -840,12 +1505,12 @@
           "playcount": 29932,
           "listeners": 4542,
           "year": null,
-          "dailyPlays": 12,
+          "dailyPlays": 0,
           "weeklyPlays": 12
         }
       ],
-      "rank": 14,
-      "change": 36
+      "rank": 25,
+      "change": -11
     },
     {
       "name": "Ayase",
@@ -859,7 +1524,7 @@
         "touhou"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 1010,
+      "dailyPlays": 0,
       "weeklyPlays": 1010,
       "spotify_id": "5Lkqrb1PEJeT6xsSABbsFb",
       "genre": "vocaloid",
@@ -869,7 +1534,7 @@
           "playcount": 346061,
           "listeners": 31570,
           "year": null,
-          "dailyPlays": 155,
+          "dailyPlays": 0,
           "weeklyPlays": 155
         },
         {
@@ -877,7 +1542,7 @@
           "playcount": 283477,
           "listeners": 25543,
           "year": null,
-          "dailyPlays": 109,
+          "dailyPlays": 0,
           "weeklyPlays": 109
         },
         {
@@ -885,7 +1550,7 @@
           "playcount": 203794,
           "listeners": 24718,
           "year": null,
-          "dailyPlays": 91,
+          "dailyPlays": 0,
           "weeklyPlays": 91
         },
         {
@@ -893,7 +1558,7 @@
           "playcount": 164290,
           "listeners": 19878,
           "year": null,
-          "dailyPlays": 63,
+          "dailyPlays": 0,
           "weeklyPlays": 63
         },
         {
@@ -901,12 +1566,12 @@
           "playcount": 180836,
           "listeners": 15083,
           "year": null,
-          "dailyPlays": 129,
+          "dailyPlays": 0,
           "weeklyPlays": 129
         }
       ],
-      "rank": 15,
-      "change": 31
+      "rank": 26,
+      "change": -11
     },
     {
       "name": "JO1",
@@ -920,7 +1585,7 @@
         "PRODUCE 101 JAPAN"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 885,
+      "dailyPlays": 0,
       "weeklyPlays": 885,
       "spotify_id": "1UtAfjHHyTYiIl4IAaQQWU",
       "genre": "jpop-idol",
@@ -930,7 +1595,7 @@
           "playcount": 52149,
           "listeners": 7023,
           "year": null,
-          "dailyPlays": 51,
+          "dailyPlays": 0,
           "weeklyPlays": 51
         },
         {
@@ -938,7 +1603,7 @@
           "playcount": 83553,
           "listeners": 6612,
           "year": null,
-          "dailyPlays": 14,
+          "dailyPlays": 0,
           "weeklyPlays": 14
         },
         {
@@ -946,7 +1611,7 @@
           "playcount": 63894,
           "listeners": 6581,
           "year": null,
-          "dailyPlays": 24,
+          "dailyPlays": 0,
           "weeklyPlays": 24
         },
         {
@@ -954,7 +1619,7 @@
           "playcount": 88163,
           "listeners": 5498,
           "year": null,
-          "dailyPlays": 14,
+          "dailyPlays": 0,
           "weeklyPlays": 14
         },
         {
@@ -962,12 +1627,12 @@
           "playcount": 56687,
           "listeners": 5416,
           "year": null,
-          "dailyPlays": 10,
+          "dailyPlays": 0,
           "weeklyPlays": 10
         }
       ],
-      "rank": 16,
-      "change": 39
+      "rank": 27,
+      "change": -11
     },
     {
       "name": "ME:I",
@@ -981,7 +1646,7 @@
         "japan"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 831,
+      "dailyPlays": 0,
       "weeklyPlays": 831,
       "spotify_id": "65M7TXhx1VyJxhEBFDVaSB",
       "genre": "jpop-idol",
@@ -991,7 +1656,7 @@
           "playcount": 306981,
           "listeners": 19015,
           "year": null,
-          "dailyPlays": 96,
+          "dailyPlays": 0,
           "weeklyPlays": 96
         },
         {
@@ -999,7 +1664,7 @@
           "playcount": 132462,
           "listeners": 11532,
           "year": null,
-          "dailyPlays": 67,
+          "dailyPlays": 0,
           "weeklyPlays": 67
         },
         {
@@ -1007,7 +1672,7 @@
           "playcount": 96301,
           "listeners": 8208,
           "year": null,
-          "dailyPlays": 70,
+          "dailyPlays": 0,
           "weeklyPlays": 70
         },
         {
@@ -1015,7 +1680,7 @@
           "playcount": 88953,
           "listeners": 7592,
           "year": null,
-          "dailyPlays": 31,
+          "dailyPlays": 0,
           "weeklyPlays": 31
         },
         {
@@ -1023,12 +1688,12 @@
           "playcount": 41719,
           "listeners": 4595,
           "year": null,
-          "dailyPlays": 42,
+          "dailyPlays": 0,
           "weeklyPlays": 42
         }
       ],
-      "rank": 17,
-      "change": 40
+      "rank": 28,
+      "change": -11
     },
     {
       "name": "Saucy Dog",
@@ -1042,7 +1707,7 @@
         "J-rock"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 755,
+      "dailyPlays": 0,
       "weeklyPlays": 755,
       "spotify_id": "3KNKeaQXsbEjvVKTZGIvaJ",
       "genre": "band",
@@ -1052,7 +1717,7 @@
           "playcount": 98765,
           "listeners": 18416,
           "year": null,
-          "dailyPlays": 22,
+          "dailyPlays": 0,
           "weeklyPlays": 22
         },
         {
@@ -1060,7 +1725,7 @@
           "playcount": 135512,
           "listeners": 18265,
           "year": null,
-          "dailyPlays": 49,
+          "dailyPlays": 0,
           "weeklyPlays": 49
         },
         {
@@ -1068,7 +1733,7 @@
           "playcount": 74149,
           "listeners": 6106,
           "year": null,
-          "dailyPlays": 32,
+          "dailyPlays": 0,
           "weeklyPlays": 32
         },
         {
@@ -1076,7 +1741,7 @@
           "playcount": 40872,
           "listeners": 5392,
           "year": null,
-          "dailyPlays": 35,
+          "dailyPlays": 0,
           "weeklyPlays": 35
         },
         {
@@ -1084,12 +1749,12 @@
           "playcount": 21840,
           "listeners": 4812,
           "year": null,
-          "dailyPlays": 6,
+          "dailyPlays": 0,
           "weeklyPlays": 6
         }
       ],
-      "rank": 18,
-      "change": 34
+      "rank": 29,
+      "change": -11
     },
     {
       "name": "マカロニえんぴつ",
@@ -1100,7 +1765,7 @@
         "macaroni enpitsu"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 690,
+      "dailyPlays": 0,
       "weeklyPlays": 690,
       "spotify_id": "5EHNBjjKEB2GmmEoTTMYAQ",
       "genre": "band",
@@ -1110,7 +1775,7 @@
           "playcount": 17990,
           "listeners": 2780,
           "year": null,
-          "dailyPlays": 29,
+          "dailyPlays": 0,
           "weeklyPlays": 29
         },
         {
@@ -1118,7 +1783,7 @@
           "playcount": 18326,
           "listeners": 2335,
           "year": null,
-          "dailyPlays": 38,
+          "dailyPlays": 0,
           "weeklyPlays": 38
         },
         {
@@ -1126,7 +1791,7 @@
           "playcount": 17158,
           "listeners": 2266,
           "year": null,
-          "dailyPlays": 35,
+          "dailyPlays": 0,
           "weeklyPlays": 35
         },
         {
@@ -1134,7 +1799,7 @@
           "playcount": 13120,
           "listeners": 1801,
           "year": null,
-          "dailyPlays": 27,
+          "dailyPlays": 0,
           "weeklyPlays": 27
         },
         {
@@ -1142,12 +1807,12 @@
           "playcount": 14293,
           "listeners": 1721,
           "year": null,
-          "dailyPlays": 25,
+          "dailyPlays": 0,
           "weeklyPlays": 25
         }
       ],
-      "rank": 19,
-      "change": 53
+      "rank": 30,
+      "change": -11
     },
     {
       "name": "日向坂46",
@@ -1161,7 +1826,7 @@
         "girl group"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 571,
+      "dailyPlays": 0,
       "weeklyPlays": 571,
       "spotify_id": "1fT8kOjJRSLwD3TRPrbY6z",
       "genre": "jpop-idol",
@@ -1171,7 +1836,7 @@
           "playcount": 22045,
           "listeners": 1459,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -1179,7 +1844,7 @@
           "playcount": 28638,
           "listeners": 1178,
           "year": null,
-          "dailyPlays": 15,
+          "dailyPlays": 0,
           "weeklyPlays": 15
         },
         {
@@ -1187,7 +1852,7 @@
           "playcount": 13069,
           "listeners": 927,
           "year": null,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         },
         {
@@ -1195,7 +1860,7 @@
           "playcount": 16908,
           "listeners": 901,
           "year": null,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         },
         {
@@ -1203,12 +1868,12 @@
           "playcount": 13588,
           "listeners": 830,
           "year": null,
-          "dailyPlays": 2,
+          "dailyPlays": 0,
           "weeklyPlays": 2
         }
       ],
-      "rank": 20,
-      "change": 54
+      "rank": 31,
+      "change": -11
     },
     {
       "name": "あいみょん",
@@ -1222,7 +1887,7 @@
         "pop rock"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 522,
+      "dailyPlays": 0,
       "weeklyPlays": 522,
       "spotify_id": "3MpMmhBz5CRmUCt7pOaGqM",
       "genre": "singer",
@@ -1232,7 +1897,7 @@
           "playcount": 108577,
           "listeners": 8185,
           "year": null,
-          "dailyPlays": 29,
+          "dailyPlays": 0,
           "weeklyPlays": 29
         },
         {
@@ -1240,7 +1905,7 @@
           "playcount": 84629,
           "listeners": 8156,
           "year": null,
-          "dailyPlays": 35,
+          "dailyPlays": 0,
           "weeklyPlays": 35
         },
         {
@@ -1248,7 +1913,7 @@
           "playcount": 79112,
           "listeners": 7900,
           "year": null,
-          "dailyPlays": 40,
+          "dailyPlays": 0,
           "weeklyPlays": 40
         },
         {
@@ -1256,7 +1921,7 @@
           "playcount": 59508,
           "listeners": 5206,
           "year": null,
-          "dailyPlays": 22,
+          "dailyPlays": 0,
           "weeklyPlays": 22
         },
         {
@@ -1264,73 +1929,12 @@
           "playcount": 47693,
           "listeners": 4956,
           "year": null,
-          "dailyPlays": 27,
+          "dailyPlays": 0,
           "weeklyPlays": 27
         }
       ],
-      "rank": 21,
-      "change": 42
-    },
-    {
-      "name": "BAD HOP",
-      "listeners": 22473,
-      "playcount": 805437,
-      "tags": [
-        "Hip-Hop",
-        "japanese",
-        "hip hop",
-        "rap",
-        "japan"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 482,
-      "weeklyPlays": 482,
-      "spotify_id": "2ToiMmFDVHMdEFCh1sMTnL",
-      "genre": "hiphop",
-      "topTracks": [
-        {
-          "name": "Kawasaki Drift",
-          "playcount": 45952,
-          "listeners": 6080,
-          "year": null,
-          "dailyPlays": 29,
-          "weeklyPlays": 29
-        },
-        {
-          "name": "Born This Way",
-          "playcount": 47811,
-          "listeners": 5450,
-          "year": null,
-          "dailyPlays": 18,
-          "weeklyPlays": 18
-        },
-        {
-          "name": "Friends (feat. Vingo, JP THE WAVY, Benjazzy, YZERR & LEX)",
-          "playcount": 21599,
-          "listeners": 3639,
-          "year": null,
-          "dailyPlays": 31,
-          "weeklyPlays": 31
-        },
-        {
-          "name": "High Land (feat. Tiji Jojo, Vingo & YZERR)",
-          "playcount": 28108,
-          "listeners": 3163,
-          "year": null,
-          "dailyPlays": 30,
-          "weeklyPlays": 30
-        },
-        {
-          "name": "Last Party Never End (feat. Tiji Jojo, YZERR, Vingo & Yellow Pato)",
-          "playcount": 31488,
-          "listeners": 3113,
-          "year": null,
-          "dailyPlays": 36,
-          "weeklyPlays": 36
-        }
-      ],
-      "rank": 22,
-      "change": 38
+      "rank": 32,
+      "change": -11
     },
     {
       "name": "INI",
@@ -1344,7 +1948,7 @@
         "hip hop"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 462,
+      "dailyPlays": 0,
       "weeklyPlays": 462,
       "spotify_id": "1V1YzPMJaJkiIl4IAaQQWU",
       "genre": "jpop-idol",
@@ -1370,7 +1974,7 @@
           "playcount": 45822,
           "listeners": 9533,
           "year": null,
-          "dailyPlays": 1,
+          "dailyPlays": 0,
           "weeklyPlays": 1
         },
         {
@@ -1390,8 +1994,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 23,
-      "change": 30
+      "rank": 33,
+      "change": -10
     },
     {
       "name": "柊キライ",
@@ -1405,7 +2009,7 @@
         "vflower"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 381,
+      "dailyPlays": 0,
       "weeklyPlays": 381,
       "spotify_id": "2uPYaROOeBKOc6REk2rUqw",
       "genre": "vocaloid",
@@ -1423,7 +2027,7 @@
           "playcount": 88976,
           "listeners": 17647,
           "year": null,
-          "dailyPlays": 91,
+          "dailyPlays": 0,
           "weeklyPlays": 91
         },
         {
@@ -1431,7 +2035,7 @@
           "playcount": 57358,
           "listeners": 12294,
           "year": null,
-          "dailyPlays": 25,
+          "dailyPlays": 0,
           "weeklyPlays": 25
         },
         {
@@ -1439,7 +2043,7 @@
           "playcount": 83213,
           "listeners": 11669,
           "year": null,
-          "dailyPlays": 54,
+          "dailyPlays": 0,
           "weeklyPlays": 54
         },
         {
@@ -1447,12 +2051,12 @@
           "playcount": 41476,
           "listeners": 9236,
           "year": null,
-          "dailyPlays": 26,
+          "dailyPlays": 0,
           "weeklyPlays": 26
         }
       ],
-      "rank": 24,
-      "change": 27
+      "rank": 34,
+      "change": -10
     },
     {
       "name": "ピノキオピー",
@@ -1466,7 +2070,7 @@
         "electropop"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 341,
+      "dailyPlays": 0,
       "weeklyPlays": 341,
       "spotify_id": "4QGSRW0Exm9dwHQ2dJbPjC",
       "genre": "vocaloid",
@@ -1476,7 +2080,7 @@
           "playcount": 22164,
           "listeners": 2420,
           "year": null,
-          "dailyPlays": 10,
+          "dailyPlays": 0,
           "weeklyPlays": 10
         },
         {
@@ -1484,7 +2088,7 @@
           "playcount": 12530,
           "listeners": 1359,
           "year": null,
-          "dailyPlays": 6,
+          "dailyPlays": 0,
           "weeklyPlays": 6
         },
         {
@@ -1492,7 +2096,7 @@
           "playcount": 12628,
           "listeners": 1273,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -1500,7 +2104,7 @@
           "playcount": 9027,
           "listeners": 1243,
           "year": 2025,
-          "dailyPlays": 7,
+          "dailyPlays": 0,
           "weeklyPlays": 7
         },
         {
@@ -1508,12 +2112,12 @@
           "playcount": 9956,
           "listeners": 1242,
           "year": null,
-          "dailyPlays": 44,
+          "dailyPlays": 0,
           "weeklyPlays": 44
         }
       ],
-      "rank": 25,
-      "change": 43
+      "rank": 35,
+      "change": -10
     },
     {
       "name": "なにわ男子",
@@ -1527,7 +2131,7 @@
         "Johnnys entertainment"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 336,
+      "dailyPlays": 0,
       "weeklyPlays": 336,
       "spotify_id": "4XEsbn8TaYEzJtGOjafOUb",
       "genre": "jpop-idol",
@@ -1537,7 +2141,7 @@
           "playcount": 8837,
           "listeners": 1488,
           "year": null,
-          "dailyPlays": 22,
+          "dailyPlays": 0,
           "weeklyPlays": 22
         },
         {
@@ -1545,7 +2149,7 @@
           "playcount": 14619,
           "listeners": 1210,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -1553,7 +2157,7 @@
           "playcount": 9627,
           "listeners": 1099,
           "year": null,
-          "dailyPlays": 12,
+          "dailyPlays": 0,
           "weeklyPlays": 12
         },
         {
@@ -1561,7 +2165,7 @@
           "playcount": 12587,
           "listeners": 991,
           "year": null,
-          "dailyPlays": 8,
+          "dailyPlays": 0,
           "weeklyPlays": 8
         },
         {
@@ -1569,12 +2173,12 @@
           "playcount": 6433,
           "listeners": 752,
           "year": null,
-          "dailyPlays": 10,
+          "dailyPlays": 0,
           "weeklyPlays": 10
         }
       ],
-      "rank": 26,
-      "change": 47
+      "rank": 36,
+      "change": -10
     },
     {
       "name": "優里",
@@ -1588,7 +2192,7 @@
         "male vocalists"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 314,
+      "dailyPlays": 0,
       "weeklyPlays": 314,
       "spotify_id": "1x8rB8MXz58dBrqFh2cMpF",
       "genre": "singer",
@@ -1598,7 +2202,7 @@
           "playcount": 132711,
           "listeners": 15863,
           "year": null,
-          "dailyPlays": 36,
+          "dailyPlays": 0,
           "weeklyPlays": 36
         },
         {
@@ -1606,7 +2210,7 @@
           "playcount": 48204,
           "listeners": 8425,
           "year": null,
-          "dailyPlays": 6,
+          "dailyPlays": 0,
           "weeklyPlays": 6
         },
         {
@@ -1614,7 +2218,7 @@
           "playcount": 68520,
           "listeners": 7107,
           "year": null,
-          "dailyPlays": 31,
+          "dailyPlays": 0,
           "weeklyPlays": 31
         },
         {
@@ -1622,7 +2226,7 @@
           "playcount": 46277,
           "listeners": 6501,
           "year": null,
-          "dailyPlays": 17,
+          "dailyPlays": 0,
           "weeklyPlays": 17
         },
         {
@@ -1634,8 +2238,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 27,
-      "change": 31
+      "rank": 37,
+      "change": -10
     },
     {
       "name": "TXT",
@@ -1649,7 +2253,7 @@
         "txt"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 279,
+      "dailyPlays": 0,
       "weeklyPlays": 279,
       "spotify_id": "0ghlgldX5Dd6720Q3qFyQB",
       "genre": "kpop",
@@ -1659,7 +2263,7 @@
           "playcount": 56470,
           "listeners": 1434,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -1683,7 +2287,7 @@
           "playcount": 7723,
           "listeners": 963,
           "year": null,
-          "dailyPlays": 9,
+          "dailyPlays": 0,
           "weeklyPlays": 9
         },
         {
@@ -1691,12 +2295,12 @@
           "playcount": 32563,
           "listeners": 955,
           "year": null,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         }
       ],
-      "rank": 28,
-      "change": 39
+      "rank": 38,
+      "change": -10
     },
     {
       "name": "ZORN",
@@ -1710,7 +2314,7 @@
         "hardcore punk"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 124,
+      "dailyPlays": 0,
       "weeklyPlays": 124,
       "spotify_id": "55AwNhQXnFxWPmGGsmLPuT",
       "genre": "hiphop",
@@ -1720,7 +2324,7 @@
           "playcount": 15435,
           "listeners": 4935,
           "year": null,
-          "dailyPlays": 11,
+          "dailyPlays": 0,
           "weeklyPlays": 11
         },
         {
@@ -1728,7 +2332,7 @@
           "playcount": 10886,
           "listeners": 3262,
           "year": null,
-          "dailyPlays": 5,
+          "dailyPlays": 0,
           "weeklyPlays": 5
         },
         {
@@ -1736,7 +2340,7 @@
           "playcount": 8944,
           "listeners": 2897,
           "year": null,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         },
         {
@@ -1744,7 +2348,7 @@
           "playcount": 7695,
           "listeners": 2557,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -1752,73 +2356,12 @@
           "playcount": 6740,
           "listeners": 2383,
           "year": null,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         }
       ],
-      "rank": 29,
-      "change": 33
-    },
-    {
-      "name": "新しい学校のリーダーズ",
-      "listeners": 8514,
-      "playcount": 399562,
-      "tags": [
-        "j-pop",
-        "japanese",
-        "female vocalists",
-        "jazz",
-        "JPop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 38,
-      "weeklyPlays": 38,
-      "spotify_id": "5J6D24dVXLEV3TFQKQR0zz",
-      "genre": "singer",
-      "topTracks": [
-        {
-          "name": "オトナブルー",
-          "playcount": 25412,
-          "listeners": 3312,
-          "year": null,
-          "dailyPlays": 7,
-          "weeklyPlays": 7
-        },
-        {
-          "name": "OTONABLUE",
-          "playcount": 11533,
-          "listeners": 1737,
-          "year": null,
-          "dailyPlays": 7,
-          "weeklyPlays": 7
-        },
-        {
-          "name": "恋ゲバ",
-          "playcount": 17725,
-          "listeners": 1329,
-          "year": null,
-          "dailyPlays": 1,
-          "weeklyPlays": 1
-        },
-        {
-          "name": "Tokyo Calling",
-          "playcount": 7121,
-          "listeners": 1288,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Suki Lie",
-          "playcount": 5923,
-          "listeners": 1156,
-          "year": null,
-          "dailyPlays": 2,
-          "weeklyPlays": 2
-        }
-      ],
-      "rank": 30,
-      "change": 41
+      "rank": 39,
+      "change": -10
     },
     {
       "name": "BTS",
@@ -1878,8 +2421,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 31,
-      "change": -30
+      "rank": 40,
+      "change": -9
     },
     {
       "name": "BLACKPINK",
@@ -1939,69 +2482,69 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 32,
-      "change": -30
+      "rank": 41,
+      "change": -9
     },
     {
-      "name": "LiSA",
-      "listeners": 1925315,
-      "playcount": 126293674,
+      "name": "TWICE",
+      "listeners": 1875945,
+      "playcount": 491045369,
       "tags": [
-        "j-pop",
-        "japanese",
-        "female vocalists",
+        "k-pop",
+        "Kpop",
+        "Korean",
         "pop",
-        "Hip-Hop"
+        "girl group"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "dailyPlays": 0,
       "weeklyPlays": 0,
-      "spotify_id": "044UPFfua0sBbRSpoGpiql",
-      "genre": "anime",
+      "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
+      "genre": "kpop",
       "topTracks": [
         {
-          "name": "MONEY",
-          "playcount": 20891465,
-          "listeners": 732638,
+          "name": "FANCY",
+          "playcount": 18853838,
+          "listeners": 885275,
+          "year": 2019,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "The Feels",
+          "playcount": 16849285,
+          "listeners": 798798,
           "year": 2021,
-          "dailyPlays": 3199,
-          "weeklyPlays": 3199
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
-          "name": "Rockstar",
-          "playcount": 13161372,
-          "listeners": 609973,
-          "year": 2024,
-          "dailyPlays": 9517,
-          "weeklyPlays": 9517
+          "name": "I CAN'T STOP ME",
+          "playcount": 11997760,
+          "listeners": 697591,
+          "year": 2020,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
-          "name": "Born Again (feat. Doja Cat & RAYE)",
-          "playcount": 9542940,
-          "listeners": 541384,
-          "year": 2025,
-          "dailyPlays": 8114,
-          "weeklyPlays": 8114
+          "name": "Feel Special",
+          "playcount": 13497498,
+          "listeners": 693394,
+          "year": 2019,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
-          "name": "New Woman (feat. ROSALÍA)",
-          "playcount": 12105845,
-          "listeners": 523435,
-          "year": 2024,
-          "dailyPlays": 6658,
-          "weeklyPlays": 6658
-        },
-        {
-          "name": "LALISA",
-          "playcount": 13662222,
-          "listeners": 483632,
-          "year": 2021,
-          "dailyPlays": 1595,
-          "weeklyPlays": 1595
+          "name": "What is Love?",
+          "playcount": 6563950,
+          "listeners": 624286,
+          "year": 2019,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         }
       ],
-      "rank": 33,
-      "change": -30
+      "rank": 42,
+      "change": -41
     },
     {
       "name": "NewJeans",
@@ -2025,7 +2568,7 @@
           "playcount": 29146253,
           "listeners": 1168280,
           "year": 2023,
-          "dailyPlays": 12401,
+          "dailyPlays": 0,
           "weeklyPlays": 12401
         },
         {
@@ -2033,7 +2576,7 @@
           "playcount": 35049845,
           "listeners": 1016899,
           "year": 2022,
-          "dailyPlays": 15725,
+          "dailyPlays": 0,
           "weeklyPlays": 15725
         },
         {
@@ -2041,7 +2584,7 @@
           "playcount": 29450180,
           "listeners": 994369,
           "year": 2023,
-          "dailyPlays": 12137,
+          "dailyPlays": 0,
           "weeklyPlays": 12137
         },
         {
@@ -2049,7 +2592,7 @@
           "playcount": 23486355,
           "listeners": 979550,
           "year": 2023,
-          "dailyPlays": 12017,
+          "dailyPlays": 0,
           "weeklyPlays": 12017
         },
         {
@@ -2057,12 +2600,12 @@
           "playcount": 23972625,
           "listeners": 866904,
           "year": 2023,
-          "dailyPlays": 13473,
+          "dailyPlays": 0,
           "weeklyPlays": 13473
         }
       ],
-      "rank": 34,
-      "change": -29
+      "rank": 43,
+      "change": -9
     },
     {
       "name": "Eve",
@@ -2122,69 +2665,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 35,
-      "change": null
-    },
-    {
-      "name": "LE SSERAFIM",
-      "listeners": 1623998,
-      "playcount": 297785405,
-      "tags": [
-        "k-pop",
-        "Kpop",
-        "Korean",
-        "pop",
-        "female vocalists"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "4SpbR6yFEvexJuq5VY2gfv",
-      "genre": "kpop",
-      "topTracks": [
-        {
-          "name": "CRAZY",
-          "playcount": 19419735,
-          "listeners": 876583,
-          "year": 2024,
-          "dailyPlays": 15033,
-          "weeklyPlays": 15033
-        },
-        {
-          "name": "ANTIFRAGILE",
-          "playcount": 24417019,
-          "listeners": 876053,
-          "year": 2022,
-          "dailyPlays": 10067,
-          "weeklyPlays": 10067
-        },
-        {
-          "name": "Perfect Night",
-          "playcount": 17902048,
-          "listeners": 725803,
-          "year": 2023,
-          "dailyPlays": 7875,
-          "weeklyPlays": 7875
-        },
-        {
-          "name": "Eve, Psyche & The Bluebeard’s wife",
-          "playcount": 13205822,
-          "listeners": 620491,
-          "year": 2023,
-          "dailyPlays": 7247,
-          "weeklyPlays": 7247
-        },
-        {
-          "name": "Smart",
-          "playcount": 12229709,
-          "listeners": 592723,
-          "year": 2024,
-          "dailyPlays": 6949,
-          "weeklyPlays": 6949
-        }
-      ],
-      "rank": 36,
-      "change": -30
+      "rank": 44,
+      "change": -9
     },
     {
       "name": "Red Velvet",
@@ -2205,47 +2687,47 @@
       "topTracks": [
         {
           "name": "Psycho",
-          "playcount": 14404199,
-          "listeners": 738193,
+          "playcount": 14411411,
+          "listeners": 738730,
           "year": 2019,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 7212,
+          "weeklyPlays": 7212
         },
         {
           "name": "러시안 룰렛 Russian Roulette",
-          "playcount": 10845661,
-          "listeners": 702449,
+          "playcount": 10853326,
+          "listeners": 702880,
           "year": 2017,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 7665,
+          "weeklyPlays": 7665
         },
         {
           "name": "Bad Boy",
-          "playcount": 11329877,
-          "listeners": 670683,
+          "playcount": 11335672,
+          "listeners": 671014,
           "year": 2018,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 5795,
+          "weeklyPlays": 5795
         },
         {
           "name": "Peek-A-Boo",
-          "playcount": 6778988,
-          "listeners": 532761,
+          "playcount": 6782073,
+          "listeners": 532965,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 3085,
+          "weeklyPlays": 3085
         },
         {
           "name": "Red Flavor",
-          "playcount": 4955111,
-          "listeners": 439921,
+          "playcount": 4957689,
+          "listeners": 440156,
           "year": 2017,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2578,
+          "weeklyPlays": 2578
         }
       ],
-      "rank": 37,
-      "change": -30
+      "rank": 45,
+      "change": -8
     },
     {
       "name": "Stray Kids",
@@ -2266,47 +2748,47 @@
       "topTracks": [
         {
           "name": "God’s Menu",
-          "playcount": 13005210,
-          "listeners": 555795,
+          "playcount": 13010343,
+          "listeners": 556056,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 5133,
+          "weeklyPlays": 5133
         },
         {
           "name": "MANIAC",
-          "playcount": 11418285,
-          "listeners": 460309,
+          "playcount": 11422516,
+          "listeners": 460640,
           "year": 2023,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 4231,
+          "weeklyPlays": 4231
         },
         {
           "name": "Back Door",
-          "playcount": 6378545,
-          "listeners": 363453,
+          "playcount": 6381106,
+          "listeners": 363639,
           "year": 2020,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2561,
+          "weeklyPlays": 2561
         },
         {
           "name": "Chk Chk Boom",
-          "playcount": 11554181,
-          "listeners": 360950,
+          "playcount": 11560265,
+          "listeners": 361248,
           "year": 2024,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 6084,
+          "weeklyPlays": 6084
         },
         {
           "name": "Thunderous",
-          "playcount": 8714089,
-          "listeners": 355958,
+          "playcount": 8716878,
+          "listeners": 356190,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2789,
+          "weeklyPlays": 2789
         }
       ],
-      "rank": 38,
-      "change": -30
+      "rank": 46,
+      "change": -8
     },
     {
       "name": "aespa",
@@ -2330,7 +2812,7 @@
           "playcount": 17925759,
           "listeners": 622729,
           "year": 2023,
-          "dailyPlays": 9100,
+          "dailyPlays": 0,
           "weeklyPlays": 9100
         },
         {
@@ -2338,7 +2820,7 @@
           "playcount": 19633546,
           "listeners": 619646,
           "year": 2024,
-          "dailyPlays": 9410,
+          "dailyPlays": 0,
           "weeklyPlays": 9410
         },
         {
@@ -2346,7 +2828,7 @@
           "playcount": 16362234,
           "listeners": 580738,
           "year": 2024,
-          "dailyPlays": 14410,
+          "dailyPlays": 0,
           "weeklyPlays": 14410
         },
         {
@@ -2354,7 +2836,7 @@
           "playcount": 12390045,
           "listeners": 540659,
           "year": 2021,
-          "dailyPlays": 2061,
+          "dailyPlays": 0,
           "weeklyPlays": 2061
         },
         {
@@ -2362,12 +2844,12 @@
           "playcount": 12133268,
           "listeners": 531239,
           "year": 2021,
-          "dailyPlays": 2459,
+          "dailyPlays": 0,
           "weeklyPlays": 2459
         }
       ],
-      "rank": 39,
-      "change": -30
+      "rank": 47,
+      "change": -8
     },
     {
       "name": "ILLIT",
@@ -2388,47 +2870,47 @@
       "topTracks": [
         {
           "name": "Magnetic",
-          "playcount": 22515096,
-          "listeners": 953975,
+          "playcount": 22500678,
+          "listeners": 953448,
           "year": 2024,
-          "dailyPlays": 14418,
-          "weeklyPlays": 14418
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
           "name": "Tick-Tack",
-          "playcount": 6923972,
-          "listeners": 442937,
+          "playcount": 6916257,
+          "listeners": 442589,
           "year": 2025,
-          "dailyPlays": 7715,
-          "weeklyPlays": 7715
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
           "name": "Lucky Girl Syndrome",
-          "playcount": 6557330,
-          "listeners": 391539,
+          "playcount": 6551401,
+          "listeners": 391244,
           "year": 2024,
-          "dailyPlays": 5929,
-          "weeklyPlays": 5929
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
           "name": "NOT CUTE ANYMORE",
-          "playcount": 6109110,
-          "listeners": 389132,
+          "playcount": 6085825,
+          "listeners": 388351,
           "year": 2025,
-          "dailyPlays": 23285,
-          "weeklyPlays": 23285
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         },
         {
           "name": "Cherish (My Love)",
-          "playcount": 6777578,
-          "listeners": 364999,
+          "playcount": 6770278,
+          "listeners": 364677,
           "year": 2024,
-          "dailyPlays": 7300,
-          "weeklyPlays": 7300
+          "dailyPlays": 0,
+          "weeklyPlays": 0
         }
       ],
-      "rank": 40,
-      "change": -30
+      "rank": 48,
+      "change": -8
     },
     {
       "name": "ENHYPEN",
@@ -2452,7 +2934,7 @@
           "playcount": 13847697,
           "listeners": 585255,
           "year": null,
-          "dailyPlays": 11835,
+          "dailyPlays": 0,
           "weeklyPlays": 11835
         },
         {
@@ -2460,7 +2942,7 @@
           "playcount": 13731730,
           "listeners": 578039,
           "year": 2021,
-          "dailyPlays": 10675,
+          "dailyPlays": 0,
           "weeklyPlays": 10675
         },
         {
@@ -2468,7 +2950,7 @@
           "playcount": 16713848,
           "listeners": 553332,
           "year": 2023,
-          "dailyPlays": 13849,
+          "dailyPlays": 0,
           "weeklyPlays": 13849
         },
         {
@@ -2476,7 +2958,7 @@
           "playcount": 8677962,
           "listeners": 437743,
           "year": 2024,
-          "dailyPlays": 4479,
+          "dailyPlays": 0,
           "weeklyPlays": 4479
         },
         {
@@ -2484,12 +2966,12 @@
           "playcount": 9352299,
           "listeners": 433507,
           "year": null,
-          "dailyPlays": 9962,
+          "dailyPlays": 0,
           "weeklyPlays": 9962
         }
       ],
-      "rank": 41,
-      "change": -30
+      "rank": 49,
+      "change": -8
     },
     {
       "name": "EXO",
@@ -2513,7 +2995,7 @@
           "playcount": 7600260,
           "listeners": 544731,
           "year": 2022,
-          "dailyPlays": 3444,
+          "dailyPlays": 0,
           "weeklyPlays": 3444
         },
         {
@@ -2521,7 +3003,7 @@
           "playcount": 6319520,
           "listeners": 439507,
           "year": 2017,
-          "dailyPlays": 3547,
+          "dailyPlays": 0,
           "weeklyPlays": 3547
         },
         {
@@ -2529,7 +3011,7 @@
           "playcount": 5729169,
           "listeners": 415294,
           "year": 2018,
-          "dailyPlays": 2516,
+          "dailyPlays": 0,
           "weeklyPlays": 2516
         },
         {
@@ -2537,7 +3019,7 @@
           "playcount": 4142186,
           "listeners": 352705,
           "year": 2017,
-          "dailyPlays": 3643,
+          "dailyPlays": 0,
           "weeklyPlays": 3643
         },
         {
@@ -2545,12 +3027,12 @@
           "playcount": 5959135,
           "listeners": 351138,
           "year": 2018,
-          "dailyPlays": 2860,
+          "dailyPlays": 0,
           "weeklyPlays": 2860
         }
       ],
-      "rank": 42,
-      "change": -30
+      "rank": 50,
+      "change": -8
     },
     {
       "name": "IVE",
@@ -2571,47 +3053,47 @@
       "topTracks": [
         {
           "name": "After LIKE",
-          "playcount": 18259915,
-          "listeners": 651888,
+          "playcount": 18265358,
+          "listeners": 652124,
           "year": 2022,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 5443,
+          "weeklyPlays": 5443
         },
         {
           "name": "LOVE DIVE",
-          "playcount": 18744207,
-          "listeners": 598762,
+          "playcount": 18748569,
+          "listeners": 598972,
           "year": 2022,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 4362,
+          "weeklyPlays": 4362
         },
         {
           "name": "I AM",
-          "playcount": 13644525,
-          "listeners": 523558,
+          "playcount": 13649972,
+          "listeners": 523766,
           "year": 2023,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 5447,
+          "weeklyPlays": 5447
         },
         {
           "name": "ELEVEN",
-          "playcount": 12365872,
-          "listeners": 488437,
+          "playcount": 12369170,
+          "listeners": 488634,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 3298,
+          "weeklyPlays": 3298
         },
         {
           "name": "Kitsch",
-          "playcount": 7430359,
-          "listeners": 347483,
+          "playcount": 7432464,
+          "listeners": 347584,
           "year": 2023,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2105,
+          "weeklyPlays": 2105
         }
       ],
-      "rank": 43,
-      "change": -30
+      "rank": 51,
+      "change": -8
     },
     {
       "name": "ITZY",
@@ -2632,47 +3114,47 @@
       "topTracks": [
         {
           "name": "WANNABE",
-          "playcount": 10872393,
-          "listeners": 574753,
+          "playcount": 10876565,
+          "listeners": 575037,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 4172,
+          "weeklyPlays": 4172
         },
         {
           "name": "LOCO",
-          "playcount": 8769175,
-          "listeners": 453533,
+          "playcount": 8771928,
+          "listeners": 453717,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2753,
+          "weeklyPlays": 2753
         },
         {
           "name": "Not Shy",
-          "playcount": 7123817,
-          "listeners": 430473,
+          "playcount": 7125969,
+          "listeners": 430661,
           "year": 2020,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2152,
+          "weeklyPlays": 2152
         },
         {
           "name": "In the morning",
-          "playcount": 6821322,
-          "listeners": 389135,
+          "playcount": 6823469,
+          "listeners": 389336,
           "year": 2021,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2147,
+          "weeklyPlays": 2147
         },
         {
           "name": "DALLA DALLA",
-          "playcount": 3890266,
-          "listeners": 356335,
+          "playcount": 3892477,
+          "listeners": 356486,
           "year": 2023,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 2211,
+          "weeklyPlays": 2211
         }
       ],
-      "rank": 44,
-      "change": -30
+      "rank": 52,
+      "change": -8
     },
     {
       "name": "(G)I-DLE",
@@ -2696,7 +3178,7 @@
           "playcount": 10184301,
           "listeners": 484378,
           "year": 2024,
-          "dailyPlays": 26,
+          "dailyPlays": 0,
           "weeklyPlays": 26
         },
         {
@@ -2704,7 +3186,7 @@
           "playcount": 8510687,
           "listeners": 447244,
           "year": 2022,
-          "dailyPlays": 25,
+          "dailyPlays": 0,
           "weeklyPlays": 25
         },
         {
@@ -2712,7 +3194,7 @@
           "playcount": 7027846,
           "listeners": 410079,
           "year": 2022,
-          "dailyPlays": 24,
+          "dailyPlays": 0,
           "weeklyPlays": 24
         },
         {
@@ -2720,7 +3202,7 @@
           "playcount": 5359690,
           "listeners": 369799,
           "year": 2022,
-          "dailyPlays": 77,
+          "dailyPlays": 0,
           "weeklyPlays": 77
         },
         {
@@ -2728,12 +3210,12 @@
           "playcount": 4816283,
           "listeners": 307244,
           "year": null,
-          "dailyPlays": 15,
+          "dailyPlays": 0,
           "weeklyPlays": 15
         }
       ],
-      "rank": 45,
-      "change": -30
+      "rank": 53,
+      "change": -8
     },
     {
       "name": "SEVENTEEN",
@@ -2757,7 +3239,7 @@
           "playcount": 8328635,
           "listeners": 342145,
           "year": 2022,
-          "dailyPlays": 2294,
+          "dailyPlays": 0,
           "weeklyPlays": 2294
         },
         {
@@ -2765,7 +3247,7 @@
           "playcount": 5195996,
           "listeners": 336163,
           "year": 2021,
-          "dailyPlays": 1888,
+          "dailyPlays": 0,
           "weeklyPlays": 1888
         },
         {
@@ -2773,7 +3255,7 @@
           "playcount": 9900724,
           "listeners": 320324,
           "year": null,
-          "dailyPlays": 2777,
+          "dailyPlays": 0,
           "weeklyPlays": 2777
         },
         {
@@ -2781,7 +3263,7 @@
           "playcount": 4300526,
           "listeners": 296703,
           "year": null,
-          "dailyPlays": 1477,
+          "dailyPlays": 0,
           "weeklyPlays": 1477
         },
         {
@@ -2789,73 +3271,12 @@
           "playcount": 7235965,
           "listeners": 283067,
           "year": null,
-          "dailyPlays": 2185,
+          "dailyPlays": 0,
           "weeklyPlays": 2185
         }
       ],
-      "rank": 46,
-      "change": -30
-    },
-    {
-      "name": "SHINee",
-      "listeners": 835586,
-      "playcount": 102890755,
-      "tags": [
-        "k-pop",
-        "Korean",
-        "shinee",
-        "Kpop",
-        "pop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "2hcsKca8leqsfJoJ1XBiJI",
-      "genre": "kpop",
-      "topTracks": [
-        {
-          "name": "Replay",
-          "playcount": 4472581,
-          "listeners": 357891,
-          "year": 2017,
-          "dailyPlays": 3537,
-          "weeklyPlays": 3537
-        },
-        {
-          "name": "Ring Ding Dong",
-          "playcount": 3984409,
-          "listeners": 297432,
-          "year": 2013,
-          "dailyPlays": 1855,
-          "weeklyPlays": 1855
-        },
-        {
-          "name": "LUCIFER",
-          "playcount": 4729327,
-          "listeners": 269125,
-          "year": 2010,
-          "dailyPlays": 2076,
-          "weeklyPlays": 2076
-        },
-        {
-          "name": "View",
-          "playcount": 3290595,
-          "listeners": 259561,
-          "year": 2023,
-          "dailyPlays": 1329,
-          "weeklyPlays": 1329
-        },
-        {
-          "name": "Sherlock (Clue + Note)",
-          "playcount": 2914796,
-          "listeners": 236446,
-          "year": null,
-          "dailyPlays": 1855,
-          "weeklyPlays": 1855
-        }
-      ],
-      "rank": 47,
-      "change": -29
+      "rank": 54,
+      "change": -8
     },
     {
       "name": "NCT 127",
@@ -2879,7 +3300,7 @@
           "playcount": 4653692,
           "listeners": 377230,
           "year": 2017,
-          "dailyPlays": 1885,
+          "dailyPlays": 0,
           "weeklyPlays": 1885
         },
         {
@@ -2887,7 +3308,7 @@
           "playcount": 4893523,
           "listeners": 326655,
           "year": 2022,
-          "dailyPlays": 1719,
+          "dailyPlays": 0,
           "weeklyPlays": 1719
         },
         {
@@ -2895,7 +3316,7 @@
           "playcount": 4881498,
           "listeners": 245376,
           "year": 2021,
-          "dailyPlays": 1708,
+          "dailyPlays": 0,
           "weeklyPlays": 1708
         },
         {
@@ -2903,7 +3324,7 @@
           "playcount": 5505992,
           "listeners": 243309,
           "year": null,
-          "dailyPlays": 2549,
+          "dailyPlays": 0,
           "weeklyPlays": 2549
         },
         {
@@ -2911,12 +3332,12 @@
           "playcount": 4220891,
           "listeners": 241359,
           "year": 2022,
-          "dailyPlays": 2041,
+          "dailyPlays": 0,
           "weeklyPlays": 2041
         }
       ],
-      "rank": 48,
-      "change": -29
+      "rank": 55,
+      "change": -7
     },
     {
       "name": "ATEEZ",
@@ -2940,7 +3361,7 @@
           "playcount": 8527801,
           "listeners": 314905,
           "year": null,
-          "dailyPlays": 5085,
+          "dailyPlays": 0,
           "weeklyPlays": 5085
         },
         {
@@ -2948,7 +3369,7 @@
           "playcount": 4641381,
           "listeners": 267648,
           "year": 2022,
-          "dailyPlays": 1850,
+          "dailyPlays": 0,
           "weeklyPlays": 1850
         },
         {
@@ -2956,7 +3377,7 @@
           "playcount": 4844406,
           "listeners": 251849,
           "year": 2022,
-          "dailyPlays": 1711,
+          "dailyPlays": 0,
           "weeklyPlays": 1711
         },
         {
@@ -2964,7 +3385,7 @@
           "playcount": 5825884,
           "listeners": 243281,
           "year": null,
-          "dailyPlays": 2834,
+          "dailyPlays": 0,
           "weeklyPlays": 2834
         },
         {
@@ -2972,12 +3393,73 @@
           "playcount": 4565671,
           "listeners": 226366,
           "year": null,
-          "dailyPlays": 3100,
+          "dailyPlays": 0,
           "weeklyPlays": 3100
         }
       ],
-      "rank": 49,
-      "change": -29
+      "rank": 56,
+      "change": -7
+    },
+    {
+      "name": "NMIXX",
+      "listeners": 728272,
+      "playcount": 83117126,
+      "tags": [
+        "k-pop",
+        "pop",
+        "Kpop",
+        "Korean",
+        "girl group"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "28ot3wh4oNmoFOdVajibBl",
+      "genre": "kpop",
+      "topTracks": [
+        {
+          "name": "DICE",
+          "playcount": 8143526,
+          "listeners": 398675,
+          "year": 2022,
+          "dailyPlays": 0,
+          "weeklyPlays": 2679
+        },
+        {
+          "name": "Love Me Like This",
+          "playcount": 5672186,
+          "listeners": 348394,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 2587
+        },
+        {
+          "name": "O.O",
+          "playcount": 7821793,
+          "listeners": 345847,
+          "year": 2022,
+          "dailyPlays": 0,
+          "weeklyPlays": 2425
+        },
+        {
+          "name": "DASH",
+          "playcount": 5196129,
+          "listeners": 267398,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 2887
+        },
+        {
+          "name": "Roller Coaster",
+          "playcount": 4165688,
+          "listeners": 226632,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 1934
+        }
+      ],
+      "rank": 57,
+      "change": -55
     },
     {
       "name": "ASIAN KUNG-FU GENERATION",
@@ -3001,7 +3483,7 @@
           "playcount": 2127669,
           "listeners": 249418,
           "year": null,
-          "dailyPlays": 1633,
+          "dailyPlays": 0,
           "weeklyPlays": 1633
         },
         {
@@ -3009,7 +3491,7 @@
           "playcount": 2091357,
           "listeners": 209790,
           "year": 2019,
-          "dailyPlays": 1442,
+          "dailyPlays": 0,
           "weeklyPlays": 1442
         },
         {
@@ -3017,7 +3499,7 @@
           "playcount": 1529683,
           "listeners": 146600,
           "year": null,
-          "dailyPlays": 871,
+          "dailyPlays": 0,
           "weeklyPlays": 871
         },
         {
@@ -3025,7 +3507,7 @@
           "playcount": 1327060,
           "listeners": 130503,
           "year": null,
-          "dailyPlays": 934,
+          "dailyPlays": 0,
           "weeklyPlays": 934
         },
         {
@@ -3033,12 +3515,12 @@
           "playcount": 1083539,
           "listeners": 117295,
           "year": 2009,
-          "dailyPlays": 52,
+          "dailyPlays": 0,
           "weeklyPlays": 52
         }
       ],
-      "rank": 50,
-      "change": -27
+      "rank": 58,
+      "change": -8
     },
     {
       "name": "RADWIMPS",
@@ -3062,7 +3544,7 @@
           "playcount": 2036584,
           "listeners": 189313,
           "year": null,
-          "dailyPlays": 1470,
+          "dailyPlays": 0,
           "weeklyPlays": 1470
         },
         {
@@ -3070,7 +3552,7 @@
           "playcount": 2024346,
           "listeners": 185481,
           "year": null,
-          "dailyPlays": 979,
+          "dailyPlays": 0,
           "weeklyPlays": 979
         },
         {
@@ -3078,7 +3560,7 @@
           "playcount": 1787873,
           "listeners": 179007,
           "year": null,
-          "dailyPlays": 827,
+          "dailyPlays": 0,
           "weeklyPlays": 827
         },
         {
@@ -3086,7 +3568,7 @@
           "playcount": 1702669,
           "listeners": 175584,
           "year": null,
-          "dailyPlays": 859,
+          "dailyPlays": 0,
           "weeklyPlays": 859
         },
         {
@@ -3094,12 +3576,12 @@
           "playcount": 1346911,
           "listeners": 135822,
           "year": null,
-          "dailyPlays": 633,
+          "dailyPlays": 0,
           "weeklyPlays": 633
         }
       ],
-      "rank": 51,
-      "change": -27
+      "rank": 59,
+      "change": -8
     },
     {
       "name": "Ado",
@@ -3123,7 +3605,7 @@
           "playcount": 3001417,
           "listeners": 258729,
           "year": 2022,
-          "dailyPlays": 4466,
+          "dailyPlays": 0,
           "weeklyPlays": 4466
         },
         {
@@ -3131,7 +3613,7 @@
           "playcount": 2705296,
           "listeners": 173736,
           "year": 2023,
-          "dailyPlays": 1452,
+          "dailyPlays": 0,
           "weeklyPlays": 1452
         },
         {
@@ -3139,7 +3621,7 @@
           "playcount": 2427702,
           "listeners": 172686,
           "year": 2024,
-          "dailyPlays": 3825,
+          "dailyPlays": 0,
           "weeklyPlays": 3825
         },
         {
@@ -3147,7 +3629,7 @@
           "playcount": 2186090,
           "listeners": 168904,
           "year": 2023,
-          "dailyPlays": 1822,
+          "dailyPlays": 0,
           "weeklyPlays": 1822
         },
         {
@@ -3155,12 +3637,12 @@
           "playcount": 2180135,
           "listeners": 163757,
           "year": 2023,
-          "dailyPlays": 2505,
+          "dailyPlays": 0,
           "weeklyPlays": 2505
         }
       ],
-      "rank": 52,
-      "change": -27
+      "rank": 60,
+      "change": -8
     },
     {
       "name": "NCT DREAM",
@@ -3184,7 +3666,7 @@
           "playcount": 4255289,
           "listeners": 282892,
           "year": 2023,
-          "dailyPlays": 1515,
+          "dailyPlays": 0,
           "weeklyPlays": 1515
         },
         {
@@ -3192,7 +3674,7 @@
           "playcount": 3931527,
           "listeners": 273876,
           "year": null,
-          "dailyPlays": 687,
+          "dailyPlays": 0,
           "weeklyPlays": 687
         },
         {
@@ -3200,7 +3682,7 @@
           "playcount": 4258711,
           "listeners": 213892,
           "year": 2022,
-          "dailyPlays": 1385,
+          "dailyPlays": 0,
           "weeklyPlays": 1385
         },
         {
@@ -3208,7 +3690,7 @@
           "playcount": 3377084,
           "listeners": 187290,
           "year": 2023,
-          "dailyPlays": 980,
+          "dailyPlays": 0,
           "weeklyPlays": 980
         },
         {
@@ -3216,12 +3698,12 @@
           "playcount": 2334770,
           "listeners": 177693,
           "year": 2022,
-          "dailyPlays": 428,
+          "dailyPlays": 0,
           "weeklyPlays": 428
         }
       ],
-      "rank": 53,
-      "change": -27
+      "rank": 61,
+      "change": -8
     },
     {
       "name": "ONE OK ROCK",
@@ -3245,7 +3727,7 @@
           "playcount": 2036077,
           "listeners": 142928,
           "year": 2025,
-          "dailyPlays": 821,
+          "dailyPlays": 0,
           "weeklyPlays": 821
         },
         {
@@ -3253,7 +3735,7 @@
           "playcount": 1449469,
           "listeners": 124283,
           "year": 2025,
-          "dailyPlays": 661,
+          "dailyPlays": 0,
           "weeklyPlays": 661
         },
         {
@@ -3261,7 +3743,7 @@
           "playcount": 1293560,
           "listeners": 113981,
           "year": null,
-          "dailyPlays": 855,
+          "dailyPlays": 0,
           "weeklyPlays": 855
         },
         {
@@ -3269,7 +3751,7 @@
           "playcount": 1105024,
           "listeners": 107923,
           "year": null,
-          "dailyPlays": 730,
+          "dailyPlays": 0,
           "weeklyPlays": 730
         },
         {
@@ -3277,12 +3759,12 @@
           "playcount": 940034,
           "listeners": 95415,
           "year": null,
-          "dailyPlays": 600,
+          "dailyPlays": 0,
           "weeklyPlays": 600
         }
       ],
-      "rank": 54,
-      "change": -27
+      "rank": 62,
+      "change": -8
     },
     {
       "name": "FLOW",
@@ -3342,69 +3824,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 55,
-      "change": null
-    },
-    {
-      "name": "Linked Horizon",
-      "listeners": 523980,
-      "playcount": 12704261,
-      "tags": [
-        "Power metal",
-        "japanese",
-        "rock",
-        "J-rock",
-        "j-pop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "3qIJe2V9Ji7hHDvTaFNdsT",
-      "genre": "anime",
-      "topTracks": [
-        {
-          "name": "Guren no Yumiya",
-          "playcount": 2571441,
-          "listeners": 266861,
-          "year": 2015,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Shinzo wo Sasageyo!",
-          "playcount": 1591271,
-          "listeners": 165327,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Shinzo wo Sasageyo !",
-          "playcount": 935557,
-          "listeners": 156834,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Shinzo wo Sasageyo! - TV Size",
-          "playcount": 1099502,
-          "listeners": 153130,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Jiyuu no Tsubasa",
-          "playcount": 1266181,
-          "listeners": 144355,
-          "year": 2015,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
-      "rank": 56,
-      "change": null
+      "rank": 63,
+      "change": -8
     },
     {
       "name": "BABYMONSTER",
@@ -3435,11 +3856,11 @@
         },
         {
           "name": "The Fear of Charlie Sunrise",
-          "playcount": 23826,
+          "playcount": 23827,
           "listeners": 6623,
           "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
+          "dailyPlays": 1,
+          "weeklyPlays": 1
         },
         {
           "name": "City of Lovers",
@@ -3458,69 +3879,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 57,
-      "change": -28
-    },
-    {
-      "name": "Vaundy",
-      "listeners": 509143,
-      "playcount": 16635148,
-      "tags": [
-        "japanese",
-        "j-pop",
-        "JPop",
-        "japan",
-        "J-Indie"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "2sSJFz5pMp0rJGvKnYGhvT",
-      "genre": "singer",
-      "topTracks": [
-        {
-          "name": "踊り子",
-          "playcount": 3622336,
-          "listeners": 281160,
-          "year": null,
-          "dailyPlays": 2118,
-          "weeklyPlays": 2118
-        },
-        {
-          "name": "CHAINSAW BLOOD",
-          "playcount": 1648285,
-          "listeners": 123102,
-          "year": 2024,
-          "dailyPlays": 845,
-          "weeklyPlays": 845
-        },
-        {
-          "name": "odoriko",
-          "playcount": 1052739,
-          "listeners": 85177,
-          "year": null,
-          "dailyPlays": 1085,
-          "weeklyPlays": 1085
-        },
-        {
-          "name": "裸の勇者",
-          "playcount": 1229055,
-          "listeners": 83733,
-          "year": null,
-          "dailyPlays": 579,
-          "weeklyPlays": 579
-        },
-        {
-          "name": "Tokyo Flash",
-          "playcount": 553848,
-          "listeners": 81150,
-          "year": null,
-          "dailyPlays": 740,
-          "weeklyPlays": 740
-        }
-      ],
-      "rank": 58,
-      "change": -28
+      "rank": 64,
+      "change": -7
     },
     {
       "name": "King Gnu",
@@ -3544,7 +3904,7 @@
           "playcount": 4936759,
           "listeners": 297703,
           "year": null,
-          "dailyPlays": 5042,
+          "dailyPlays": 0,
           "weeklyPlays": 5042
         },
         {
@@ -3552,7 +3912,7 @@
           "playcount": 1750664,
           "listeners": 143970,
           "year": null,
-          "dailyPlays": 1289,
+          "dailyPlays": 0,
           "weeklyPlays": 1289
         },
         {
@@ -3560,7 +3920,7 @@
           "playcount": 1242148,
           "listeners": 107216,
           "year": null,
-          "dailyPlays": 565,
+          "dailyPlays": 0,
           "weeklyPlays": 565
         },
         {
@@ -3568,7 +3928,7 @@
           "playcount": 1062526,
           "listeners": 98326,
           "year": null,
-          "dailyPlays": 654,
+          "dailyPlays": 0,
           "weeklyPlays": 654
         },
         {
@@ -3576,12 +3936,12 @@
           "playcount": 872106,
           "listeners": 80433,
           "year": 2022,
-          "dailyPlays": 553,
+          "dailyPlays": 0,
           "weeklyPlays": 553
         }
       ],
-      "rank": 59,
-      "change": -28
+      "rank": 65,
+      "change": -6
     },
     {
       "name": "SiM",
@@ -3641,8 +4001,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 60,
-      "change": null
+      "rank": 66,
+      "change": -6
     },
     {
       "name": "UVERworld",
@@ -3702,8 +4062,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 61,
-      "change": null
+      "rank": 67,
+      "change": -6
     },
     {
       "name": "Aimer",
@@ -3727,7 +4087,7 @@
           "playcount": 3010005,
           "listeners": 232743,
           "year": null,
-          "dailyPlays": 1589,
+          "dailyPlays": 0,
           "weeklyPlays": 1589
         },
         {
@@ -3735,7 +4095,7 @@
           "playcount": 1558695,
           "listeners": 118045,
           "year": null,
-          "dailyPlays": 773,
+          "dailyPlays": 0,
           "weeklyPlays": 773
         },
         {
@@ -3743,7 +4103,7 @@
           "playcount": 1100441,
           "listeners": 93997,
           "year": null,
-          "dailyPlays": 413,
+          "dailyPlays": 0,
           "weeklyPlays": 413
         },
         {
@@ -3751,7 +4111,7 @@
           "playcount": 738240,
           "listeners": 73916,
           "year": null,
-          "dailyPlays": 453,
+          "dailyPlays": 0,
           "weeklyPlays": 453
         },
         {
@@ -3759,12 +4119,12 @@
           "playcount": 727351,
           "listeners": 53127,
           "year": 2025,
-          "dailyPlays": 271,
+          "dailyPlays": 0,
           "weeklyPlays": 271
         }
       ],
-      "rank": 62,
-      "change": -30
+      "rank": 68,
+      "change": -6
     },
     {
       "name": "DECO*27",
@@ -3788,7 +4148,7 @@
           "playcount": 1737672,
           "listeners": 178515,
           "year": null,
-          "dailyPlays": 1071,
+          "dailyPlays": 0,
           "weeklyPlays": 1071
         },
         {
@@ -3796,7 +4156,7 @@
           "playcount": 3160792,
           "listeners": 170519,
           "year": null,
-          "dailyPlays": 2477,
+          "dailyPlays": 0,
           "weeklyPlays": 2477
         },
         {
@@ -3804,7 +4164,7 @@
           "playcount": 2475587,
           "listeners": 110054,
           "year": null,
-          "dailyPlays": 3100,
+          "dailyPlays": 0,
           "weeklyPlays": 3100
         },
         {
@@ -3812,7 +4172,7 @@
           "playcount": 1299580,
           "listeners": 108978,
           "year": null,
-          "dailyPlays": 1151,
+          "dailyPlays": 0,
           "weeklyPlays": 1151
         },
         {
@@ -3820,12 +4180,12 @@
           "playcount": 1143060,
           "listeners": 104148,
           "year": null,
-          "dailyPlays": 663,
+          "dailyPlays": 0,
           "weeklyPlays": 663
         }
       ],
-      "rank": 63,
-      "change": -30
+      "rank": 69,
+      "change": -6
     },
     {
       "name": "Mrs. GREEN APPLE",
@@ -3849,7 +4209,7 @@
           "playcount": 3838279,
           "listeners": 323946,
           "year": null,
-          "dailyPlays": 2548,
+          "dailyPlays": 0,
           "weeklyPlays": 2548
         },
         {
@@ -3857,7 +4217,7 @@
           "playcount": 514926,
           "listeners": 62493,
           "year": null,
-          "dailyPlays": 297,
+          "dailyPlays": 0,
           "weeklyPlays": 297
         },
         {
@@ -3865,7 +4225,7 @@
           "playcount": 465487,
           "listeners": 60546,
           "year": null,
-          "dailyPlays": 644,
+          "dailyPlays": 0,
           "weeklyPlays": 644
         },
         {
@@ -3873,7 +4233,7 @@
           "playcount": 394309,
           "listeners": 47932,
           "year": null,
-          "dailyPlays": 222,
+          "dailyPlays": 0,
           "weeklyPlays": 222
         },
         {
@@ -3881,12 +4241,12 @@
           "playcount": 249732,
           "listeners": 34261,
           "year": null,
-          "dailyPlays": 161,
+          "dailyPlays": 0,
           "weeklyPlays": 161
         }
       ],
-      "rank": 64,
-      "change": -30
+      "rank": 70,
+      "change": -6
     },
     {
       "name": "THE ORAL CIGARETTES",
@@ -3946,8 +4306,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 65,
-      "change": null
+      "rank": 71,
+      "change": -6
     },
     {
       "name": "BOYNEXTDOOR",
@@ -3971,7 +4331,7 @@
           "playcount": 3259710,
           "listeners": 177293,
           "year": null,
-          "dailyPlays": 2149,
+          "dailyPlays": 0,
           "weeklyPlays": 2149
         },
         {
@@ -3979,7 +4339,7 @@
           "playcount": 2874308,
           "listeners": 141364,
           "year": null,
-          "dailyPlays": 1237,
+          "dailyPlays": 0,
           "weeklyPlays": 1237
         },
         {
@@ -3987,7 +4347,7 @@
           "playcount": 2738758,
           "listeners": 140027,
           "year": null,
-          "dailyPlays": 1584,
+          "dailyPlays": 0,
           "weeklyPlays": 1584
         },
         {
@@ -3995,7 +4355,7 @@
           "playcount": 2738852,
           "listeners": 128806,
           "year": null,
-          "dailyPlays": 1171,
+          "dailyPlays": 0,
           "weeklyPlays": 1171
         },
         {
@@ -4003,12 +4363,12 @@
           "playcount": 2828246,
           "listeners": 127434,
           "year": null,
-          "dailyPlays": 1780,
+          "dailyPlays": 0,
           "weeklyPlays": 1780
         }
       ],
-      "rank": 66,
-      "change": -28
+      "rank": 72,
+      "change": -6
     },
     {
       "name": "Reol",
@@ -4068,8 +4428,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 67,
-      "change": null
+      "rank": 73,
+      "change": -6
     },
     {
       "name": "ZEROBASEONE",
@@ -4093,7 +4453,7 @@
           "playcount": 7382986,
           "listeners": 222100,
           "year": 2023,
-          "dailyPlays": 2184,
+          "dailyPlays": 0,
           "weeklyPlays": 2184
         },
         {
@@ -4101,7 +4461,7 @@
           "playcount": 2799562,
           "listeners": 108561,
           "year": 2023,
-          "dailyPlays": 692,
+          "dailyPlays": 0,
           "weeklyPlays": 692
         },
         {
@@ -4109,7 +4469,7 @@
           "playcount": 2585175,
           "listeners": 99395,
           "year": 2025,
-          "dailyPlays": 1873,
+          "dailyPlays": 0,
           "weeklyPlays": 1873
         },
         {
@@ -4117,7 +4477,7 @@
           "playcount": 2277509,
           "listeners": 99172,
           "year": 2024,
-          "dailyPlays": 860,
+          "dailyPlays": 0,
           "weeklyPlays": 860
         },
         {
@@ -4125,12 +4485,12 @@
           "playcount": 2444895,
           "listeners": 83821,
           "year": 2024,
-          "dailyPlays": 883,
+          "dailyPlays": 0,
           "weeklyPlays": 883
         }
       ],
-      "rank": 68,
-      "change": -29
+      "rank": 74,
+      "change": -6
     },
     {
       "name": "BUMP OF CHICKEN",
@@ -4154,7 +4514,7 @@
           "playcount": 938779,
           "listeners": 81537,
           "year": 2022,
-          "dailyPlays": 507,
+          "dailyPlays": 0,
           "weeklyPlays": 507
         },
         {
@@ -4162,7 +4522,7 @@
           "playcount": 701127,
           "listeners": 65804,
           "year": null,
-          "dailyPlays": 290,
+          "dailyPlays": 0,
           "weeklyPlays": 290
         },
         {
@@ -4170,7 +4530,7 @@
           "playcount": 565329,
           "listeners": 50773,
           "year": null,
-          "dailyPlays": 92,
+          "dailyPlays": 0,
           "weeklyPlays": 92
         },
         {
@@ -4178,7 +4538,7 @@
           "playcount": 395144,
           "listeners": 39419,
           "year": null,
-          "dailyPlays": 214,
+          "dailyPlays": 0,
           "weeklyPlays": 214
         },
         {
@@ -4186,73 +4546,12 @@
           "playcount": 551448,
           "listeners": 37484,
           "year": null,
-          "dailyPlays": 82,
+          "dailyPlays": 0,
           "weeklyPlays": 82
         }
       ],
-      "rank": 69,
-      "change": -29
-    },
-    {
-      "name": "Kanaria",
-      "listeners": 296533,
-      "playcount": 9379403,
-      "tags": [
-        "vocaloid",
-        "japanese",
-        "jp",
-        "japan",
-        "EDM"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "3zFHMZG44EIPpPbPHrYjSh",
-      "genre": "vocaloid",
-      "topTracks": [
-        {
-          "name": "Rendezvous",
-          "playcount": 1006416,
-          "listeners": 126941,
-          "year": null,
-          "dailyPlays": 600,
-          "weeklyPlays": 600
-        },
-        {
-          "name": "KING",
-          "playcount": 1483928,
-          "listeners": 125187,
-          "year": null,
-          "dailyPlays": 929,
-          "weeklyPlays": 929
-        },
-        {
-          "name": "QUEEN",
-          "playcount": 1233688,
-          "listeners": 123769,
-          "year": null,
-          "dailyPlays": 836,
-          "weeklyPlays": 836
-        },
-        {
-          "name": "Yoidoreshirazu",
-          "playcount": 730604,
-          "listeners": 92048,
-          "year": null,
-          "dailyPlays": 467,
-          "weeklyPlays": 467
-        },
-        {
-          "name": "Envy Baby",
-          "playcount": 851685,
-          "listeners": 76077,
-          "year": null,
-          "dailyPlays": 600,
-          "weeklyPlays": 600
-        }
-      ],
-      "rank": 70,
-      "change": -29
+      "rank": 75,
+      "change": -6
     },
     {
       "name": "MAN WITH A MISSION",
@@ -4312,135 +4611,13 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 71,
-      "change": null
-    },
-    {
-      "name": "ヨルシカ",
-      "listeners": 236807,
-      "playcount": 10374145,
-      "tags": [
-        "j-pop",
-        "japanese",
-        "J-rock",
-        "female vocalists",
-        "japan"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "2fMGJnMKSGzPEB2MKjyTTi",
-      "genre": "band",
-      "topTracks": [
-        {
-          "name": "言って。",
-          "playcount": 772917,
-          "listeners": 108282,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "ただ君に晴れ",
-          "playcount": 612011,
-          "listeners": 90885,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "だから僕は音楽を辞めた",
-          "playcount": 535714,
-          "listeners": 75722,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "晴る",
-          "playcount": 586671,
-          "listeners": 65858,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "ヒッチコック",
-          "playcount": 330283,
-          "listeners": 45952,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
-      "rank": 72,
-      "change": null
-    },
-    {
-      "name": "coldrain",
-      "listeners": 226919,
-      "playcount": 10267239,
-      "tags": [
-        "post-hardcore",
-        "J-rock",
-        "japanese",
-        "rock",
-        "alternative rock"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "1GEpSGhpRkaoJoHKgwXIqm",
-      "genre": "band",
-      "topTracks": [
-        {
-          "name": "MAYDAY (feat. Ryo from Crystal Lake)",
-          "playcount": 956501,
-          "listeners": 87750,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "GONE",
-          "playcount": 422181,
-          "listeners": 50921,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "We're not alone",
-          "playcount": 435897,
-          "listeners": 36355,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Bloody Power Fame",
-          "playcount": 393160,
-          "listeners": 31555,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Vengeance",
-          "playcount": 276616,
-          "listeners": 28179,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
-      "rank": 73,
-      "change": null
+      "rank": 76,
+      "change": -5
     },
     {
       "name": "Fear, and Loathing in Las Vegas",
-      "listeners": 225490,
-      "playcount": 8247796,
+      "listeners": 225412,
+      "playcount": 8245061,
       "tags": [
         "post-hardcore",
         "electronic",
@@ -4495,8 +4672,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 74,
-      "change": null
+      "rank": 77,
+      "change": -3
     },
     {
       "name": "ClariS",
@@ -4556,8 +4733,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 75,
-      "change": null
+      "rank": 78,
+      "change": -3
     },
     {
       "name": "MYTH & ROID",
@@ -4617,8 +4794,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 76,
-      "change": null
+      "rank": 79,
+      "change": -3
     },
     {
       "name": "sumika",
@@ -4678,8 +4855,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 77,
-      "change": null
+      "rank": 80,
+      "change": -3
     },
     {
       "name": "syudou",
@@ -4703,7 +4880,7 @@
           "playcount": 792125,
           "listeners": 77495,
           "year": null,
-          "dailyPlays": 544,
+          "dailyPlays": 0,
           "weeklyPlays": 544
         },
         {
@@ -4711,7 +4888,7 @@
           "playcount": 848172,
           "listeners": 69681,
           "year": null,
-          "dailyPlays": 498,
+          "dailyPlays": 0,
           "weeklyPlays": 498
         },
         {
@@ -4719,7 +4896,7 @@
           "playcount": 501016,
           "listeners": 36819,
           "year": null,
-          "dailyPlays": 854,
+          "dailyPlays": 0,
           "weeklyPlays": 854
         },
         {
@@ -4727,7 +4904,7 @@
           "playcount": 201716,
           "listeners": 28861,
           "year": null,
-          "dailyPlays": 178,
+          "dailyPlays": 0,
           "weeklyPlays": 178
         },
         {
@@ -4735,12 +4912,12 @@
           "playcount": 219631,
           "listeners": 27275,
           "year": null,
-          "dailyPlays": 129,
+          "dailyPlays": 0,
           "weeklyPlays": 129
         }
       ],
-      "rank": 78,
-      "change": -35
+      "rank": 81,
+      "change": -3
     },
     {
       "name": "ELLEGARDEN",
@@ -4800,8 +4977,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 79,
-      "change": null
+      "rank": 82,
+      "change": -3
     },
     {
       "name": "milet",
@@ -4825,7 +5002,7 @@
           "playcount": 766400,
           "listeners": 55193,
           "year": null,
-          "dailyPlays": 722,
+          "dailyPlays": 0,
           "weeklyPlays": 722
         },
         {
@@ -4833,7 +5010,7 @@
           "playcount": 482289,
           "listeners": 42629,
           "year": null,
-          "dailyPlays": 321,
+          "dailyPlays": 0,
           "weeklyPlays": 321
         },
         {
@@ -4841,7 +5018,7 @@
           "playcount": 473153,
           "listeners": 42147,
           "year": 2023,
-          "dailyPlays": 196,
+          "dailyPlays": 0,
           "weeklyPlays": 196
         },
         {
@@ -4849,7 +5026,7 @@
           "playcount": 156703,
           "listeners": 24882,
           "year": null,
-          "dailyPlays": 80,
+          "dailyPlays": 0,
           "weeklyPlays": 80
         },
         {
@@ -4857,12 +5034,12 @@
           "playcount": 189288,
           "listeners": 21073,
           "year": null,
-          "dailyPlays": 80,
+          "dailyPlays": 0,
           "weeklyPlays": 80
         }
       ],
-      "rank": 80,
-      "change": -36
+      "rank": 83,
+      "change": -3
     },
     {
       "name": "UNISON SQUARE GARDEN",
@@ -4922,8 +5099,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 81,
-      "change": null
+      "rank": 84,
+      "change": -3
     },
     {
       "name": "millennium parade",
@@ -4983,8 +5160,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 82,
-      "change": null
+      "rank": 85,
+      "change": -3
     },
     {
       "name": "fripSide",
@@ -5044,8 +5221,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 83,
-      "change": null
+      "rank": 86,
+      "change": -3
     },
     {
       "name": "back number",
@@ -5069,7 +5246,7 @@
           "playcount": 430126,
           "listeners": 42836,
           "year": null,
-          "dailyPlays": 315,
+          "dailyPlays": 0,
           "weeklyPlays": 315
         },
         {
@@ -5077,7 +5254,7 @@
           "playcount": 324222,
           "listeners": 39520,
           "year": null,
-          "dailyPlays": 277,
+          "dailyPlays": 0,
           "weeklyPlays": 277
         },
         {
@@ -5085,7 +5262,7 @@
           "playcount": 331515,
           "listeners": 30212,
           "year": null,
-          "dailyPlays": 313,
+          "dailyPlays": 0,
           "weeklyPlays": 313
         },
         {
@@ -5093,7 +5270,7 @@
           "playcount": 264452,
           "listeners": 27159,
           "year": null,
-          "dailyPlays": 246,
+          "dailyPlays": 0,
           "weeklyPlays": 246
         },
         {
@@ -5101,73 +5278,12 @@
           "playcount": 184317,
           "listeners": 20204,
           "year": null,
-          "dailyPlays": 107,
+          "dailyPlays": 0,
           "weeklyPlays": 107
         }
       ],
-      "rank": 84,
-      "change": -39
-    },
-    {
-      "name": "キタニタツヤ",
-      "listeners": 120407,
-      "playcount": 2466257,
-      "tags": [
-        "J-rock",
-        "j-pop",
-        "rock",
-        "funk",
-        "JPop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "3KFSIDJy8LHZL92TAD5ISl",
-      "genre": "singer",
-      "topTracks": [
-        {
-          "name": "化け猫 - Leaks From His Laptop",
-          "playcount": 176842,
-          "listeners": 45509,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "キュートアグレッション - Leaks From His Laptop",
-          "playcount": 89014,
-          "listeners": 29560,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "聖者の行進",
-          "playcount": 239051,
-          "listeners": 27161,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "化け猫",
-          "playcount": 135294,
-          "listeners": 26265,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Rapport",
-          "playcount": 187399,
-          "listeners": 18233,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
-      "rank": 85,
-      "change": null
+      "rank": 87,
+      "change": -3
     },
     {
       "name": "TRUE",
@@ -5227,8 +5343,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 86,
-      "change": null
+      "rank": 88,
+      "change": -2
     },
     {
       "name": "ReoNa",
@@ -5288,8 +5404,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 87,
-      "change": null
+      "rank": 89,
+      "change": -2
     },
     {
       "name": "SUPER BEAVER",
@@ -5349,13 +5465,13 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 88,
-      "change": null
+      "rank": 90,
+      "change": -2
     },
     {
       "name": "DISH//",
-      "listeners": 89691,
-      "playcount": 1457530,
+      "listeners": 89660,
+      "playcount": 1456830,
       "tags": [
         "J-rock",
         "anime",
@@ -5410,8 +5526,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 89,
-      "change": null
+      "rank": 91,
+      "change": -2
     },
     {
       "name": "Awich",
@@ -5471,8 +5587,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 90,
-      "change": null
+      "rank": 92,
+      "change": -2
     },
     {
       "name": "10-FEET",
@@ -5532,69 +5648,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 91,
-      "change": null
-    },
-    {
-      "name": "tuki.",
-      "listeners": 70031,
-      "playcount": 1669841,
-      "tags": [
-        "j-pop",
-        "japanese",
-        "pop",
-        "singer-songwriter",
-        "japan"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "4z86v0BXRM4kecpuSAhR4R",
-      "genre": "singer",
-      "topTracks": [
-        {
-          "name": "晩餐歌",
-          "playcount": 263401,
-          "listeners": 29101,
-          "year": null,
-          "dailyPlays": 7,
-          "weeklyPlays": 7
-        },
-        {
-          "name": "晩餐歌 - Bansanka",
-          "playcount": 152908,
-          "listeners": 19952,
-          "year": null,
-          "dailyPlays": 387,
-          "weeklyPlays": 387
-        },
-        {
-          "name": "地獄恋文",
-          "playcount": 142901,
-          "listeners": 19001,
-          "year": null,
-          "dailyPlays": 2,
-          "weeklyPlays": 2
-        },
-        {
-          "name": "ひゅるりらぱっぱ - HYURURIRAPAPPA",
-          "playcount": 136243,
-          "listeners": 14775,
-          "year": null,
-          "dailyPlays": 372,
-          "weeklyPlays": 372
-        },
-        {
-          "name": "ひゅるりらぱっぱ",
-          "playcount": 141175,
-          "listeners": 14090,
-          "year": null,
-          "dailyPlays": 8,
-          "weeklyPlays": 8
-        }
-      ],
-      "rank": 92,
-      "change": -44
+      "rank": 93,
+      "change": -2
     },
     {
       "name": "Roselia",
@@ -5654,8 +5709,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 93,
-      "change": null
+      "rank": 94,
+      "change": -1
     },
     {
       "name": "Nulbarich",
@@ -5715,8 +5770,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 94,
-      "change": null
+      "rank": 95,
+      "change": -1
     },
     {
       "name": "LEX",
@@ -5776,69 +5831,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 95,
-      "change": null
-    },
-    {
-      "name": "BE:FIRST",
-      "listeners": 68775,
-      "playcount": 1263989,
-      "tags": [
-        "japanese",
-        "j-pop",
-        "JPop",
-        "pop",
-        "BMSG"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "6uJJPVGgBz8HLIrVNHYbSP",
-      "genre": "jpop-idol",
-      "topTracks": [
-        {
-          "name": "Hush-Hush",
-          "playcount": 441300,
-          "listeners": 35722,
-          "year": null,
-          "dailyPlays": 321,
-          "weeklyPlays": 321
-        },
-        {
-          "name": "Boom Boom Back",
-          "playcount": 78937,
-          "listeners": 8569,
-          "year": null,
-          "dailyPlays": 63,
-          "weeklyPlays": 63
-        },
-        {
-          "name": "Bye-Good-Bye",
-          "playcount": 52078,
-          "listeners": 7639,
-          "year": null,
-          "dailyPlays": 25,
-          "weeklyPlays": 25
-        },
-        {
-          "name": "Sailing",
-          "playcount": 46675,
-          "listeners": 6989,
-          "year": null,
-          "dailyPlays": 36,
-          "weeklyPlays": 36
-        },
-        {
-          "name": "夢中",
-          "playcount": 51123,
-          "listeners": 6302,
-          "year": null,
-          "dailyPlays": 114,
-          "weeklyPlays": 114
-        }
-      ],
       "rank": 96,
-      "change": -47
+      "change": -1
     },
     {
       "name": "WANIMA",
@@ -5899,7 +5893,7 @@
         }
       ],
       "rank": 97,
-      "change": null
+      "change": 0
     },
     {
       "name": "米津玄師",
@@ -5923,7 +5917,7 @@
           "playcount": 315075,
           "listeners": 19126,
           "year": null,
-          "dailyPlays": 93,
+          "dailyPlays": 0,
           "weeklyPlays": 93
         },
         {
@@ -5931,7 +5925,7 @@
           "playcount": 253585,
           "listeners": 16303,
           "year": 2024,
-          "dailyPlays": 150,
+          "dailyPlays": 0,
           "weeklyPlays": 150
         },
         {
@@ -5939,7 +5933,7 @@
           "playcount": 150539,
           "listeners": 11198,
           "year": 2016,
-          "dailyPlays": 47,
+          "dailyPlays": 0,
           "weeklyPlays": 47
         },
         {
@@ -5947,7 +5941,7 @@
           "playcount": 128745,
           "listeners": 10564,
           "year": null,
-          "dailyPlays": 66,
+          "dailyPlays": 0,
           "weeklyPlays": 66
         },
         {
@@ -5955,12 +5949,12 @@
           "playcount": 112806,
           "listeners": 10185,
           "year": null,
-          "dailyPlays": 58,
+          "dailyPlays": 0,
           "weeklyPlays": 58
         }
       ],
       "rank": 98,
-      "change": -44
+      "change": 0
     },
     {
       "name": "マキシマム ザ ホルモン",
@@ -6021,7 +6015,7 @@
         }
       ],
       "rank": 99,
-      "change": null
+      "change": 0
     },
     {
       "name": "TK from 凛として時雨",
@@ -6082,7 +6076,7 @@
         }
       ],
       "rank": 100,
-      "change": null
+      "change": 0
     },
     {
       "name": "KOHH",
@@ -6143,7 +6137,7 @@
         }
       ],
       "rank": 101,
-      "change": null
+      "change": 0
     },
     {
       "name": "なとり",
@@ -6201,7 +6195,7 @@
         }
       ],
       "rank": 102,
-      "change": null
+      "change": 0
     },
     {
       "name": "JP THE WAVY",
@@ -6262,68 +6256,7 @@
         }
       ],
       "rank": 103,
-      "change": null
-    },
-    {
-      "name": "いよわ",
-      "listeners": 34678,
-      "playcount": 871364,
-      "tags": [
-        "j-pop",
-        "glitch pop",
-        "vocaloid",
-        "japanese",
-        "art pop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "6O5eGqgiM9FiEDL8XJmnEF",
-      "genre": "vocaloid",
-      "topTracks": [
-        {
-          "name": "Kyu-kurarin",
-          "playcount": 82606,
-          "listeners": 10593,
-          "year": null,
-          "dailyPlays": 52,
-          "weeklyPlays": 52
-        },
-        {
-          "name": "たびのまえ、たびのあと (feat. 初音ミク)",
-          "playcount": 44441,
-          "listeners": 10579,
-          "year": 2024,
-          "dailyPlays": 69,
-          "weeklyPlays": 69
-        },
-        {
-          "name": "きゅうくらりん",
-          "playcount": 65941,
-          "listeners": 3899,
-          "year": null,
-          "dailyPlays": 34,
-          "weeklyPlays": 34
-        },
-        {
-          "name": "IMAWANOKIWA",
-          "playcount": 27181,
-          "listeners": 2673,
-          "year": null,
-          "dailyPlays": 47,
-          "weeklyPlays": 47
-        },
-        {
-          "name": "きゅうくらりん - STUDY WITH MIKU ver. -",
-          "playcount": 14702,
-          "listeners": 2361,
-          "year": null,
-          "dailyPlays": 45,
-          "weeklyPlays": 45
-        }
-      ],
-      "rank": 104,
-      "change": -48
+      "change": 0
     },
     {
       "name": "藍井エイル",
@@ -6383,8 +6316,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 105,
-      "change": null
+      "rank": 104,
+      "change": 1
     },
     {
       "name": "PENGUIN RESEARCH",
@@ -6444,8 +6377,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 106,
-      "change": null
+      "rank": 105,
+      "change": 1
     },
     {
       "name": "04 Limited Sazabys",
@@ -6505,8 +6438,130 @@
           "weeklyPlays": 0
         }
       ],
+      "rank": 106,
+      "change": 1
+    },
+    {
+      "name": "PUNPEE",
+      "listeners": 27583,
+      "playcount": 663370,
+      "tags": [
+        "Hip-Hop",
+        "japanese",
+        "rap",
+        "hiphop",
+        "hip hop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "0mP8A1qIoufScrsxq18Cw6",
+      "genre": "hiphop",
+      "topTracks": [
+        {
+          "name": "Renaissance",
+          "playcount": 55188,
+          "listeners": 7968,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "タイムマシーンにのって",
+          "playcount": 28235,
+          "listeners": 4097,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Wonder Wall feat. 5lack",
+          "playcount": 30984,
+          "listeners": 4009,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Scenario (Film)",
+          "playcount": 25986,
+          "listeners": 3449,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "夢追人 feat. KREVA",
+          "playcount": 23836,
+          "listeners": 3338,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
       "rank": 107,
       "change": null
+    },
+    {
+      "name": "Official髭男dism",
+      "listeners": 26729,
+      "playcount": 1943208,
+      "tags": [
+        "j-pop",
+        "japanese",
+        "rock",
+        "pop",
+        "official hige dandism"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "7bJBTb3GfrL8gSHT4gLN4e",
+      "genre": "band",
+      "topTracks": [
+        {
+          "name": "Pretender",
+          "playcount": 138381,
+          "listeners": 10975,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 84
+        },
+        {
+          "name": "Cry Baby",
+          "playcount": 92052,
+          "listeners": 9199,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 34
+        },
+        {
+          "name": "ノーダウト",
+          "playcount": 65919,
+          "listeners": 7175,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 30
+        },
+        {
+          "name": "I LOVE...",
+          "playcount": 72155,
+          "listeners": 6975,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 38
+        },
+        {
+          "name": "115万キロのフィルム",
+          "playcount": 69130,
+          "listeners": 6944,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 40
+        }
+      ],
+      "rank": 108,
+      "change": -97
     },
     {
       "name": "ずっと真夜中でいいのに。",
@@ -6566,8 +6621,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 108,
-      "change": null
+      "rank": 109,
+      "change": -1
     },
     {
       "name": "Morfonica",
@@ -6627,8 +6682,69 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 109,
-      "change": null
+      "rank": 110,
+      "change": -1
+    },
+    {
+      "name": "BAD HOP",
+      "listeners": 22462,
+      "playcount": 804955,
+      "tags": [
+        "Hip-Hop",
+        "japanese",
+        "hip hop",
+        "rap",
+        "japan"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "2ToiMmFDVHMdEFCh1sMTnL",
+      "genre": "hiphop",
+      "topTracks": [
+        {
+          "name": "Kawasaki Drift",
+          "playcount": 45952,
+          "listeners": 6080,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 29
+        },
+        {
+          "name": "Born This Way",
+          "playcount": 47811,
+          "listeners": 5450,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 18
+        },
+        {
+          "name": "Friends (feat. Vingo, JP THE WAVY, Benjazzy, YZERR & LEX)",
+          "playcount": 21599,
+          "listeners": 3639,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 31
+        },
+        {
+          "name": "High Land (feat. Tiji Jojo, Vingo & YZERR)",
+          "playcount": 28108,
+          "listeners": 3163,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 30
+        },
+        {
+          "name": "Last Party Never End (feat. Tiji Jojo, YZERR, Vingo & Yellow Pato)",
+          "playcount": 31488,
+          "listeners": 3113,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 36
+        }
+      ],
+      "rank": 111,
+      "change": -89
     },
     {
       "name": "乃木坂46",
@@ -6652,7 +6768,7 @@
           "playcount": 197111,
           "listeners": 5668,
           "year": null,
-          "dailyPlays": 6,
+          "dailyPlays": 0,
           "weeklyPlays": 6
         },
         {
@@ -6660,7 +6776,7 @@
           "playcount": 92600,
           "listeners": 5012,
           "year": 2023,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         },
         {
@@ -6668,7 +6784,7 @@
           "playcount": 162489,
           "listeners": 4839,
           "year": null,
-          "dailyPlays": 4,
+          "dailyPlays": 0,
           "weeklyPlays": 4
         },
         {
@@ -6676,7 +6792,7 @@
           "playcount": 82921,
           "listeners": 4174,
           "year": 2023,
-          "dailyPlays": 2,
+          "dailyPlays": 0,
           "weeklyPlays": 2
         },
         {
@@ -6684,12 +6800,12 @@
           "playcount": 110028,
           "listeners": 4057,
           "year": 2023,
-          "dailyPlays": 3,
+          "dailyPlays": 0,
           "weeklyPlays": 3
         }
       ],
-      "rank": 110,
-      "change": -49
+      "rank": 112,
+      "change": -2
     },
     {
       "name": "My Hair is Bad",
@@ -6749,8 +6865,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 111,
-      "change": null
+      "rank": 113,
+      "change": -2
     },
     {
       "name": "女王蜂",
@@ -6810,124 +6926,68 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 112,
-      "change": null
-    },
-    {
-      "name": "緑黄色社会",
-      "listeners": 15910,
-      "playcount": 730282,
-      "tags": [
-        "japanese",
-        "j-pop",
-        "female vocalists",
-        "rock",
-        "pop"
-      ],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "5Y4rkXJFjqMbJTFBWl2IW0",
-      "genre": "band",
-      "topTracks": [
-        {
-          "name": "Mela!",
-          "playcount": 69317,
-          "listeners": 7484,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "花になって - Be a flower",
-          "playcount": 65016,
-          "listeners": 5566,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Shout Baby",
-          "playcount": 44997,
-          "listeners": 4785,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "キャラクター",
-          "playcount": 24447,
-          "listeners": 3203,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "サマータイムシンデレラ",
-          "playcount": 23207,
-          "listeners": 3046,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
-      "rank": 113,
-      "change": null
-    },
-    {
-      "name": "Snow Man",
-      "listeners": 15296,
-      "playcount": 628297,
-      "tags": [],
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "dailyPlays": 0,
-      "weeklyPlays": 0,
-      "spotify_id": "6LMspKSjfSYLiMKyBjXEaK",
-      "genre": "jpop-idol",
-      "topTracks": [
-        {
-          "name": "Niezmiennie",
-          "playcount": 104897,
-          "listeners": 9418,
-          "year": null,
-          "dailyPlays": 5,
-          "weeklyPlays": 5
-        },
-        {
-          "name": "Hyena",
-          "playcount": 22186,
-          "listeners": 6407,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "Snakes & Ladders",
-          "playcount": 19394,
-          "listeners": 5118,
-          "year": null,
-          "dailyPlays": 2,
-          "weeklyPlays": 2
-        },
-        {
-          "name": "We Are The Plague",
-          "playcount": 22964,
-          "listeners": 4617,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        },
-        {
-          "name": "White Wall",
-          "playcount": 18095,
-          "listeners": 4598,
-          "year": null,
-          "dailyPlays": 0,
-          "weeklyPlays": 0
-        }
-      ],
       "rank": 114,
-      "change": -49
+      "change": -2
+    },
+    {
+      "name": "¥ellow Bucks",
+      "listeners": 17639,
+      "playcount": 332577,
+      "tags": [
+        "Hip-Hop",
+        "japanese",
+        "hip hop",
+        "rap"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "1Fe6FA7A57suR2KAaERpqH",
+      "genre": "hiphop",
+      "topTracks": [
+        {
+          "name": "My Resort",
+          "playcount": 39837,
+          "listeners": 5639,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Yessir",
+          "playcount": 34329,
+          "listeners": 4610,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "GIOTF (feat. JP THE WAVY)",
+          "playcount": 25218,
+          "listeners": 4149,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Balls Out",
+          "playcount": 21835,
+          "listeners": 2850,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Higher - Remix",
+          "playcount": 23924,
+          "listeners": 2454,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        }
+      ],
+      "rank": 115,
+      "change": null
     },
     {
       "name": "鈴木雅之",
@@ -6987,69 +7047,69 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 115,
-      "change": null
+      "rank": 116,
+      "change": -1
     },
     {
-      "name": "King & Prince",
-      "listeners": 10746,
-      "playcount": 474499,
+      "name": "櫻坂46",
+      "listeners": 14904,
+      "playcount": 1575291,
       "tags": [
         "japanese",
         "j-pop",
-        "JPop",
-        "johnnys",
-        "Johnnys entertainment"
+        "idol",
+        "female vocalists",
+        "sakurazaka46"
       ],
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "dailyPlays": 0,
       "weeklyPlays": 0,
-      "spotify_id": "5jGMzSGoKShbFPJdORXfCM",
+      "spotify_id": "3Gm4sNjfiEOsKpBRBqcqc5",
       "genre": "jpop-idol",
       "topTracks": [
         {
-          "name": "シンデレラガール",
-          "playcount": 36412,
-          "listeners": 3130,
+          "name": "I want tomorrow to come -Naeleck Remix-",
+          "playcount": 9024,
+          "listeners": 2940,
           "year": null,
-          "dailyPlays": 34,
-          "weeklyPlays": 34
+          "dailyPlays": 0,
+          "weeklyPlays": 21
         },
         {
-          "name": "Theater",
-          "playcount": 18022,
-          "listeners": 2883,
+          "name": "BAN",
+          "playcount": 47407,
+          "listeners": 2768,
           "year": null,
-          "dailyPlays": 151,
-          "weeklyPlays": 151
+          "dailyPlays": 0,
+          "weeklyPlays": 12
         },
         {
-          "name": "ツキヨミ",
-          "playcount": 24302,
-          "listeners": 2245,
-          "year": null,
-          "dailyPlays": 27,
-          "weeklyPlays": 27
+          "name": "Start over!",
+          "playcount": 56030,
+          "listeners": 2639,
+          "year": 2023,
+          "dailyPlays": 0,
+          "weeklyPlays": 13
         },
         {
-          "name": "moooove!!",
-          "playcount": 14173,
-          "listeners": 1891,
+          "name": "承認欲求 | Shoninyokkyu -Ninajirachi Remix-",
+          "playcount": 9588,
+          "listeners": 2589,
           "year": null,
-          "dailyPlays": 6,
-          "weeklyPlays": 6
+          "dailyPlays": 0,
+          "weeklyPlays": 23
         },
         {
-          "name": "HEART",
-          "playcount": 11672,
-          "listeners": 1688,
-          "year": null,
-          "dailyPlays": 29,
-          "weeklyPlays": 29
+          "name": "流れ弾",
+          "playcount": 37661,
+          "listeners": 2190,
+          "year": 2024,
+          "dailyPlays": 0,
+          "weeklyPlays": 10
         }
       ],
-      "rank": 116,
-      "change": -47
+      "rank": 117,
+      "change": -107
     },
     {
       "name": "SixTONES",
@@ -7073,7 +7133,7 @@
           "playcount": 42498,
           "listeners": 3399,
           "year": null,
-          "dailyPlays": 62,
+          "dailyPlays": 0,
           "weeklyPlays": 62
         },
         {
@@ -7081,7 +7141,7 @@
           "playcount": 36058,
           "listeners": 2390,
           "year": null,
-          "dailyPlays": 36,
+          "dailyPlays": 0,
           "weeklyPlays": 36
         },
         {
@@ -7089,7 +7149,7 @@
           "playcount": 19229,
           "listeners": 1692,
           "year": null,
-          "dailyPlays": 27,
+          "dailyPlays": 0,
           "weeklyPlays": 27
         },
         {
@@ -7097,7 +7157,7 @@
           "playcount": 21302,
           "listeners": 1460,
           "year": null,
-          "dailyPlays": 19,
+          "dailyPlays": 0,
           "weeklyPlays": 19
         },
         {
@@ -7105,12 +7165,73 @@
           "playcount": 13021,
           "listeners": 1169,
           "year": null,
-          "dailyPlays": 29,
+          "dailyPlays": 0,
           "weeklyPlays": 29
         }
       ],
-      "rank": 117,
-      "change": -47
+      "rank": 118,
+      "change": -1
+    },
+    {
+      "name": "新しい学校のリーダーズ",
+      "listeners": 8511,
+      "playcount": 399524,
+      "tags": [
+        "j-pop",
+        "japanese",
+        "female vocalists",
+        "jazz",
+        "JPop"
+      ],
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "dailyPlays": 0,
+      "weeklyPlays": 0,
+      "spotify_id": "5J6D24dVXLEV3TFQKQR0zz",
+      "genre": "singer",
+      "topTracks": [
+        {
+          "name": "オトナブルー",
+          "playcount": 25412,
+          "listeners": 3312,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 7
+        },
+        {
+          "name": "OTONABLUE",
+          "playcount": 11533,
+          "listeners": 1737,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 7
+        },
+        {
+          "name": "恋ゲバ",
+          "playcount": 17725,
+          "listeners": 1329,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 1
+        },
+        {
+          "name": "Tokyo Calling",
+          "playcount": 7121,
+          "listeners": 1288,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 0
+        },
+        {
+          "name": "Suki Lie",
+          "playcount": 5923,
+          "listeners": 1156,
+          "year": null,
+          "dailyPlays": 0,
+          "weeklyPlays": 2
+        }
+      ],
+      "rank": 119,
+      "change": -89
     },
     {
       "name": "神山羊",
@@ -7170,13 +7291,13 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 118,
-      "change": null
+      "rank": 120,
+      "change": -2
     },
     {
       "name": "般若",
-      "listeners": 6173,
-      "playcount": 296667,
+      "listeners": 6170,
+      "playcount": 296645,
       "tags": [
         "japanese",
         "Hip-Hop",
@@ -7231,8 +7352,8 @@
           "weeklyPlays": 0
         }
       ],
-      "rank": 119,
-      "change": null
+      "rank": 121,
+      "change": -2
     }
   ]
 }
