@@ -5,25 +5,8 @@ import artistData from '../data/artists.json';
 
 const genres = artistData.genres;
 
-// 全アーティストのユニークリスト
-const allArtistsMap = new Map();
-for (const cat of rankings.categories) {
-  for (const a of cat.artists) {
-    if (!allArtistsMap.has(a.name) || allArtistsMap.get(a.name).listeners < a.listeners) {
-      allArtistsMap.set(a.name, { ...a, categories: [] });
-    }
-  }
-}
-// どのカテゴリに入ってるか記録
-for (const cat of rankings.categories) {
-  for (const a of cat.artists) {
-    const entry = allArtistsMap.get(a.name);
-    if (entry && !entry.categories.includes(cat.name)) {
-      entry.categories.push(`${cat.emoji} ${cat.name}`);
-    }
-  }
-}
-const allArtists = [...allArtistsMap.values()].sort((a, b) => b.listeners - a.listeners);
+// 全アーティストリスト
+const allArtists = (rankings.artists || []).map(a => ({ ...a }));
 
 function formatNumber(n: number): string {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
@@ -55,9 +38,9 @@ function formatNumber(n: number): string {
             </span>
           </div>
           <div class="result-categories">
-            {artist.categories.map((c: string) => (
-              <span class="cat-badge">{c}</span>
-            ))}
+            <span class="genre-tag" style={`--tag-color: ${genres.find(g => g.id === artist.genre)?.color || '#888'}`}>
+              {genres.find(g => g.id === artist.genre)?.name || artist.genre}
+            </span>
           </div>
         </div>
         <div class="result-actions">

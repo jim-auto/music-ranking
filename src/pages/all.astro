@@ -6,22 +6,7 @@ import artistData from '../data/artists.json';
 const genres = artistData.genres;
 const base = import.meta.env.BASE_URL;
 
-// 全カテゴリからユニークなアーティストを集めて週間再生数でソート
-const allArtistsMap = new Map();
-for (const cat of rankings.categories) {
-  for (const a of cat.artists) {
-    const key = a.name;
-    if (!allArtistsMap.has(key) || (allArtistsMap.get(key).weeklyPlays || 0) < (a.weeklyPlays || 0)) {
-      allArtistsMap.set(key, a);
-    }
-  }
-}
-const allArtists = [...allArtistsMap.values()].sort((a, b) => {
-  const wa = a.weeklyPlays || 0;
-  const wb = b.weeklyPlays || 0;
-  if (wb !== wa) return wb - wa;
-  return b.listeners - a.listeners;
-});
+const allArtists = rankings.artists || [];
 allArtists.forEach((a, i) => { a.globalRank = i + 1; });
 
 function formatNumber(n: number): string {

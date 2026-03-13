@@ -6,25 +6,23 @@ import artistData from '../data/artists.json';
 const genres = artistData.genres;
 const base = import.meta.env.BASE_URL;
 
-// 全カテゴリから曲を集めてユニーク化、デイリー再生数順
+// 全アーティストから曲を集めてユニーク化、デイリー再生数順
 const tracksMap = new Map();
-for (const cat of rankings.categories) {
-  for (const artist of cat.artists) {
-    if (!artist.topTracks) continue;
-    for (const track of artist.topTracks) {
-      const key = `${artist.name}::${track.name}`;
-      if (!tracksMap.has(key)) {
-        tracksMap.set(key, {
-          trackName: track.name,
-          artistName: artist.name,
-          playcount: track.playcount,
-          dailyPlays: track.dailyPlays || 0,
-          weeklyPlays: track.weeklyPlays || 0,
-          genre: artist.genre,
-          spotify_id: artist.spotify_id,
-          year: track.year || null,
-        });
-      }
+for (const artist of (rankings.artists || [])) {
+  if (!artist.topTracks) continue;
+  for (const track of artist.topTracks) {
+    const key = `${artist.name}::${track.name}`;
+    if (!tracksMap.has(key)) {
+      tracksMap.set(key, {
+        trackName: track.name,
+        artistName: artist.name,
+        playcount: track.playcount,
+        dailyPlays: track.dailyPlays || 0,
+        weeklyPlays: track.weeklyPlays || 0,
+        genre: artist.genre,
+        spotify_id: artist.spotify_id,
+        year: track.year || null,
+      });
     }
   }
 }
@@ -35,21 +33,8 @@ const allTracks = [...tracksMap.values()].sort((a, b) => {
 });
 allTracks.forEach((t, i) => { t.rank = i + 1; });
 
-// デイリーのアーティストランキング
-const artistsMap = new Map();
-for (const cat of rankings.categories) {
-  for (const a of cat.artists) {
-    if (!artistsMap.has(a.name) || (artistsMap.get(a.name).dailyPlays || 0) < (a.dailyPlays || 0)) {
-      artistsMap.set(a.name, a);
-    }
-  }
-}
-const dailyArtists = [...artistsMap.values()].sort((a, b) => {
-  const da = a.dailyPlays || 0;
-  const db = b.dailyPlays || 0;
-  if (db !== da) return db - da;
-  return (b.weeklyPlays || 0) - (a.weeklyPlays || 0);
-});
+// デイリーのアーティストランキング（既にdailyPlaysでソート済み）
+const dailyArtists = rankings.artists || [];
 dailyArtists.forEach((a, i) => { a.dailyRank = i + 1; });
 
 const updatedDate = new Date(rankings.fetchedAt).toLocaleDateString('ja-JP');

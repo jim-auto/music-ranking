@@ -4,7 +4,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const API_KEY = process.env.LASTFM_API_KEY || '15d791e681ae2f28c8d1264e8b4165c7';
+const API_KEY = process.env.LASTFM_API_KEY;
+if (!API_KEY) {
+  console.error('Error: LASTFM_API_KEY environment variable is required');
+  process.exit(1);
+}
 const BASE_URL = 'https://ws.audioscrobbler.com/2.0/';
 const rankingsFile = path.join(__dirname, '..', 'src', 'data', 'rankings.json');
 

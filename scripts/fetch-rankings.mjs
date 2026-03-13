@@ -5,7 +5,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const API_KEY = process.env.LASTFM_API_KEY || '15d791e681ae2f28c8d1264e8b4165c7';
+const API_KEY = process.env.LASTFM_API_KEY;
+if (!API_KEY) {
+  console.error('Error: LASTFM_API_KEY environment variable is required');
+  process.exit(1);
+}
 const BASE_URL = 'https://ws.audioscrobbler.com/2.0/';
 
 // 重複リクエスト回避用キャッシュ
@@ -111,15 +115,20 @@ function loadPreviousData(outputFile) {
     const ranks = {};
     const playcounts = {};
     const trackPlaycounts = {};
-    for (const cat of data.categories) {
-      ranks[cat.id] = {};
-      for (const a of cat.artists) {
-        ranks[cat.id][a.name] = a.rank;
-        playcounts[a.name] = a.playcount;
-        if (a.topTracks) {
-          for (const t of a.topTracks) {
-            trackPlaycounts[`${a.name}::${t.name}`] = t.playcount;
-          }
+    // 新フラット形式
+    const artistList = data.artists || [];
+    // 旧カテゴリ形式もサポート
+    if (data.categories) {
+      for (const cat of data.categories) {
+        for (const a of cat.artists) artistList.push(a);
+      }
+    }
+    for (const a of artistList) {
+      ranks[a.name] = a.rank;
+      playcounts[a.name] = a.playcount;
+      if (a.topTracks) {
+        for (const t of a.topTracks) {
+          trackPlaycounts[`${a.name}::${t.name}`] = t.playcount;
         }
       }
     }
@@ -166,86 +175,78 @@ async function main() {
   const outputFile = path.join(__dirname, '..', 'src', 'data', 'rankings.json');
   const historyFile = path.join(__dirname, '..', 'src', 'data', 'history.json');
 
-  const { categories } = JSON.parse(fs.readFileSync(artistsFile, 'utf-8'));
+  const { artists: artistList } = JSON.parse(fs.readFileSync(artistsFile, 'utf-8'));
   const prev = loadPreviousData(outputFile);
   const history = loadHistory(historyFile);
   const today = new Date().toISOString().slice(0, 10);
-  const rankings = { fetchedAt: new Date().toISOString(), categories: [] };
+  const artistResults = [];
 
-  for (const category of categories) {
-    console.log(`\n📂 ${category.name}`);
-    const artistResults = [];
+  for (const artist of artistList) {
+    console.log(`  🔍 ${artist.name}...`);
+    const info = await getArtistInfo(artist.name);
+    const tracks = await getTopTracks(artist.name);
 
-    for (const artist of category.artists) {
-      console.log(`  🔍 ${artist.name}...`);
-      const info = await getArtistInfo(artist.name);
-      const tracks = await getTopTracks(artist.name);
-
-      // 履歴に今日のデータを追加
-      if (!history.artists[artist.name]) history.artists[artist.name] = [];
-      const lastEntry = history.artists[artist.name].at(-1);
-      if (!lastEntry || lastEntry.date !== today) {
-        history.artists[artist.name].push({ date: today, playcount: info.playcount });
-      }
-
-      // トラックごとのデイリー・ウィークリー増加数を計算
-      const tracksWithDelta = tracks.map(t => {
-        const tKey = `${artist.name}::${t.name}`;
-        const prevPC = prev.trackPlaycounts[tKey];
-        const dailyPlays = prevPC != null ? Math.max(0, t.playcount - prevPC) : 0;
-
-        // 履歴に追加
-        if (!history.tracks[tKey]) history.tracks[tKey] = [];
-        const lastTE = history.tracks[tKey].at(-1);
-        if (!lastTE || lastTE.date !== today) {
-          history.tracks[tKey].push({ date: today, playcount: t.playcount });
-        }
-
-        const weeklyPlays = calcWeeklyFromHistory(history.tracks[tKey], t.playcount);
-        return { ...t, dailyPlays, weeklyPlays };
-      });
-
-      // アーティストのデイリー・ウィークリー増加数
-      const prevPC = prev.playcounts[artist.name];
-      const dailyPlays = prevPC != null ? Math.max(0, info.playcount - prevPC) : 0;
-      const weeklyPlays = calcWeeklyFromHistory(history.artists[artist.name], info.playcount);
-
-      artistResults.push({
-        ...info,
-        dailyPlays,
-        weeklyPlays,
-        spotify_id: artist.spotify_id,
-        genre: artist.genre,
-        topTracks: tracksWithDelta,
-      });
-      await new Promise(r => setTimeout(r, 80));
+    // 履歴に今日のデータを追加
+    if (!history.artists[artist.name]) history.artists[artist.name] = [];
+    const lastEntry = history.artists[artist.name].at(-1);
+    if (!lastEntry || lastEntry.date !== today) {
+      history.artists[artist.name].push({ date: today, playcount: info.playcount });
     }
 
-    // Sort by dailyPlays (descending), fallback to weeklyPlays, then listeners
-    artistResults.sort((a, b) => {
-      if (b.dailyPlays !== a.dailyPlays) return b.dailyPlays - a.dailyPlays;
-      if (b.weeklyPlays !== a.weeklyPlays) return b.weeklyPlays - a.weeklyPlays;
-      return b.listeners - a.listeners;
-    });
+    // トラックごとのデイリー・ウィークリー増加数を計算
+    const tracksWithDelta = tracks.map(t => {
+      const tKey = `${artist.name}::${t.name}`;
+      const prevPC = prev.trackPlaycounts[tKey];
+      const dailyPlays = prevPC != null ? Math.max(0, t.playcount - prevPC) : 0;
 
-    // Add rank & change
-    artistResults.forEach((a, i) => {
-      a.rank = i + 1;
-      const prevRank = prev.ranks[category.id]?.[a.name];
-      if (prevRank != null) {
-        a.change = prevRank - a.rank;
-      } else {
-        a.change = null;
+      if (!history.tracks[tKey]) history.tracks[tKey] = [];
+      const lastTE = history.tracks[tKey].at(-1);
+      if (!lastTE || lastTE.date !== today) {
+        history.tracks[tKey].push({ date: today, playcount: t.playcount });
       }
+
+      const weeklyPlays = calcWeeklyFromHistory(history.tracks[tKey], t.playcount);
+      return { ...t, dailyPlays, weeklyPlays };
     });
 
-    rankings.categories.push({
-      id: category.id,
-      name: category.name,
-      emoji: category.emoji,
-      artists: artistResults,
+    // アーティストのデイリー・ウィークリー増加数
+    const prevPC = prev.playcounts[artist.name];
+    const dailyPlays = prevPC != null ? Math.max(0, info.playcount - prevPC) : 0;
+    const weeklyPlays = calcWeeklyFromHistory(history.artists[artist.name], info.playcount);
+
+    artistResults.push({
+      ...info,
+      dailyPlays,
+      weeklyPlays,
+      spotify_id: artist.spotify_id,
+      genre: artist.genre,
+      topTracks: tracksWithDelta,
     });
+    await new Promise(r => setTimeout(r, 80));
   }
+
+  // Sort by dailyPlays (descending), fallback to weeklyPlays, then listeners
+  artistResults.sort((a, b) => {
+    if (b.dailyPlays !== a.dailyPlays) return b.dailyPlays - a.dailyPlays;
+    if (b.weeklyPlays !== a.weeklyPlays) return b.weeklyPlays - a.weeklyPlays;
+    return b.listeners - a.listeners;
+  });
+
+  // Add rank & change
+  artistResults.forEach((a, i) => {
+    a.rank = i + 1;
+    const prevRank = prev.ranks[a.name];
+    if (prevRank != null) {
+      a.change = prevRank - a.rank;
+    } else {
+      a.change = null;
+    }
+  });
+
+  const rankings = {
+    fetchedAt: new Date().toISOString(),
+    artists: artistResults,
+  };
 
   saveHistory(historyFile, history);
   fs.writeFileSync(outputFile, JSON.stringify(rankings, null, 2), 'utf-8');
