@@ -1,23 +1,18 @@
-# 🎵 Music Ranking
+# Music Ranking
 
-10代・20代に人気の音楽ランキングサイト
+トレンド音楽ランキングサイト
 
-👉 **[https://jim-auto.github.io/music-ranking/](https://jim-auto.github.io/music-ranking/)**
-
-## カテゴリ
-
-- 🎀 10代女子 — K-POP, ボカロ, Ado, YOASOBI...
-- 💄 20代女子 — BTS, BLACKPINK, TWICE, J-POPアイドル...
-- 🎮 10代男子 — ボカロP, 米津玄師, Creepy Nuts...
-- 🎸 20代男子 — King Gnu, ONE OK ROCK, バンド系...
+https://jim-auto.github.io/music-ranking/
 
 ## 機能
 
+- デイリー / ウィークリーランキング（前日比・週間再生増加数でソート）
 - ジャンル別フィルター (K-POP / J-POPアイドル / ボカロ / シンガー / バンド / ヒップホップ / アニソン)
-- 全体ランキング
+- 全体アーティストランキング
+- 曲ランキング
 - アーティスト検索
 - 順位変動表示
-- Spotify埋め込みプレイヤー
+- GitHub Actionsで毎日自動更新
 
 ## 技術スタック
 
@@ -29,6 +24,6 @@
 
 ```sh
 npm install
-node scripts/fetch-rankings.mjs  # データ取得
-npm run dev                       # 開発サーバー起動
+LASTFM_API_KEY=xxx node scripts/fetch-rankings.mjs  # データ取得
+npm run dev                                           # 開発サーバー起動
 ```
